@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="26.51s"
+		durationms="26509"
+		type="root"
+		rid="433e963ba8fd5b4"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dev10"
+		rxversion="9.2.1.0"
+		host="VINICIUS-TESTER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1366x1536"
+		timestamp="07/11/2022 09:01:16"
+		timestampiso="2022-11-07T12:01:16"
+		endtime="07/11/2022 09:01:42"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.460"
+			timeRelativeToTestModuleStartTime="00:04.460"
+			timeWallClock="09:01:20"
+			time="00:04.460"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.497"
+			timeRelativeToTestModuleStartTime="00:04.497"
+			timeWallClock="09:01:20"
+			time="00:04.497"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Explorer.BaseDeTestes' at 9;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Aplicativos em execução']/button[@accessiblename='Base de Testes']"
+				itempath="container[@controlid='40965']//toolbar[@accessiblename='Aplicativos em execução']/button[@accessiblename='Base de Testes']"
+				fullname="SomaGestaoRepository.Explorer.BaseDeTestes"
+				id="75c53eac66d1458ba79d5596a45014f4"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\StartAUT.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.411"
+			timeRelativeToTestModuleStartTime="00:08.411"
+			timeWallClock="09:01:24"
+			time="00:08.411"
+			level="Warn"
+			category="WinForms">
+			<message>
+				The control was recognized as a WinForms .NET 1.1 control. If this application targets the .NET Framework v1.1, then please ignore this message. Otherwise, the object recognition is not correct, most probably due to an installation issue.<br/>Please, uninstall and reinstall Ranorex and try again.<br/>Process: 'RemoteDesktopManager' (pid 4164)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsNet11"
+				showInProgressDialog="False"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\StartAUT.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.258"
+			timeRelativeToTestModuleStartTime="00:09.258"
+			timeWallClock="09:01:25"
+			time="00:09.258"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmSplash.Codigo' at 34;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmSplash']/text[@name='Codigo']"
+				itempath="text[@name='Codigo']"
+				fullname="SomaGestaoRepository.FrmSplash.Codigo"
+				id="917d6aac96c34054b5454498283f51c0"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\StartAUT.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.823"
+			timeRelativeToTestModuleStartTime="00:14.823"
+			timeWallClock="09:01:31"
+			time="00:14.823"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{NumPad1}{Return}{Return}' with focus on 'FrmSplash.Codigo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmSplash']/text[@name='Codigo']"
+				itempath="text[@name='Codigo']"
+				fullname="SomaGestaoRepository.FrmSplash.Codigo"
+				id="917d6aac96c34054b5454498283f51c0"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\StartAUT.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.935"
+			timeRelativeToTestModuleStartTime="00:14.935"
+			timeWallClock="09:01:31"
+			time="00:14.935"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'BASEDETESTESBIANCHINI.Image1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\StartAUT.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.503"
+			timeRelativeToTestModuleStartTime="00:26.503"
+			timeWallClock="09:01:42"
+			time="00:26.503"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

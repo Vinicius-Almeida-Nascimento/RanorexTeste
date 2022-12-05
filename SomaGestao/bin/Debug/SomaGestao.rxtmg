@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="SomaGestao"
+      id="77233fa6-e561-448e-8dac-98f221977bf4"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="SomaGestao"
+      id="77233fa6-e561-448e-8dac-98f221977bf4"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="4.64s"
+		durationms="4636"
+		type="root"
+		rid="1a6a901a1aef3de0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dev10"
+		rxversion="9.2.1.0"
+		host="VINICIUS-TESTER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1366x1536"
+		timestamp="02/12/2022 13:21:01"
+		timestampiso="2022-12-02T16:21:01"
+		endtime="02/12/2022 13:21:06"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="UserCodeModule1">
+		<detail>
+			UserCodeModule1
+		</detail>
+		<varbindings>
+		</varbindings>
+	</activity>
+</report>

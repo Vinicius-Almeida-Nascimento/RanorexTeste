@@ -1,0 +1,5229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a686abc9-3075-4c19-8723-04bb5b51ae2b"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="DeleteFrmBonificacao_Configuracao"
+	namespace="SomaGestao">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="f26e8266-ef8e-4afc-ae69-7c04a170a9ce">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6f8ee3ee-e7ac-49ec-af0d-9821edb7a7b8"
+			sourcename="ElementTree">
+				<element
+				capabilities="nativewindow, delphielement"
+				dontcache="False"
+				enabled="True"
+				flavor="delphi"
+				hasfocus="False"
+				index="10"
+				prefcap="form"
+				rect="360,262,649,419"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						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
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Normal
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Configura&#231;&#227;o de Bonifica&#231;&#227;o                                              [FrmBonificacao_Configuracao]&#32;
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						TFrmBonificacao_Configuracao
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						65280
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						1379602
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						1520
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						Oficina
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, MdiChild, WindowEdge
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, TiledWindow, ClipChildren, ClipSiblings, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						Configura&#231;&#227;o de Bonifica&#231;&#227;o                                              [FrmBonificacao_Configuracao]&#32;
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						UFrmBonificacao_Configuracao.TFrmBonificacao_Configuracao
+					</attribute>
+					<attribute
+					name="fulltypelineage"
+					type="System.String[]">
+						System.TObject;System.Classes.TPersistent;System.Classes.TComponent;Vcl.Controls.TControl;Vcl.Controls.TWinControl;Vcl.Forms.TScrollingWinControl;Vcl.Forms.TCustomForm;Vcl.Forms.TForm;UFrmBonificacao_Configuracao.TFrmBonificacao_Configuracao;
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						FrmBonificacao_Configuracao
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TFrmBonificacao_Configuracao
+					</attribute>
+					<dynamicattribute
+					description="Align"
+					name="Align"
+					readonly="False"
+					type="System.Enum">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="AlignDisabled"
+					name="AlignDisabled"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="AlignWithMargins"
+					name="AlignWithMargins"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="AlphaBlend"
+					name="AlphaBlend"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="AlphaBlendValue"
+					name="AlphaBlendValue"
+					readonly="False"
+					type="System.Int32">
+						255
+					</dynamicattribute>
+					<dynamicattribute
+					description="Anchors"
+					name="Anchors"
+					readonly="False"
+					type="System.Object">
+						[akLeft,akTop]
+					</dynamicattribute>
+					<dynamicattribute
+					description="AutoScroll"
+					name="AutoScroll"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="AutoSize"
+					name="AutoSize"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="BiDiMode"
+					name="BiDiMode"
+					readonly="False"
+					type="System.Enum">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="BorderIcons"
+					name="BorderIcons"
+					readonly="False"
+					type="System.Object">
+						[biSystemMenu,biMinimize,biMaximize]
+					</dynamicattribute>
+					<dynamicattribute
+					description="BorderStyle"
+					name="BorderStyle"
+					readonly="False"
+					type="System.Enum">
+						2
+					</dynamicattribute>
+					<dynamicattribute
+					description="BorderWidth"
+					name="BorderWidth"
+					readonly="False"
+					type="System.Int32">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="BoundsRect"
+					name="BoundsRect"
+					readonly="False"
+					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						350,155,665,427
+					</dynamicattribute>
+					<dynamicattribute
+					description="Caption"
+					name="Caption"
+					readonly="False"
+					type="System.String">
+						Configura&#231;&#227;o de Bonifica&#231;&#227;o                                              [FrmBonificacao_Configuracao]&#32;
+					</dynamicattribute>
+					<dynamicattribute
+					description="ClientHandle"
+					name="ClientHandle"
+					type="System.Int32">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="ClientHeight"
+					name="ClientHeight"
+					readonly="False"
+					type="System.Int32">
+						388
+					</dynamicattribute>
+					<dynamicattribute
+					description="ClientOrigin"
+					name="ClientOrigin"
+					type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						360, 293
+					</dynamicattribute>
+					<dynamicattribute
+					description="ClientRect"
+					name="ClientRect"
+					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						0,0,649,388
+					</dynamicattribute>
+					<dynamicattribute
+					description="ClientWidth"
+					name="ClientWidth"
+					readonly="False"
+					type="System.Int32">
+						649
+					</dynamicattribute>
+					<dynamicattribute
+					description="Color"
+					name="Color"
+					readonly="False"
+					type="System.Drawing.Color, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						240, 240, 240
+					</dynamicattribute>
+					<dynamicattribute
+					description="ComponentCount"
+					name="ComponentCount"
+					type="System.Int32">
+						31
+					</dynamicattribute>
+					<dynamicattribute
+					description="ComponentIndex"
+					name="ComponentIndex"
+					readonly="False"
+					type="System.Int32">
+						6
+					</dynamicattribute>
+					<dynamicattribute
+					description="ComponentState"
+					name="ComponentState"
+					type="System.Object">
+						[]
+					</dynamicattribute>
+					<dynamicattribute
+					description="ComponentStyle"
+					name="ComponentStyle"
+					type="System.Object">
+						[csInheritable]
+					</dynamicattribute>
+					<dynamicattribute
+					description="ControlCount"
+					name="ControlCount"
+					type="System.Int32">
+						3
+					</dynamicattribute>
+					<dynamicattribute
+					description="ControlState"
+					name="ControlState"
+					readonly="False"
+					type="System.Object">
+						[]
+					</dynamicattribute>
+					<dynamicattribute
+					description="ControlStyle"
+					name="ControlStyle"
+					readonly="False"
+					type="System.Object">
+						[csAcceptsControls,csCaptureMouse,csClickEvents,csSetCaption,csDoubleClicks,csPannable,csGestures,csPaintBlackOpaqueOnGlass]
+					</dynamicattribute>
+					<dynamicattribute
+					description="Ctl3D"
+					name="Ctl3D"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="CurrentPPI"
+					name="CurrentPPI"
+					type="System.Int32">
+						96
+					</dynamicattribute>
+					<dynamicattribute
+					description="Cursor"
+					name="Cursor"
+					readonly="False"
+					type="System.Int32">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="DefaultMonitor"
+					name="DefaultMonitor"
+					readonly="False"
+					type="System.Enum">
+						3
+					</dynamicattribute>
+					<dynamicattribute
+					description="DesignInfo"
+					name="DesignInfo"
+					readonly="False"
+					type="System.Int32">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="DockClientCount"
+					name="DockClientCount"
+					type="System.Int32">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="DockOrientation"
+					name="DockOrientation"
+					readonly="False"
+					type="System.Enum">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="DockSite"
+					name="DockSite"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="DoubleBuffered"
+					name="DoubleBuffered"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="DragKind"
+					name="DragKind"
+					readonly="False"
+					type="System.Enum">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="DragMode"
+					name="DragMode"
+					readonly="False"
+					type="System.Enum">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="DropTarget"
+					name="DropTarget"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="Enabled"
+					name="Enabled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="ExplicitHeight"
+					name="ExplicitHeight"
+					type="System.Int32">
+						427
+					</dynamicattribute>
+					<dynamicattribute
+					description="ExplicitLeft"
+					name="ExplicitLeft"
+					type="System.Int32">
+						350
+					</dynamicattribute>
+					<dynamicattribute
+					description="ExplicitTop"
+					name="ExplicitTop"
+					type="System.Int32">
+						155
+					</dynamicattribute>
+					<dynamicattribute
+					description="ExplicitWidth"
+					name="ExplicitWidth"
+					type="System.Int32">
+						665
+					</dynamicattribute>
+					<dynamicattribute
+					description="Floating"
+					name="Floating"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="FormState"
+					name="FormState"
+					type="System.Object">
+						[fsVisible,fsCreatedMDIChild]
+					</dynamicattribute>
+					<dynamicattribute
+					description="FormStyle"
+					name="FormStyle"
+					readonly="False"
+					type="System.Enum">
+						1
+					</dynamicattribute>
+					<dynamicattribute
+					description="Height"
+					name="Height"
+					readonly="False"
+					type="System.Int32">
+						427
+					</dynamicattribute>
+					<dynamicattribute
+					description="HelpContext"
+					name="HelpContext"
+					readonly="False"
+					type="System.Int32">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="HelpFile"
+					name="HelpFile"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="HelpKeyword"
+					name="HelpKeyword"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="HelpType"
+					name="HelpType"
+					readonly="False"
+					type="System.Enum">
+						1
+					</dynamicattribute>
+					<dynamicattribute
+					description="Hint"
+					name="Hint"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="KeyPreview"
+					name="KeyPreview"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="Left"
+					name="Left"
+					readonly="False"
+					type="System.Int32">
+						350
+					</dynamicattribute>
+					<dynamicattribute
+					description="LRDockWidth"
+					name="LRDockWidth"
+					readonly="False"
+					type="System.Int32">
+						665
+					</dynamicattribute>
+					<dynamicattribute
+					description="MDIChildCount"
+					name="MDIChildCount"
+					type="System.Int32">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="ModalResult"
+					name="ModalResult"
+					readonly="False"
+					type="System.Int32">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="MouseInClient"
+					name="MouseInClient"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="OldCreateOrder"
+					name="OldCreateOrder"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="ParentBiDiMode"
+					name="ParentBiDiMode"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="ParentCustomHint"
+					name="ParentCustomHint"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="ParentDoubleBuffered"
+					name="ParentDoubleBuffered"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="ParentFont"
+					name="ParentFont"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="ParentWindow"
+					name="ParentWindow"
+					readonly="False"
+					type="System.Int32">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="PixelsPerInch"
+					name="PixelsPerInch"
+					readonly="False"
+					type="System.Int32">
+						96
+					</dynamicattribute>
+					<dynamicattribute
+					description="PopupMode"
+					name="PopupMode"
+					readonly="False"
+					type="System.Enum">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="Position"
+					name="Position"
+					readonly="False"
+					type="System.Enum">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="PrintScale"
+					name="PrintScale"
+					readonly="False"
+					type="System.Enum">
+						1
+					</dynamicattribute>
+					<dynamicattribute
+					description="Scaled"
+					name="Scaled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="ScaleFactor"
+					name="ScaleFactor"
+					type="System.Single">
+						1
+					</dynamicattribute>
+					<dynamicattribute
+					description="ScreenSnap"
+					name="ScreenSnap"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="ShowHint"
+					name="ShowHint"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="Showing"
+					name="Showing"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="SnapBuffer"
+					name="SnapBuffer"
+					readonly="False"
+					type="System.Int32">
+						10
+					</dynamicattribute>
+					<dynamicattribute
+					description="StyleElements"
+					name="StyleElements"
+					readonly="False"
+					type="System.Object">
+						[seFont,seClient,seBorder]
+					</dynamicattribute>
+					<dynamicattribute
+					description="StyleName"
+					name="StyleName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="TabOrder"
+					name="TabOrder"
+					readonly="False"
+					type="System.Int32">
+						-1
+					</dynamicattribute>
+					<dynamicattribute
+					description="TabStop"
+					name="TabStop"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="Tag"
+					name="Tag"
+					readonly="False"
+					type="System.Int32">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="TBDockHeight"
+					name="TBDockHeight"
+					readonly="False"
+					type="System.Int32">
+						427
+					</dynamicattribute>
+					<dynamicattribute
+					description="TileMode"
+					name="TileMode"
+					readonly="False"
+					type="System.Enum">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="TipMode"
+					name="TipMode"
+					readonly="False"
+					type="System.Enum">
+						2
+					</dynamicattribute>
+					<dynamicattribute
+					description="Top"
+					name="Top"
+					readonly="False"
+					type="System.Int32">
+						155
+					</dynamicattribute>
+					<dynamicattribute
+					description="TransparentColor"
+					name="TransparentColor"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="TransparentColorValue"
+					name="TransparentColorValue"
+					readonly="False"
+					type="System.Drawing.Color, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						0, 0, 0
+					</dynamicattribute>
+					<dynamicattribute
+					description="UndockHeight"
+					name="UndockHeight"
+					readonly="False"
+					type="System.Int32">
+						427
+					</dynamicattribute>
+					<dynamicattribute
+					description="UndockWidth"
+					name="UndockWidth"
+					readonly="False"
+					type="System.Int32">
+						665
+					</dynamicattribute>
+					<dynamicattribute
+					description="UseDockManager"
+					name="UseDockManager"
+					readonly="False"
+					type="System.Boolean">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					description="Visible"
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="VisibleDockClientCount"
+					name="VisibleDockClientCount"
+					type="System.Int32">
+						0
+					</dynamicattribute>
+					<dynamicattribute
+					description="Width"
+					name="Width"
+					readonly="False"
+					type="System.Int32">
+						665
+					</dynamicattribute>
+					<dynamicattribute
+					description="WindowState"
+					name="WindowState"
+					readonly="False"
+					type="System.Enum">
+						0
+					</dynamicattribute>
+					<dynamicaction
+					description="AfterConstruction"
+					displayName="AfterConstruction">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ArrangeIcons"
+					displayName="ArrangeIcons">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Assign"
+					displayName="Assign">
+						<argument
+						description="Source"
+						displayName="Source"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="BeforeDestruction"
+					displayName="BeforeDestruction">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="BeginDrag"
+					displayName="BeginDrag">
+						<argument
+						description="Immediate"
+						displayName="Immediate"
+						type="System.Boolean">
+						</argument>
+						<argument
+						description="Threshold"
+						displayName="Threshold"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="BeginInvoke"
+					displayName="BeginInvoke">
+						<argument
+						description="AFunc"
+						displayName="AFunc"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Params"
+						displayName="Params"
+						type="System.Object">
+						</argument>
+						<argument
+						description="AContext"
+						displayName="AContext"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="BringToFront"
+					displayName="BringToFront">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Broadcast"
+					displayName="Broadcast">
+						<argument
+						description="Message"
+						displayName="Message"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Bt5Click"
+					displayName="Bt5Click">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="BtCancelarClick"
+					displayName="BtCancelarClick">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="BtEditarClick"
+					displayName="BtEditarClick">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="BtExcluirClick"
+					displayName="BtExcluirClick">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="BtIncluirClick"
+					displayName="BtIncluirClick">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="BtSalvarClick"
+					displayName="BtSalvarClick">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="CanFocus"
+					displayName="CanFocus">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Cascade"
+					displayName="Cascade">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClassInfo"
+					displayName="ClassInfo">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.IntPtr">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClassName"
+					displayName="ClassName">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClassNameIs"
+					displayName="ClassNameIs">
+						<argument
+						description="Name"
+						displayName="Name"
+						type="System.String">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClassParent"
+					displayName="ClassParent">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClassType"
+					displayName="ClassType">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="CleanupInstance"
+					displayName="CleanupInstance">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClientToParent"
+					displayName="ClientToParent">
+						<argument
+						description="Point"
+						displayName="Point"
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<argument
+						description="AParent"
+						displayName="AParent"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClientToScreen"
+					displayName="ClientToScreen">
+						<argument
+						description="Point"
+						displayName="Point"
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="CloseQuery"
+					displayName="CloseQuery">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ContainsControl"
+					displayName="ContainsControl">
+						<argument
+						description="Control"
+						displayName="Control"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ControlAtPos"
+					displayName="ControlAtPos">
+						<argument
+						description="Pos"
+						displayName="Pos"
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<argument
+						description="AllowDisabled"
+						displayName="AllowDisabled"
+						type="System.Boolean">
+						</argument>
+						<argument
+						description="AllowWinControls"
+						displayName="AllowWinControls"
+						type="System.Boolean">
+						</argument>
+						<argument
+						description="AllLevels"
+						displayName="AllLevels"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Create"
+					displayName="Create">
+						<argument
+						description="AOwner"
+						displayName="AOwner"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="CreateNew"
+					displayName="CreateNew">
+						<argument
+						description="AOwner"
+						displayName="AOwner"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Dummy"
+						displayName="Dummy"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="CreateParented"
+					displayName="CreateParented">
+						<argument
+						description="ParentWindow"
+						displayName="ParentWindow"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="CreateParentedControl"
+					displayName="CreateParentedControl">
+						<argument
+						description="ParentWindow"
+						displayName="ParentWindow"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="cxDBComboBox1KeyDown"
+					displayName="cxDBComboBox1KeyDown">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Key"
+						displayName="Key"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="Shift"
+						displayName="Shift"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="cxDBComboBox1KeyPress"
+					displayName="cxDBComboBox1KeyPress">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Key"
+						displayName="Key"
+						type="System.Char">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="cxDBComboBox1PropertiesChange"
+					displayName="cxDBComboBox1PropertiesChange">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="cxGrid1DBTableView1CellDblClick"
+					displayName="cxGrid1DBTableView1CellDblClick">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<argument
+						description="ACellViewInfo"
+						displayName="ACellViewInfo"
+						type="System.Object">
+						</argument>
+						<argument
+						description="AButton"
+						displayName="AButton"
+						type="System.Enum">
+						</argument>
+						<argument
+						description="AShift"
+						displayName="AShift"
+						type="System.Object">
+						</argument>
+						<argument
+						description="AHandled"
+						displayName="AHandled"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DBNumEdit1KeyDown"
+					displayName="DBNumEdit1KeyDown">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Key"
+						displayName="Key"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="Shift"
+						displayName="Shift"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DBNumEdit8KeyDown"
+					displayName="DBNumEdit8KeyDown">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Key"
+						displayName="Key"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="Shift"
+						displayName="Shift"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DBNumEdit8KeyPress"
+					displayName="DBNumEdit8KeyPress">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Key"
+						displayName="Key"
+						type="System.Char">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DefaultHandler"
+					displayName="DefaultHandler">
+						<argument
+						description="Message"
+						displayName="Message"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DefocusControl"
+					displayName="DefocusControl">
+						<argument
+						description="Control"
+						displayName="Control"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Removing"
+						displayName="Removing"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DestroyComponents"
+					displayName="DestroyComponents">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Destroying"
+					displayName="Destroying">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DisableAlign"
+					displayName="DisableAlign">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DisableAutoRange"
+					displayName="DisableAutoRange">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Dispatch"
+					displayName="Dispatch">
+						<argument
+						description="Message"
+						displayName="Message"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DisposeOf"
+					displayName="DisposeOf">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Dock"
+					displayName="Dock">
+						<argument
+						description="NewDockSite"
+						displayName="NewDockSite"
+						type="System.Object">
+						</argument>
+						<argument
+						description="ARect"
+						displayName="ARect"
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DockDrop"
+					displayName="DockDrop">
+						<argument
+						description="Source"
+						displayName="Source"
+						type="System.Object">
+						</argument>
+						<argument
+						description="X"
+						displayName="X"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="Y"
+						displayName="Y"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DragDrop"
+					displayName="DragDrop">
+						<argument
+						description="Source"
+						displayName="Source"
+						type="System.Object">
+						</argument>
+						<argument
+						description="X"
+						displayName="X"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="Y"
+						displayName="Y"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Dragging"
+					displayName="Dragging">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DrawTextBiDiModeFlags"
+					displayName="DrawTextBiDiModeFlags">
+						<argument
+						description="Flags"
+						displayName="Flags"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DrawTextBiDiModeFlagsReadingOnly"
+					displayName="DrawTextBiDiModeFlagsReadingOnly">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="EditEncerramentoKeyDown"
+					displayName="EditEncerramentoKeyDown">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Key"
+						displayName="Key"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="Shift"
+						displayName="Shift"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="EnableAlign"
+					displayName="EnableAlign">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="EnableAutoRange"
+					displayName="EnableAutoRange">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="EndDrag"
+					displayName="EndDrag">
+						<argument
+						description="Drop"
+						displayName="Drop"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="EndFunctionInvoke"
+					displayName="EndFunctionInvoke">
+						<argument
+						description="AsyncResult"
+						displayName="AsyncResult"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="EndInvoke"
+					displayName="EndInvoke">
+						<argument
+						description="ASyncResult"
+						displayName="ASyncResult"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Equals"
+					displayName="Equals">
+						<argument
+						description="Obj"
+						displayName="Obj"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ExecuteAction"
+					displayName="ExecuteAction">
+						<argument
+						description="Action"
+						displayName="Action"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FieldAddress"
+					displayName="FieldAddress">
+						<argument
+						description="Name"
+						displayName="Name"
+						type="System.String">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.IntPtr">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FindChildControl"
+					displayName="FindChildControl">
+						<argument
+						description="ControlName"
+						displayName="ControlName"
+						type="System.String">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FindComponent"
+					displayName="FindComponent">
+						<argument
+						description="AName"
+						displayName="AName"
+						type="System.String">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FlipChildren"
+					displayName="FlipChildren">
+						<argument
+						description="AllLevels"
+						displayName="AllLevels"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FocusControl"
+					displayName="FocusControl">
+						<argument
+						description="Control"
+						displayName="Control"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Focused"
+					displayName="Focused">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FormClose"
+					displayName="FormClose">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Action"
+						displayName="Action"
+						type="System.Enum">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Free"
+					displayName="Free">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FreeInstance"
+					displayName="FreeInstance">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FreeNotification"
+					displayName="FreeNotification">
+						<argument
+						description="AComponent"
+						displayName="AComponent"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FreeOnRelease"
+					displayName="FreeOnRelease">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="get_MDIChildren"
+					displayName="get_MDIChildren">
+						<argument
+						description="I"
+						displayName="I"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetChildren"
+					displayName="GetChildren">
+						<argument
+						description="Proc"
+						displayName="Proc"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Root"
+						displayName="Root"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetComponent"
+					displayName="GetComponent">
+						<argument
+						description="AIndex"
+						displayName="AIndex"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetControl"
+					displayName="GetControl">
+						<argument
+						description="Index"
+						displayName="Index"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetControlsAlignment"
+					displayName="GetControlsAlignment">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetDockClients"
+					displayName="GetDockClients">
+						<argument
+						description="Index"
+						displayName="Index"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetEnumerator"
+					displayName="GetEnumerator">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetFormImage"
+					displayName="GetFormImage">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetHashCode"
+					displayName="GetHashCode">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetInterface"
+					displayName="GetInterface">
+						<argument
+						description="IID"
+						displayName="IID"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Obj"
+						displayName="Obj"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetInterfaceEntry"
+					displayName="GetInterfaceEntry">
+						<argument
+						description="IID"
+						displayName="IID"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.IntPtr">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetInterfaceTable"
+					displayName="GetInterfaceTable">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.IntPtr">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetNamePath"
+					displayName="GetNamePath">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetParentComponent"
+					displayName="GetParentComponent">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetStyleName"
+					displayName="GetStyleName">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetSystemMetrics"
+					displayName="GetSystemMetrics">
+						<argument
+						description="nIndex"
+						displayName="nIndex"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetTabControlList"
+					displayName="GetTabControlList">
+						<argument
+						description="List"
+						displayName="List"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetTabOrderList"
+					displayName="GetTabOrderList">
+						<argument
+						description="List"
+						displayName="List"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetTextBuf"
+					displayName="GetTextBuf">
+						<argument
+						description="Buffer"
+						displayName="Buffer"
+						type="System.IntPtr">
+						</argument>
+						<argument
+						description="BufSize"
+						displayName="BufSize"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetTextLen"
+					displayName="GetTextLen">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="HandleAllocated"
+					displayName="HandleAllocated">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="HandleNeeded"
+					displayName="HandleNeeded">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="HasParent"
+					displayName="HasParent">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Hide"
+					displayName="Hide">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="InheritsFrom"
+					displayName="InheritsFrom">
+						<argument
+						description="AClass"
+						displayName="AClass"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="InitiateAction"
+					displayName="InitiateAction">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="InitInstance"
+					displayName="InitInstance">
+						<argument
+						description="Instance"
+						displayName="Instance"
+						type="System.IntPtr">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="InsertComponent"
+					displayName="InsertComponent">
+						<argument
+						description="AComponent"
+						displayName="AComponent"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="InsertControl"
+					displayName="InsertControl">
+						<argument
+						description="AControl"
+						displayName="AControl"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="InstanceSize"
+					displayName="InstanceSize">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Invalidate"
+					displayName="Invalidate">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="IsCustomStyleActive"
+					displayName="IsCustomStyleActive">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="IsImplementorOf"
+					displayName="IsImplementorOf">
+						<argument
+						description="I"
+						displayName="I"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="IsLightStyleColor"
+					displayName="IsLightStyleColor">
+						<argument
+						description="AColor"
+						displayName="AColor"
+						type="System.Drawing.Color, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="IsRightToLeft"
+					displayName="IsRightToLeft">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="IsShortCut"
+					displayName="IsShortCut">
+						<argument
+						description="Message"
+						displayName="Message"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="MakeFullyVisible"
+					displayName="MakeFullyVisible">
+						<argument
+						description="AMonitor"
+						displayName="AMonitor"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ManualDock"
+					displayName="ManualDock">
+						<argument
+						description="NewDockSite"
+						displayName="NewDockSite"
+						type="System.Object">
+						</argument>
+						<argument
+						description="DropControl"
+						displayName="DropControl"
+						type="System.Object">
+						</argument>
+						<argument
+						description="ControlSide"
+						displayName="ControlSide"
+						type="System.Enum">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ManualFloat"
+					displayName="ManualFloat">
+						<argument
+						description="ScreenPos"
+						displayName="ScreenPos"
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="MethodAddress"
+					displayName="MethodAddress">
+						<argument
+						description="Name"
+						displayName="Name"
+						type="System.String">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.IntPtr">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="MethodName"
+					displayName="MethodName">
+						<argument
+						description="Address"
+						displayName="Address"
+						type="System.IntPtr">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="MouseWheelHandler"
+					displayName="MouseWheelHandler">
+						<argument
+						description="Message"
+						displayName="Message"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="NewInstance"
+					displayName="NewInstance">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Next"
+					displayName="Next">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="PaintTo"
+					displayName="PaintTo">
+						<argument
+						description="DC"
+						displayName="DC"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="X"
+						displayName="X"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="Y"
+						displayName="Y"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ParentToClient"
+					displayName="ParentToClient">
+						<argument
+						description="Point"
+						displayName="Point"
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<argument
+						description="AParent"
+						displayName="AParent"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Perform"
+					displayName="Perform">
+						<argument
+						description="Msg"
+						displayName="Msg"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="WParam"
+						displayName="WParam"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="LParam"
+						displayName="LParam"
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="PreProcessMessage"
+					displayName="PreProcessMessage">
+						<argument
+						description="Msg"
+						displayName="Msg"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Previous"
+					displayName="Previous">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Print"
+					displayName="Print">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="QualifiedClassName"
+					displayName="QualifiedClassName">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Realign"
+					displayName="Realign">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="RecreateAsPopup"
+					displayName="RecreateAsPopup">
+						<argument
+						description="AWindowHandle"
+						displayName="AWindowHandle"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ReferenceInterface"
+					displayName="ReferenceInterface">
+						<argument
+						description="I"
+						displayName="I"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Operation"
+						displayName="Operation"
+						type="System.Enum">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Refresh"
+					displayName="Refresh">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Release"
+					displayName="Release">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="RemoveComponent"
+					displayName="RemoveComponent">
+						<argument
+						description="AComponent"
+						displayName="AComponent"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="RemoveControl"
+					displayName="RemoveControl">
+						<argument
+						description="AControl"
+						displayName="AControl"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="RemoveFreeNotification"
+					displayName="RemoveFreeNotification">
+						<argument
+						description="AComponent"
+						displayName="AComponent"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Repaint"
+					displayName="Repaint">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ReplaceDockedControl"
+					displayName="ReplaceDockedControl">
+						<argument
+						description="Control"
+						displayName="Control"
+						type="System.Object">
+						</argument>
+						<argument
+						description="NewDockSite"
+						displayName="NewDockSite"
+						type="System.Object">
+						</argument>
+						<argument
+						description="DropControl"
+						displayName="DropControl"
+						type="System.Object">
+						</argument>
+						<argument
+						description="ControlSide"
+						displayName="ControlSide"
+						type="System.Enum">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SafeCallException"
+					displayName="SafeCallException">
+						<argument
+						description="ExceptObject"
+						displayName="ExceptObject"
+						type="System.Object">
+						</argument>
+						<argument
+						description="ExceptAddr"
+						displayName="ExceptAddr"
+						type="System.IntPtr">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ScaleBy"
+					displayName="ScaleBy">
+						<argument
+						description="M"
+						displayName="M"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="D"
+						displayName="D"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ScaleForPPI"
+					displayName="ScaleForPPI">
+						<argument
+						description="NewPPI"
+						displayName="NewPPI"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ScaleRectSize"
+					displayName="ScaleRectSize">
+						<argument
+						description="Value"
+						displayName="Value"
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ScaleValue"
+					displayName="ScaleValue">
+						<argument
+						description="Value"
+						displayName="Value"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ScreenToClient"
+					displayName="ScreenToClient">
+						<argument
+						description="Point"
+						displayName="Point"
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ScrollBy"
+					displayName="ScrollBy">
+						<argument
+						description="DeltaX"
+						displayName="DeltaX"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="DeltaY"
+						displayName="DeltaY"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ScrollInView"
+					displayName="ScrollInView">
+						<argument
+						description="AControl"
+						displayName="AControl"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SendCancelMode"
+					displayName="SendCancelMode">
+						<argument
+						description="Sender"
+						displayName="Sender"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SendToBack"
+					displayName="SendToBack">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="set_PopupParent"
+					displayName="set_PopupParent">
+						<argument
+						description="Value"
+						displayName="Value"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SetBounds"
+					displayName="SetBounds">
+						<argument
+						description="ALeft"
+						displayName="ALeft"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="ATop"
+						displayName="ATop"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="AWidth"
+						displayName="AWidth"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="AHeight"
+						displayName="AHeight"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SetDesignVisible"
+					displayName="SetDesignVisible">
+						<argument
+						description="Value"
+						displayName="Value"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SetFocus"
+					displayName="SetFocus">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SetFocusedControl"
+					displayName="SetFocusedControl">
+						<argument
+						description="Control"
+						displayName="Control"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SetParentComponent"
+					displayName="SetParentComponent">
+						<argument
+						description="Value"
+						displayName="Value"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SetSubComponent"
+					displayName="SetSubComponent">
+						<argument
+						description="IsSubComponent"
+						displayName="IsSubComponent"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SetTextBuf"
+					displayName="SetTextBuf">
+						<argument
+						description="Buffer"
+						displayName="Buffer"
+						type="System.IntPtr">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Show"
+					displayName="Show">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ShowModal"
+					displayName="ShowModal">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Tile"
+					displayName="Tile">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ToString"
+					displayName="ToString">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="UnitName"
+					displayName="UnitName">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="UnitScope"
+					displayName="UnitScope">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Update"
+					displayName="Update">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="UpdateAction"
+					displayName="UpdateAction">
+						<argument
+						description="Action"
+						displayName="Action"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="UpdateControlState"
+					displayName="UpdateControlState">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="UseRightToLeftAlignment"
+					displayName="UseRightToLeftAlignment">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="UseRightToLeftReading"
+					displayName="UseRightToLeftReading">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="UseRightToLeftScrollBar"
+					displayName="UseRightToLeftScrollBar">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="WantChildKey"
+					displayName="WantChildKey">
+						<argument
+						description="Child"
+						displayName="Child"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Message"
+						displayName="Message"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@controlname='FrmPrincipal']/form[@name&gt;'FrmBonificacao_Configurac']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="96bfd26f-a30c-4cbe-ba8d-7c0af681f1b2">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDcoooo
+GFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAVP7Ss/+e3/jp/wo/tKz/wCe3/jp/wAKj+wWv/PEf99N
+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
+f88n/Mf40UxD6KKKQwooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAj89PST/v23+FHnp6Sf9+2/wAKKKAD
+z09JP+/bf4UeenpJ/wB+2/woooAPPT0k/wC/bf4UeenpJ/37b/CiigA89PST/v23+FHnp6Sf9+2/
+woooAPPT0k/79t/hR56ekn/ftv8ACiigA89PST/v23+FHnp6Sf8Aftv8KKKADz09JP8Av23+FHnp
+6Sf9+2/woooAPPT0k/79t/hR56ekn/ftv8KKKADz09JP+/bf4UeenpJ/37b/AAoooAPPT0k/79t/
+hR56ekn/AH7b/CiigA89PST/AL9t/hR56ekn/ftv8KKKADz09JP+/bf4UeenpJ/37b/CiigA89PS
+T/v23+FHnp6Sf9+2/wAKKKADz09JP+/bf4UeenpJ/wB+2/woooAPPT0k/wC/bf4UeenpJ/37b/Ci
+igA89PST/v23+FHnp6Sf9+2/woooAPPT0k/79t/hR56ekn/ftv8ACiigA89PST/v23+FHnp6Sf8A
+ftv8KKKADz09JP8Av23+FHnp6Sf9+2/woooAPPT0k/79t/hR56ekn/ftv8KKKADz09JP+/bf4Uee
+npJ/37b/AAoooAPPT0k/79t/hR56ekn/AH7b/CiigA89PST/AL9t/hR56ekn/ftv8KKKADz09JP+
+/bf4UeenpJ/37b/CiigA89PST/v23+FHnp6Sf9+2/wAKKKADz09JP+/bf4UeenpJ/wB+2/woooAP
+PT0k/wC/bf4UeenpJ/37b/CiigA89PST/v23+FHnp6Sf9+2/woooAPPT0k/79t/hR56ekn/ftv8A
+CiigA89PST/v23+FHnp6Sf8Aftv8KKKADz09JP8Av23+FHnp6Sf9+2/woooAPPT0k/79t/hRRRQA
+UVSmuZvtggi8sZ28sCcZDH19hUcl/LHMx2b4fmCnbtyVBJ53EnoewoA0aKzL0SvGiv5c0vLrsjI2
+j1zvGPrnvTobyQqjIsaxAxp5eCW+YDkHPbPp2oA0aKKKACiiigAooooAKKKKACiiigAooooAKKy7
+t3K3EBZvkDueeqkcD6ZJ/wC+a0gVcMobOOGweR/hQA6is3aITK6vKxSZUUNM5AB29s+9J9uuUSIv
+5JMyBlwpAQkqOeeR83t0oA06KqC4m+y3JIVpYdwBUYDHGRxz60xttvAs0UzSPIAAZJCynJA3Yzjv
+2xQBeorPW5unmaBTCHTducocHG3oM/7Xr2qB2kluUuXEZAWIhShJXcecHPH5c0Aa9FUre6lZkeZ4
+hFJEZBgEbBx1JPPX0FXaACissu77EZmPkOqNz1O8YJ/AA/jVy8k/0Cd435CNgqehHvQBYorMWd7d
+JyiyDbsURTPuYEnG7k9OR37HpTnurxYgpiCzZJxsByoxz9/A6+poA0aKzUmaTT7yZcqzDcMHGDsX
+vSRyTwTGAFVdyoG+RpVXIY5ycHJx0oA06KzRe3LRyOvlAQpubKk7iCwOOeB8vvUjXkghRlVC7PIo
+BOM7d2P5CgC9RVezlklRxKRvVsEBCuOBxgk/mDilvebfG5ly6AlWIOCw7igCeis2YyxNJFBMdqvF
+guS+0luRnOfQ8nvV/cCrAMCy8NjscfpR0AfRWVb/AGiK1jm2gs4QBnuHfOSOSp4FTrcXLTG33QiQ
+McuUOCAAeBnr83r2oAvUVmG9u8SyLCpiTeMkDAK55zuz1HTHep/PnSSQSvEEijDsQhzznpz7CgC5
+RWYl5dmTyWVEkyOWTsVY9Ax9PWj7fc7UAjRnlCFdo6ZBOOSM/d9R1oA06KzjdXgSQskcZijDsrDJ
+bk+hwOB70Ca4W4lRZY/nm2LuUnZ8oPrz9OKANGiobSVprcO4AbJU46HBIyPbipqACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooArxwpFjyrHZjptCD+vuaBCglMgssSHqwCZP45q5RQBnQ2M
+MUew2XmfNuyyx9fwwKm8pBIsgsvnQYVsJkD0BzVuigCDfJ/zwk/Nf8aN8n/PCT81/wAanooAg3yf
+88JPzX/GjfJ/zwk/Nf8AGp6KAIN8n/PCT81/xo3yf88JPzX/ABqeigCDfJ/zwk/Nf8aN8n/PCT81
+/wAanooAg3yf88JPzX/GjfJ/zwk/Nf8AGp6KAIN8n/PCT81/xpPMYMoaJ13HAJI9M9j7VJ58e12L
+YEZw2eMUyVt3kMARl88jB+6aAGZEm4i2ZwcqT8vIBPHJ6dacNyklbZwWOTjbyfzp9t/qj/vv/wCh
+GpaAKpUkEG1bk5P3evr1qOC1jghMcdlhSu1uE+b6881eooArRjykCRWrIo6Ku0AfrUa28SlytgAX
+GGwqfN9eeatyyLDC8rZ2opY49BUVvPJI7xzRrG6gNhX3Ag574HoaAGJGIwBHZlAAQAoQYB696AmO
+loeMf3e3Tv2prX/lszPGBAC6hw2SSoOeMex70fbJQ3lPAgnJG1fMypBBPJxx909qAIobJIpZJDbu
+5kBDbljHB69MZ/HNWlc7wjRshIJGcdseh96gOoNsLLCD5a7pgXxtAJBxxz90+lWJP+PmP/cb+a0A
+Rqd67xbMQ+Gz8vPoev0pcHYU+yttOcr8uDnr3qW1/wCPWH/cX+VSUAVXQOcvaFjgrkhTwe3XpUf2
+aHYE/s9doOQNqYB9etXqKAKoQBCgtDsbgrhMHt60wW8QiMQsAI2OSgVME/TNWLiZoggRA7u21QTg
+ZwTycHsDTUuQbNrh1K7A29Qc4K5z/KgBgQBdosyFK7cYTGPTr0ppgjLs5sQWb7zbUye3PNH2yUN5
+TwIJyRtXzMqQQTyccfdPamnUG2FlhB8td0wL42gEg445+6fSgCSJfJTZFaGNfRdoH86SVllhdJIQ
+3zBSkmMEnH19RSpds04XywImdkV93JYZzkY6cHvSP9+X/rsn/stAALciHyRbW4iP8APy/ltp6xyI
+CFhhXPXDEZ7f3asVDDI0k03PyKwRRjuByf1x+FAECWSRtujs7VG9V4P/AKDTpLYygiW2t3BO4hjn
+n1+7UryN9rjiU4G0u/HboB+v6VNQBTNoC5c2lsXIwWzzjp/dqQxykkmGE7hg/OeR+VWKKAKkdr5X
++rtbZMf3Tj/2X3NDW5ZCjW1uVIAKk8YHQfdq3RQBUW3KIUS2t1UjBUHAx6fd96HtvMLF7W3YsAG3
+HOQPX5at0UAV1SZFCpFEqgYADkAfpQzSr95YVz6yH/CrFQzf6xPof6UAR+a//TD/AL+//WpRI5OB
+5BJ/6a//AFqzpbRD5wi0+1LRz7OEB+TYGzyV5yR3496fp7KZJRGR5QaIoFXaoBVTwO2c5oA0FkzE
+XYY2kggHPQ4/pR5n+w36f40wf8e8v+8/8zTZGYho0UltvUEDGc0m7AS+Z/sN+n+NJ5w7q3XFRN+5
+ZmAZk25+9nGM56mhvvH6n+QoTuBL5y+jUecvo1VV3kk7gGHVW6Y7YoXILAMWUdz696YFsyYYgKxx
+6Yo8z/Yb9P8AGmpj7U2QDwf/AGWqOp3KKw2Hb5eeV7n0ppXFcvpMrtgA9cHkHB9KBLkAhGwfp/jV
+OxtTA/mNw0hGUByFwD/jUrTCJYwVJLLnggdMep96npqW0r2RY8z/AGG/T/Gk80DqrD8qr/al/uN/
+30v+NO3iRQ4zhgpGfxouJprclE6noDRUNu6qhBYDnuaKYi/RVfyV/vSf9/G/xo8lf70n/fxv8aAL
+FFV/JX+9J/38b/GjyV/vSf8Afxv8aALFFV/JX+9J/wB/G/xo8lf70n/fxv8AGgCxRVfyV/vSf9/G
+/wAaPJX+9J/38b/GgCxRVfyV/vSf9/G/xo8lf70n/fxv8aALFFV/JX+9J/38b/GjyV/vSf8Afxv8
+aALFFV/JX+9J/wB/G/xo8lf70n/fxv8AGgCR4I3kWRlBZehptx9+H/f/APZTTfJX+9J/38b/ABpR
+EoYNlyRyMuT/ADNADrb/AFR/33/9CNS1X8lecFxk54dh/WjyV/vSf9/G/wAaALFFV/JX+9J/38b/
+ABo8lf70n/fxv8aAJpY1mheJs7XUqcehqsLe4QM/mq0rlFLKm0KoPoSeeT+dP8lf70n/AH8b/Gjy
+V/vSf9/G/wAaAI2sPMZleQGAl2CBcEFgc859z2o+xylvNedDOCNreXhQACORnn7x71J5K/3pP+/j
+f40eSv8Aek/7+N/jQBCdPbYVWYDzF2zEpncCSTjnj7x9asSf8fMf+4381pvkr/ek/wC/jf40qxKr
+bhuJxj5mJ/nQA+1/49Yf9xf5VJVcQIoABkAHAAkb/GjyV/vSf9/G/wAaALFFV/JX+9J/38b/ABo8
+lf70n/fxv8aAH3ELShCjBHRtykjIzgjkZHYmoRavsEDPmJkfzCABuZj+nU0/yV/vSf8Afxv8aPJX
++9J/38b/ABoAj+xylvNedDOCNreXhQACORnn7x7006e2wqswHmLtmJTO4EknHPH3j61N5K/3pP8A
+v43+NHkr/ek/7+N/jQA1LRlnDeYDErs6pt5DHOcnPTk9qR/vy/8AXZP/AGWn+Sv96T/v43+NKIkC
+spG4Mcncd2fzoAnqK2iaKAK5BcksxHqTk0z7PD/zxj/75FH2eH/njH/3yKAHxxMLiWVsfNhVx2A/
++uTUtV/s8P8Azxj/AO+RR9nh/wCeMf8A3yKALFFV/s8P/PGP/vkUfZ4f+eMf/fIoAsUVX+zw/wDP
+GP8A75FH2eH/AJ4x/wDfIoAsUVX+zw/88Y/++RR9nh/54x/98igCxUUysWUqpbAPT8KZ9nh/54x/
+98ij7PD/AM8Y/wDvkUAZ76XKxfL5DtubMERyeeTxyeT+dWLW0lhkdnZpGkZSzMFHTA7ewqx9nh/5
+4x/98ij7PD/zxj/75FFwGj/j3l/3n/maZLGGDMoO/bgYOPpVgKqrtVQF9AOKTy4/7i/lSauBVWIy
+M3mKwXAAG78+hp7feP1P8hU/lx/3F/KjYmMbV/KlGKirICiI3DEA4zzu7mnIrDczYGew/nVzYn91
+fyo2J/dX8qoCCTeJXMY5wRn0OFrPj06QENLmQj6Yz+da5RCclVJ9xR5cf9xfypp2E1cZ/Gn1/oai
+aCOaOPzFztHHJFWAiA5CqD7Cjy4/7i/lSHexV+w2/wDcP/fR/wAaeVCDaowAFA/Wp/Lj/uL+VARB
+0RfyosNtvcz9p9D+VFaGxP7q/lRQINzf882/Mf40bm/55t+Y/wAadRQA3c3/ADzb8x/jRub/AJ5t
++Y/xp1FADdzf882/Mf40bm/55t+Y/wAadRQA3c3/ADzb8x/jRub/AJ5t+Y/xp1FADdzf882/Mf40
+bm/55t+Y/wAadRQA3c3/ADzb8x/jRub/AJ5t+Y/xp1FADdzf882/Mf40bm/55t+Y/wAadRQA3c3/
+ADzb8x/jRub/AJ5t+Y/xp1FADdzf882/Mf40bm/55t+Y/wAadRQA3c3/ADzb8x/jRub/AJ5t+Y/x
+p1FADdzf882/Mf40bm/55t+Y/wAadRQA3c3/ADzb8x/jRub/AJ5t+Y/xp1FADdzf882/Mf40bm/5
+5t+Y/wAadRQA3c3/ADzb8x/jRub/AJ5t+Y/xp1FADdzf882/Mf40bm/55t+Y/wAadRQA3c3/ADzb
+8x/jRub/AJ5t+Y/xp1FADdzf882/Mf40bm/55t+Y/wAadRQA3c3/ADzb8x/jRub/AJ5t+Y/xp1FA
+Ddzf882/Mf40bm/55t+Y/wAadRQA3c3/ADzb8x/jRub/AJ5t+Y/xp1FADdzf882/Mf40bm/55t+Y
+/wAadRQA3c3/ADzb8x/jRub/AJ5t+Y/xp1FADdzf882/Mf40bm/55t+Y/wAadRQA3c3/ADzb8x/j
+Rub/AJ5t+Y/xp1FADdzf882/Mf40bm/55t+Y/wAadRQA3c3/ADzb8x/jRub/AJ5t+Y/xp1FADdzf
+882/Mf40bm/55t+Y/wAadRQA3c3/ADzb8x/jRub/AJ5t+Y/xp1FADdzf882/Mf40bm/55t+Y/wAa
+dRQA3c3/ADzb8x/jRub/AJ5t+Y/xp1FADdzf882/Mf40bm/55t+Y/wAaY7EOfmYAAcLjuT60mW9Z
+f/HaAJNzf882/Mf40VHlvWX/AMdooAmooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigCGT77fRP5mnU2T77fRP5mnUAZ0kjtI2ZHGGIAB
+xxn2oqCdik7hgRliRkdRmiuuKjYk3KKyv7Zj9G/74/8AsqP7Zj9G/wC+P/sq4uePcXtI9zVorK/t
+mP0b/vj/AOyo/tmP0b/vj/7Kjnj3D2ke5q0Vlf2zH6N/3x/9lR/bMfo3/fH/ANlRzx7h7SPc1aKy
+v7Zj9G/74/8AsqP7Zj9G/wC+P/sqOePcPaR7mrRWV/bMfo3/AHx/9lR/bMfo3/fH/wBlRzx7h7SP
+c1aKyv7Zj9G/74/+yo/tmP0b/vj/AOyo549w9pHuatFZX9sx+jf98f8A2VH9sx+jf98f/ZUc8e4e
+0j3NWisr+2Y/Rv8Avj/7Kj+2Y/Rv++P/ALKjnj3D2ke5q0Vlf2zH6N/3x/8AZUf2zH6N/wB8f/ZU
+c8e4e0j3NWisr+2Y/Rv++P8A7Kj+2Y/Rv++P/sqOePcPaR7mrRWV/bMfo3/fH/2VH9sx+jf98f8A
+2VHPHuHtI9zVorK/tmP0b/vj/wCyo/tmP0b/AL4/+yo549w9pHuatFZX9sx+jf8AfH/2VH9sx+jf
+98f/AGVHPHuHtI9zVorK/tmP0b/vj/7Kj+2Y/Rv++P8A7Kjnj3D2ke5q0Vlf2zH6N/3x/wDZUf2z
+H6N/3x/9lRzx7h7SPc1aKyv7Zj9G/wC+P/sqP7Zj9G/74/8AsqOePcPaR7mrRWV/bMfo3/fH/wBl
+R/bMfo3/AHx/9lRzx7h7SPc1aKyv7Zj9G/74/wDsqP7Zj9G/74/+yo549w9pHuatFZX9sx+jf98f
+/ZUf2zH6N/3x/wDZUc8e4e0j3NWisr+2Y/Rv++P/ALKj+2Y/Rv8Avj/7Kjnj3D2ke5q0Vlf2zH6N
+/wB8f/ZUf2zH6N/3x/8AZUc8e4e0j3NWisr+2Y/Rv++P/sqP7Zj9G/74/wDsqOePcPaR7mrRWV/b
+Mfo3/fH/ANlR/bMfo3/fH/2VHPHuHtI9zVorK/tmP0b/AL4/+yo/tmP0b/vj/wCyo549w9pHuatF
+ZX9sx+jf98f/AGVH9sx+jf8AfH/2VHPHuHtI9zVorK/tmP0b/vj/AOyo/tmP0b/vj/7Kjnj3D2ke
+5q0Vlf2zH6N/3x/9lR/bMfo3/fH/ANlRzx7h7SPc1aKyv7Zj9G/74/8AsqP7Zj9G/wC+P/sqOePc
+PaR7mrRWV/bMfo3/AHx/9lR/bMfo3/fH/wBlRzx7h7SPc1aKyv7Zj9G/74/+yo/tmP0b/vj/AOyo
+549w9pHuaLRlmboMhcH6E0vlv/fX8v8A69Zv9sx+jf8AfH/2VH9sx+jf98f/AGVHPHuHtI9zS8t/
+76/l/wDXorN/tmP0b/vj/wCyoo549w9pHuXMXH/PSL/v2f8A4qjFx/z0i/79n/4qpaKouxFi4/56
+Rf8Afs//ABVGLj/npF/37P8A8VUtFAWIsXH/AD0i/wC/Z/8AiqMXH/PSL/v2f/iqlooCxFi4/wCe
+kX/fs/8AxVGLj/npF/37P/xVS0UBYixcf89Iv+/Z/wDiqMXH/PSL/v2f/iqlooCxFi4/56Rf9+z/
+APFUYuP+ekX/AH7P/wAVUtFAWIsXH/PSL/v2f/iqMXH/AD0i/wC/Z/8AiqlooCxFi4/56Rf9+z/8
+VRi4/wCekX/fs/8AxVS0UBYixcf89Iv+/Z/+Koxcf89Iv+/Z/wDiqlooCxFi4/56Rf8Afs//ABVG
+Lj/npF/37P8A8VUtFAWIsXH/AD0i/wC/Z/8AiqMXH/PSL/v2f/iqlooCxFi4/wCekX/fs/8AxVGL
+j/npF/37P/xVS0UBYixcf89Iv+/Z/wDiqMXH/PSL/v2f/iqlooCxFi4/56Rf9+z/APFUYuP+ekX/
+AH7P/wAVUtFAWIsXH/PSL/v2f/iqMXH/AD0i/wC/Z/8AiqlooCxFi4/56Rf9+z/8VRi4/wCekX/f
+s/8AxVS0UBYixcf89Iv+/Z/+Koxcf89Iv+/Z/wDiqlooCxFi4/56Rf8Afs//ABVGLj/npF/37P8A
+8VUtFAWIsXH/AD0i/wC/Z/8AiqMXH/PSL/v2f/iqlooCxFi4/wCekX/fs/8AxVGLj/npF/37P/xV
+S0UBYixcf89Iv+/Z/wDiqMXH/PSL/v2f/iqlooCxFi4/56Rf9+z/APFUYuP+ekX/AH7P/wAVUtFA
+WIsXH/PSL/v2f/iqMXH/AD0i/wC/Z/8AiqlooCxFi4/56Rf9+z/8VRi4/wCekX/fs/8AxVS0UBYi
+xcf89Iv+/Z/+Koxcf89Iv+/Z/wDiqlooCxFi4/56Rf8Afs//ABVGLj/npF/37P8A8VUtFAWIsXH/
+AD0i/wC/Z/8AiqMXH/PSL/v2f/iqlooCxFi4/wCekX/fs/8AxVGLj/npF/37P/xVS0UBYixcf89I
+v+/Z/wDiqMXH/PSL/v2f/iqlooCxFi4/56Rf9+z/APFUYuP+ekX/AH7P/wAVUtFAWIsXH/PSL/v2
+f/iqMXH/AD0i/wC/Z/8AiqlooCxFi4/56Rf9+z/8VRUtFAWCiiigYUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAgoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooA//Z
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="992;173"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a2681248-f84e-438f-ab02-23fa918f19f6"
+		sx="992"
+		sy="278"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2cc20ef5-ee99-4e90-806c-6a6d3bede6ab"
+			sourcename="Recorder">
+				<element
+				capabilities="delphielement"
+				dontcache="False"
+				enabled="True"
+				flavor="delphi"
+				hasfocus="False"
+				index="0"
+				prefcap="picture"
+				rect="0,105,1336,617"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="fulltype"
+					type="System.String">
+						Vcl.ExtCtrls.TImage
+					</attribute>
+					<attribute
+					name="fulltypelineage"
+					type="System.String[]">
+						System.TObject;System.Classes.TPersistent;System.Classes.TComponent;Vcl.Controls.TControl;Vcl.Controls.TGraphicControl;Vcl.ExtCtrls.TImage;
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Image1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						TImage
+					</attribute>
+					<dynamicattribute
+					description="Align"
+					name="Align"
+					readonly="False"
+					type="System.Enum">
+					</dynamicattribute>
+					<dynamicattribute
+					description="AlignWithMargins"
+					name="AlignWithMargins"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Anchors"
+					name="Anchors"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="AutoSize"
+					name="AutoSize"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="BiDiMode"
+					name="BiDiMode"
+					readonly="False"
+					type="System.Enum">
+					</dynamicattribute>
+					<dynamicattribute
+					description="BoundsRect"
+					name="BoundsRect"
+					readonly="False"
+					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Center"
+					name="Center"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ClientHeight"
+					name="ClientHeight"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ClientOrigin"
+					name="ClientOrigin"
+					type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ClientRect"
+					name="ClientRect"
+					type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ClientWidth"
+					name="ClientWidth"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ComponentCount"
+					name="ComponentCount"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ComponentIndex"
+					name="ComponentIndex"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ComponentState"
+					name="ComponentState"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ComponentStyle"
+					name="ComponentStyle"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ControlState"
+					name="ControlState"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ControlStyle"
+					name="ControlStyle"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="CurrentPPI"
+					name="CurrentPPI"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Cursor"
+					name="Cursor"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="DesignInfo"
+					name="DesignInfo"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="DockOrientation"
+					name="DockOrientation"
+					readonly="False"
+					type="System.Enum">
+					</dynamicattribute>
+					<dynamicattribute
+					description="DragCursor"
+					name="DragCursor"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="DragKind"
+					name="DragKind"
+					readonly="False"
+					type="System.Enum">
+					</dynamicattribute>
+					<dynamicattribute
+					description="DragMode"
+					name="DragMode"
+					readonly="False"
+					type="System.Enum">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Enabled"
+					name="Enabled"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="ExplicitHeight"
+					name="ExplicitHeight"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ExplicitLeft"
+					name="ExplicitLeft"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ExplicitTop"
+					name="ExplicitTop"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ExplicitWidth"
+					name="ExplicitWidth"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Floating"
+					name="Floating"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Height"
+					name="Height"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="HelpContext"
+					name="HelpContext"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="HelpKeyword"
+					name="HelpKeyword"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="HelpType"
+					name="HelpType"
+					readonly="False"
+					type="System.Enum">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Hint"
+					name="Hint"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="IncrementalDisplay"
+					name="IncrementalDisplay"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Left"
+					name="Left"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="LRDockWidth"
+					name="LRDockWidth"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ParentCustomHint"
+					name="ParentCustomHint"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ParentShowHint"
+					name="ParentShowHint"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Proportional"
+					name="Proportional"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ScaleFactor"
+					name="ScaleFactor"
+					type="System.Single">
+					</dynamicattribute>
+					<dynamicattribute
+					description="ShowHint"
+					name="ShowHint"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Stretch"
+					name="Stretch"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="StyleElements"
+					name="StyleElements"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="StyleName"
+					name="StyleName"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Tag"
+					name="Tag"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="TBDockHeight"
+					name="TBDockHeight"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Top"
+					name="Top"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Transparent"
+					name="Transparent"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="UndockHeight"
+					name="UndockHeight"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="UndockWidth"
+					name="UndockWidth"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Visible"
+					name="Visible"
+					readonly="False"
+					type="System.Boolean">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					description="Width"
+					name="Width"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicaction
+					description="AfterConstruction"
+					displayName="AfterConstruction">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Assign"
+					displayName="Assign">
+						<argument
+						description="Source"
+						displayName="Source"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="BeforeDestruction"
+					displayName="BeforeDestruction">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="BeginDrag"
+					displayName="BeginDrag">
+						<argument
+						description="Immediate"
+						displayName="Immediate"
+						type="System.Boolean">
+						</argument>
+						<argument
+						description="Threshold"
+						displayName="Threshold"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="BeginInvoke"
+					displayName="BeginInvoke">
+						<argument
+						description="AProc"
+						displayName="AProc"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Params"
+						displayName="Params"
+						type="System.Object">
+						</argument>
+						<argument
+						description="AContext"
+						displayName="AContext"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="BringToFront"
+					displayName="BringToFront">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClassInfo"
+					displayName="ClassInfo">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.IntPtr">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClassName"
+					displayName="ClassName">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClassNameIs"
+					displayName="ClassNameIs">
+						<argument
+						description="Name"
+						displayName="Name"
+						type="System.String">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClassParent"
+					displayName="ClassParent">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClassType"
+					displayName="ClassType">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="CleanupInstance"
+					displayName="CleanupInstance">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClientToParent"
+					displayName="ClientToParent">
+						<argument
+						description="Point"
+						displayName="Point"
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<argument
+						description="AParent"
+						displayName="AParent"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ClientToScreen"
+					displayName="ClientToScreen">
+						<argument
+						description="Point"
+						displayName="Point"
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Create"
+					displayName="Create">
+						<argument
+						description="AOwner"
+						displayName="AOwner"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DefaultHandler"
+					displayName="DefaultHandler">
+						<argument
+						description="Message"
+						displayName="Message"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DestroyComponents"
+					displayName="DestroyComponents">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Destroying"
+					displayName="Destroying">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Dispatch"
+					displayName="Dispatch">
+						<argument
+						description="Message"
+						displayName="Message"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DisposeOf"
+					displayName="DisposeOf">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Dock"
+					displayName="Dock">
+						<argument
+						description="NewDockSite"
+						displayName="NewDockSite"
+						type="System.Object">
+						</argument>
+						<argument
+						description="ARect"
+						displayName="ARect"
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DragDrop"
+					displayName="DragDrop">
+						<argument
+						description="Source"
+						displayName="Source"
+						type="System.Object">
+						</argument>
+						<argument
+						description="X"
+						displayName="X"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="Y"
+						displayName="Y"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Dragging"
+					displayName="Dragging">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DrawTextBiDiModeFlags"
+					displayName="DrawTextBiDiModeFlags">
+						<argument
+						description="Flags"
+						displayName="Flags"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="DrawTextBiDiModeFlagsReadingOnly"
+					displayName="DrawTextBiDiModeFlagsReadingOnly">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="EndDrag"
+					displayName="EndDrag">
+						<argument
+						description="Drop"
+						displayName="Drop"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="EndFunctionInvoke"
+					displayName="EndFunctionInvoke">
+						<argument
+						description="AsyncResult"
+						displayName="AsyncResult"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="EndInvoke"
+					displayName="EndInvoke">
+						<argument
+						description="ASyncResult"
+						displayName="ASyncResult"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Equals"
+					displayName="Equals">
+						<argument
+						description="Obj"
+						displayName="Obj"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ExecuteAction"
+					displayName="ExecuteAction">
+						<argument
+						description="Action"
+						displayName="Action"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FieldAddress"
+					displayName="FieldAddress">
+						<argument
+						description="Name"
+						displayName="Name"
+						type="System.String">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.IntPtr">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FindComponent"
+					displayName="FindComponent">
+						<argument
+						description="AName"
+						displayName="AName"
+						type="System.String">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Free"
+					displayName="Free">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FreeInstance"
+					displayName="FreeInstance">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FreeNotification"
+					displayName="FreeNotification">
+						<argument
+						description="AComponent"
+						displayName="AComponent"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="FreeOnRelease"
+					displayName="FreeOnRelease">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetComponent"
+					displayName="GetComponent">
+						<argument
+						description="AIndex"
+						displayName="AIndex"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetControlsAlignment"
+					displayName="GetControlsAlignment">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetEnumerator"
+					displayName="GetEnumerator">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetHashCode"
+					displayName="GetHashCode">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetInterface"
+					displayName="GetInterface">
+						<argument
+						description="IID"
+						displayName="IID"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Obj"
+						displayName="Obj"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetInterfaceEntry"
+					displayName="GetInterfaceEntry">
+						<argument
+						description="IID"
+						displayName="IID"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.IntPtr">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetInterfaceTable"
+					displayName="GetInterfaceTable">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.IntPtr">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetNamePath"
+					displayName="GetNamePath">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetParentComponent"
+					displayName="GetParentComponent">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetStyleName"
+					displayName="GetStyleName">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetSystemMetrics"
+					displayName="GetSystemMetrics">
+						<argument
+						description="nIndex"
+						displayName="nIndex"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetTextBuf"
+					displayName="GetTextBuf">
+						<argument
+						description="Buffer"
+						displayName="Buffer"
+						type="System.IntPtr">
+						</argument>
+						<argument
+						description="BufSize"
+						displayName="BufSize"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="GetTextLen"
+					displayName="GetTextLen">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="HasParent"
+					displayName="HasParent">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Hide"
+					displayName="Hide">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="InheritsFrom"
+					displayName="InheritsFrom">
+						<argument
+						description="AClass"
+						displayName="AClass"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="InitiateAction"
+					displayName="InitiateAction">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="InitInstance"
+					displayName="InitInstance">
+						<argument
+						description="Instance"
+						displayName="Instance"
+						type="System.IntPtr">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="InsertComponent"
+					displayName="InsertComponent">
+						<argument
+						description="AComponent"
+						displayName="AComponent"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="InstanceSize"
+					displayName="InstanceSize">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Invalidate"
+					displayName="Invalidate">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="IsCustomStyleActive"
+					displayName="IsCustomStyleActive">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="IsImplementorOf"
+					displayName="IsImplementorOf">
+						<argument
+						description="I"
+						displayName="I"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="IsLightStyleColor"
+					displayName="IsLightStyleColor">
+						<argument
+						description="AColor"
+						displayName="AColor"
+						type="System.Drawing.Color, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="IsRightToLeft"
+					displayName="IsRightToLeft">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ManualDock"
+					displayName="ManualDock">
+						<argument
+						description="NewDockSite"
+						displayName="NewDockSite"
+						type="System.Object">
+						</argument>
+						<argument
+						description="DropControl"
+						displayName="DropControl"
+						type="System.Object">
+						</argument>
+						<argument
+						description="ControlSide"
+						displayName="ControlSide"
+						type="System.Enum">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ManualFloat"
+					displayName="ManualFloat">
+						<argument
+						description="ScreenPos"
+						displayName="ScreenPos"
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="MethodAddress"
+					displayName="MethodAddress">
+						<argument
+						description="Name"
+						displayName="Name"
+						type="System.String">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.IntPtr">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="MethodName"
+					displayName="MethodName">
+						<argument
+						description="Address"
+						displayName="Address"
+						type="System.IntPtr">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="MouseWheelHandler"
+					displayName="MouseWheelHandler">
+						<argument
+						description="Message"
+						displayName="Message"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="NewInstance"
+					displayName="NewInstance">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ParentToClient"
+					displayName="ParentToClient">
+						<argument
+						description="Point"
+						displayName="Point"
+						type="System.Drawing.Point, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<argument
+						description="AParent"
+						displayName="AParent"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Perform"
+					displayName="Perform">
+						<argument
+						description="Msg"
+						displayName="Msg"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="WParam"
+						displayName="WParam"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="LParam"
+						displayName="LParam"
+						type="System.IntPtr">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="QualifiedClassName"
+					displayName="QualifiedClassName">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ReferenceInterface"
+					displayName="ReferenceInterface">
+						<argument
+						description="I"
+						displayName="I"
+						type="System.Object">
+						</argument>
+						<argument
+						description="Operation"
+						displayName="Operation"
+						type="System.Enum">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Refresh"
+					displayName="Refresh">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="RemoveComponent"
+					displayName="RemoveComponent">
+						<argument
+						description="AComponent"
+						displayName="AComponent"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="RemoveFreeNotification"
+					displayName="RemoveFreeNotification">
+						<argument
+						description="AComponent"
+						displayName="AComponent"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Repaint"
+					displayName="Repaint">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ReplaceDockedControl"
+					displayName="ReplaceDockedControl">
+						<argument
+						description="Control"
+						displayName="Control"
+						type="System.Object">
+						</argument>
+						<argument
+						description="NewDockSite"
+						displayName="NewDockSite"
+						type="System.Object">
+						</argument>
+						<argument
+						description="DropControl"
+						displayName="DropControl"
+						type="System.Object">
+						</argument>
+						<argument
+						description="ControlSide"
+						displayName="ControlSide"
+						type="System.Enum">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SafeCallException"
+					displayName="SafeCallException">
+						<argument
+						description="ExceptObject"
+						displayName="ExceptObject"
+						type="System.Object">
+						</argument>
+						<argument
+						description="ExceptAddr"
+						displayName="ExceptAddr"
+						type="System.IntPtr">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ScaleForPPI"
+					displayName="ScaleForPPI">
+						<argument
+						description="NewPPI"
+						displayName="NewPPI"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ScaleRectSize"
+					displayName="ScaleRectSize">
+						<argument
+						description="Value"
+						displayName="Value"
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ScaleValue"
+					displayName="ScaleValue">
+						<argument
+						description="Value"
+						displayName="Value"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Int32">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ScreenToClient"
+					displayName="ScreenToClient">
+						<argument
+						description="Rect"
+						displayName="Rect"
+						type="System.Drawing.Rectangle, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SendToBack"
+					displayName="SendToBack">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SetBounds"
+					displayName="SetBounds">
+						<argument
+						description="ALeft"
+						displayName="ALeft"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="ATop"
+						displayName="ATop"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="AWidth"
+						displayName="AWidth"
+						type="System.Int32">
+						</argument>
+						<argument
+						description="AHeight"
+						displayName="AHeight"
+						type="System.Int32">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SetDesignVisible"
+					displayName="SetDesignVisible">
+						<argument
+						description="Value"
+						displayName="Value"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SetParentComponent"
+					displayName="SetParentComponent">
+						<argument
+						description="Value"
+						displayName="Value"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SetSubComponent"
+					displayName="SetSubComponent">
+						<argument
+						description="IsSubComponent"
+						displayName="IsSubComponent"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="SetTextBuf"
+					displayName="SetTextBuf">
+						<argument
+						description="Buffer"
+						displayName="Buffer"
+						type="System.IntPtr">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Show"
+					displayName="Show">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="ToString"
+					displayName="ToString">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="UnitName"
+					displayName="UnitName">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="UnitScope"
+					displayName="UnitScope">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="Update"
+					displayName="Update">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Object">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="UpdateAction"
+					displayName="UpdateAction">
+						<argument
+						description="Action"
+						displayName="Action"
+						type="System.Object">
+						</argument>
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="UseRightToLeftAlignment"
+					displayName="UseRightToLeftAlignment">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="UseRightToLeftReading"
+					displayName="UseRightToLeftReading">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="UseRightToLeftScrollBar"
+					displayName="UseRightToLeftScrollBar">
+						<returns
+						description="ReturnType"
+						displayName="ReturnType"
+						type="System.Enum">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@name='FrmPrincipal']/picture[@name='Image1']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="cf81faa5-0f8c-4ac5-ad49-e6cbea88f3d6">
+				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
+B7JfzL+vka9FZHmal/fP/fr/AOxo8zUv75/79f8A2NHN5B7JfzL+vka9FZHmal/fP/fr/wCxo8zU
+v75/79f/AGNHN5B7JfzL+vka9FZHmal/fP8A36/+xo8zUv75/wC/X/2NHN5B7JfzL+vka9FZHmal
+/fP/AH6/+xo8zUv75/79f/Y0c3kHsl/Mv6+Rr0VkeZqX98/9+v8A7GjzNS/vn/v1/wDY0c3kHsl/
+Mv6+Rr0VkeZqX98/9+v/ALGjzNS/vn/v1/8AY0c3kHsl/Mv6+Rr0VkeZqX98/wDfr/7GjzNS/vn/
+AL9f/Y0c3kHsl/Mv6+Rr0VkeZqX98/8Afr/7GjzNS/vn/v1/9jRzeQeyX8y/r5GvRWR5mpf3z/36
+/wDsaPM1L++f+/X/ANjRzeQeyX8y/r5GvRWR5mpf3z/36/8AsaPM1L++f+/X/wBjRzeQeyX8y/r5
+GvRWR5mpf3z/AN+v/saKObyD2S/mX9fI16KKKoxCiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKrbX/AOe8v/jv/wATRtf/AJ7y
+/wDjv/xNOwrlmiq21/8AnvL/AOO//E0bX/57y/8Ajv8A8TRYLlmiq21/+e8v/jv/AMTRtf8A57y/
++O//ABNFguWaKrbX/wCe8v8A47/8TRtf/nvL/wCO/wDxNFguWaKrbX/57y/+O/8AxNG1/wDnvL/4
+7/8AE0WC5Zoqttf/AJ7y/wDjv/xNG1/+e8v/AI7/APE0WC5Zoqttf/nvL/47/wDE0bX/AOe8v/jv
+/wATRYLlmiq21/8AnvL/AOO//E0bX/57y/8Ajv8A8TRYLlmiq21/+e8v/jv/AMTRtf8A57y/+O//
+ABNFguWaKrbX/wCe8v8A47/8TRtf/nvL/wCO/wDxNFguWaKrbX/57y/+O/8AxNG1/wDnvL/47/8A
+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
+hySAANx+br1HFXLe0S33bWdiwwSx9yf6mol05AgV5pn2qFQkgFMEHjAHoOuelAB/aCk7Ft5mkGd0
+Y25XGOvOO471Il7E8XmKG27lXp/exj+Yohs0icyb3dyDuZsZbOPQewqNdORdoWaUICp2ZGCVxg9M
+9hQBLaXa3aF443CdVY4w30wT+R5qeoLe0WCR5PMeR3ABZ8ZIHToBn8anoAKKKKACiiigAooooAKr
+f8tpf94f+girNVv+W0v+8P8A0EU0JkcX+tn/AN8f+grUtRRf62f/AHx/6CtS0hhRRRQMKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKALFFFFAgooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAqt/y
+2l/3h/6CKs1W/wCW0v8AvD/0EU0JkcX+tn/3x/6CtS1FF/rZ/wDfH/oK1LSGFFFFAwooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAlxL/fT/vg/wCNGJf7
+6f8AfB/xqPyo/wDnmn/fIo8qP/nmn/fIoESYl/vp/wB8H/GjEv8AfT/vg/41H5Uf/PNP++RTZIow
+owi/eHb3FAE2Jf76f98H/GjEv99P++D/AI1H5Uf/ADzT/vkUeVH/AM80/wC+RQBJiX++n/fB/wAa
+MS/30/74P+NR+VH/AM80/wC+RR5Uf/PNP++RQBJiX++n/fB/xoxL/fT/AL4P+NR+VH/zzT/vkUeV
+H/zzT/vkUASYl/vp/wB8H/GjEv8AfT/vg/41Xma3gCmSP7xwAsZYk/QCmvNaJb+e3liPpkgDn057
+0AWsS/30/wC+D/jRiX++n/fB/wAars1ssIlwjI33Si7t30x1pU+zvEJVVNhGclcUAT4l/vp/3wf8
+aMS/30/74P8AjVMT2hjLheAQMeUd3PTAxk08CGVYnjVSrH+7jsaALOJf76f98H/GjEv99P8Avg/4
+1H5Uf/PNP++RR5Uf/PNP++RQBJiX++n/AHwf8aMS/wB9P++D/jUflR/880/75FHlR/8APNP++RQB
+JiX++n/fB/xoxL/fT/vg/wCNR+VH/wA80/75FHlR/wDPNP8AvkUASYl/vp/3wf8AGjEv99P++D/j
+UflR/wDPNP8AvkVAk1pJL5ar82SBmIgEjqASMGgC3iX++n/fB/xoxL/fT/vg/wCNVkktHnaBTEZF
+6rxn8qd/o/neTiPzMbtuBkCgCfEv99P++D/jRiX++n/fB/xqtNJawsFkVQT6JnHucDgfWhZLVpzC
+FXf/ALnB9gcYJoAtRMWTLYzkjj2OKdUduAIsDgbm/makoAKKKKACq3/LaX/eH/oIqzVb/ltL/vD/
+ANBFNCZHF/rZ/wDfH/oK1LUUX+tn/wB8f+grUtIYUUUUDCiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigCSik8uT++n/fB/xo8uT++n/fB/xoELTJfuD/eX
++Yp3lyf30/74P+NNlSQKMuv3l/h9x70APopPLk/vp/3wf8aPLk/vp/3wf8aAFopPLk/vp/3wf8aP
+Lk/vp/3wf8aAFopPLk/vp/3wf8aPLk/vp/3wf8aAILuGSZofLdk2uSWXGR8pHeqdxFKtiFMUm+Ny
+d8bLyT1bB9cnjtWn5cn99P8Avg/40eXJ/fT/AL4P+NAFV1nMNvI6b5Y23MqkAngj6Z5qMJIbdrUp
+h5kkYkn7mTwP1/Sr3lyf30/74P8AjR5cn99P++D/AI0AUDHO84uTA6lCv7vcu5sBgT1x/F69qnt0
+aOKIONrNIzFc5xnccfrVjy5P76f98H/Gmukm6P51+9/d9j70APopPLk/vp/3wf8AGjy5P76f98H/
+ABoAWik8uT++n/fB/wAaPLk/vp/3wf8AGgBaKTy5P76f98H/ABo8uT++n/fB/wAaAFrPitp4pEkb
+dIokc+XlRsyThh68HoT3q/5cn99P++D/AI0eXJ/fT/vg/wCNAFCzSZL6VQjpF1YOVI/4Djn86mkL
+rfI/lOY1jYF8rgZwfXPb0qz5cn99P++D/jR5cn99P++D/jQBnyrPPGzrAf8ASYQmNw/d9eTn/e7e
+lPjhlWdEMZCRyvJ5mRg5zx6/xfpV3y5P76f98H/Gjy5P76f98H/GgBYP9X/wJv5mpKjgyI8Hrub+
+ZqSgAooooAKrf8tpf94f+girNVv+W0v+8P8A0EU0JkcX+tn/AN8f+grUtRRf62f/AHx/6CtS0hhR
+RRQMKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKALFF
+M81fR/8Avg/4Ueavo/8A3wf8KBD6ZN9wf7y/zFHmr6P/AN8H/CmSSBlACv8AeB+4fUe1AE1FM81f
+R/8Avg/4Ueavo/8A3wf8KAH0UzzV9H/74P8AhR5q+j/98H/CgB9FM81fR/8Avg/4Ueavo/8A3wf8
+KAK2ok/uFCzMGkOVifax+U98j+dVpXmbS0McjHcxyAwLhcnA+buOAfoa0S8ZIJViVOQTGeP0qGaG
+1nRkkgyGO4/uT19enWgBjyedb2oWSQpK+1mztY8E9RjHIHSkSdk02QiTMiiTy9xyW2k4Pv0FWH8h
+4vKeLdHjGwxEj8sUgWFZEdUcbE2KBGcAcdOPYUAUyCtytsssphcoWJkYkZDH72cjO1asWrFoYdzF
+tsjqGJySBuA/QU4RWixNELZRGxyyCHgn6YpxZF8pURlVD0EZAAwR6UAT0UzzV9H/AO+D/hR5q+j/
+APfB/wAKAH0UzzV9H/74P+FHmr6P/wB8H/CgB9FM81fR/wDvg/4Ueavo/wD3wf8ACgB9Zdq7m7TJ
+mUtJJlpJCUcAnhRk4PTsOAa0fNX0f/vg/wCFMPkldpiJUHdgxHGc5z09aAKlpLJ/aMizSP8AP9wD
+aUYD0xz09ferLFxqKDzGKNEx2cYBBHP60kUdtFM8scO13+8RERn9KV0tnk81of3oGBJ5R3D6HFAF
+a8k3mZ0mYCKESRlHIBbJ644PQdaWJn+0RyF33vM8bIWO3aM446DoPzqcRWwSJTDu8oDYWiJK/Tin
+gQCYzCHErDBcRHcR9cUAPh+4f95v5mn0yH/V9CMsx5GO5p9ABRRRQAVW/wCW0v8AvD/0EVZqt/y2
+l/3h/wCgimhMji/1s/8Avj/0FalqKL/Wz/74/wDQVqWkMKKKKBhRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBYooooEFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFVv+W0v+8P/QRVmq3/AC2l
+/wB4f+gimhMji/1s/wDvj/0FalqKL/Wz/wC+P/QVqWkMKKKKBhRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBYooooEFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFVv+W0v+8P/AEEVZqt/y2l/
+3h/6CKaEyOL/AFs/++P/AEFalqKL/Wz/AO+P/QVqWkMKKKKBhRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBYooooEFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFVv+W0v+8P8A0EVZqt/y2l/3
+h/6CKaEyOL/Wz/74/wDQVqWoov8AWz/74/8AQVqWkMKKKKBhRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBYooooEFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFVv8AltL/ALw/9BFWarf8tpf9
+4f8AoIpoTI4v9bP/AL4/9BWpaii/1s/++P8A0FalpDCiiigYUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAWKKKKBBRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABVb/ltL/vD/0EVZqt/wAtpf8A
+eH/oIpoTI4v9bP8A74/9BWpaii/1s/8Avj/0FalpDCiiigYUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAWKKKKBBRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABVb/ltL/vD/wBBFWarf8tpf94f
++gimhMji/wBbP/vj/wBBWpaii/1s/wDvj/0FalpDCiiigYUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAWKKKKBBRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABVb/ltL/vD/ANBFWarf8tpf94f+
+gimhMji/1s/++P8A0FalqKL/AFs/++P/AEFalpDCiiigYUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAWKKKKBBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABVb/AJbS/wC8P/QRRRTQmRxf62f/
+AHx/6CtS0UUhhRRRQMKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="e673638c-a425-4557-bcc9-272a16b84fc6"
+	name="SomaGestaoRepository"
+	relativepath="SomaGestaoRepository.rxrep">
+		<codegen
+		classname="SomaGestaoRepository"
+		namespace="SomaGestao">
+		</codegen>
+		<rootfolder
+		id="f2cd860b-bfa5-45ff-8440-ac23afd068d8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		DeleteFrmBonificacao_Configuracao.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

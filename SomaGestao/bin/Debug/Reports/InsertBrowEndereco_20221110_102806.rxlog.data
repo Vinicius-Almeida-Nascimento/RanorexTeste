@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="11.53s"
+		durationms="11527"
+		type="root"
+		rid="11df715c80af1a24"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dev10"
+		rxversion="9.2.1.0"
+		host="VINICIUS-TESTER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1366x1536"
+		timestamp="10/11/2022 10:28:10"
+		timestampiso="2022-11-10T13:28:10"
+		endtime="10/11/2022 10:28:21"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InsertBrowEndereco">
+		<detail>
+			InsertBrowEndereco
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.095"
+			timeRelativeToTestModuleStartTime="00:04.095"
+			timeWallClock="10:28:14"
+			time="00:04.095"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NomeCliente, Confirmacao, CEP, NumEnd
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.123"
+			timeRelativeToTestModuleStartTime="00:04.123"
+			timeWallClock="10:28:14"
+			time="00:04.123"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'FrmPrincipal.Form65280'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='BrowEndereco']"
+				itempath="form[@name='BrowEndereco']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form65280"
+				id="b63a3d9db985464d9eb29cbaec3f802a"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="134"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.648"
+			timeRelativeToTestModuleStartTime="00:05.648"
+			timeWallClock="10:28:15"
+			time="00:05.648"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Form65280' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='BrowEndereco']"
+				itempath="form[@name='BrowEndereco']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form65280"
+				id="b63a3d9db985464d9eb29cbaec3f802a"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="135"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.753"
+			timeRelativeToTestModuleStartTime="00:05.753"
+			timeWallClock="10:28:16"
+			time="00:05.753"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BASEDETESTESBIANCHINI.Image1' at 416;552.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="138"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.391"
+			timeRelativeToTestModuleStartTime="00:06.391"
+			timeWallClock="10:28:16"
+			time="00:06.391"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$NomeCliente' with focus on 'ProcuraFrmProcura'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmProcura']"
+				itempath="/form[@name='FrmProcura']"
+				fullname="SomaGestaoRepository.ProcuraFrmProcura.Self"
+				id="8e6ee7ac9009450793c3bc94e8c9cb62"
+				timeout="30000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="142"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.529"
+			timeRelativeToTestModuleStartTime="00:07.529"
+			timeWallClock="10:28:17"
+			time="00:07.529"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Confirmacao' with focus on 'ProcuraFrmProcura'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmProcura']"
+				itempath="/form[@name='FrmProcura']"
+				fullname="SomaGestaoRepository.ProcuraFrmProcura.Self"
+				id="8e6ee7ac9009450793c3bc94e8c9cb62"
+				timeout="30000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="147"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.713"
+			timeRelativeToTestModuleStartTime="00:07.713"
+			timeWallClock="10:28:18"
+			time="00:07.713"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'ProcuraFrmProcura.TESTECNPJTESTE' at 95;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmProcura']/table[@name='DBGrid1']/?/?/cell[@name='TESTE CNPJ TESTE']"
+				itempath="table[@name='DBGrid1']/?/?/cell[@name='TESTE CNPJ TESTE']"
+				fullname="SomaGestaoRepository.ProcuraFrmProcura.TESTECNPJTESTE"
+				id="d28b423330dd4877966c6a666c01344a"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="152"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.307"
+			timeRelativeToTestModuleStartTime="00:08.307"
+			timeWallClock="10:28:18"
+			time="00:08.307"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Confirmacao' with focus on 'FrmPrincipal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']"
+				itempath="/form[@controlname='FrmPrincipal']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Self"
+				id="eb1bacb402cd47e7bb71452522584988"
+				timeout="30000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="156"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.484"
+			timeRelativeToTestModuleStartTime="00:08.484"
+			timeWallClock="10:28:18"
+			time="00:08.484"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{NumPad1}{NumPad3}{NumPad6}{NumPad0}{NumPad6}{NumPad3}{NumPad2}{NumPad1}' with focus on 'FrmPrincipal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']"
+				itempath="/form[@controlname='FrmPrincipal']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Self"
+				id="eb1bacb402cd47e7bb71452522584988"
+				timeout="30000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="161"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.816"
+			timeRelativeToTestModuleStartTime="00:08.816"
+			timeWallClock="10:28:19"
+			time="00:08.816"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Confirmacao' with focus on 'FrmPrincipal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']"
+				itempath="/form[@controlname='FrmPrincipal']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Self"
+				id="eb1bacb402cd47e7bb71452522584988"
+				timeout="30000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="166"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.994"
+			timeRelativeToTestModuleStartTime="00:08.994"
+			timeWallClock="10:28:19"
+			time="00:08.994"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$NumEnd' with focus on 'FrmPrincipal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']"
+				itempath="/form[@controlname='FrmPrincipal']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Self"
+				id="eb1bacb402cd47e7bb71452522584988"
+				timeout="30000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="171"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.459"
+			timeRelativeToTestModuleStartTime="00:09.459"
+			timeWallClock="10:28:19"
+			time="00:09.459"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Confirmacao' with focus on 'FrmPrincipal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']"
+				itempath="/form[@controlname='FrmPrincipal']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Self"
+				id="eb1bacb402cd47e7bb71452522584988"
+				timeout="30000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="176"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.637"
+			timeRelativeToTestModuleStartTime="00:09.637"
+			timeWallClock="10:28:19"
+			time="00:09.637"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BASEDETESTESBIANCHINI.Image1' at 743;403.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="181"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.058"
+			timeRelativeToTestModuleStartTime="00:10.058"
+			timeWallClock="10:28:20"
+			time="00:10.058"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'None' at 64;78.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/element[@name='none']"
+				itempath="/element[@name='none']"
+				fullname="SomaGestaoRepository.None.Self"
+				id="904fb021ee2d4c6aacd3db9f2859d62c"
+				timeout="30000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="185"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.610"
+			timeRelativeToTestModuleStartTime="00:10.610"
+			timeWallClock="10:28:20"
+			time="00:10.610"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BASEDETESTESBIANCHINI.Image1' at 444;491.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="189"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.040"
+			timeRelativeToTestModuleStartTime="00:11.040"
+			timeWallClock="10:28:21"
+			time="00:11.040"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BASEDETESTESBIANCHINI.Image1' at 946;148.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\InsertBrowEndereco.cs"
+				codeline="193"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

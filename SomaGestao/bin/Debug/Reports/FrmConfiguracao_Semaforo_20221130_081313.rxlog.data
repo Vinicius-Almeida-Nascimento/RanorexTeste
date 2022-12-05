@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.57s"
+		durationms="7574"
+		type="root"
+		rid="59c72fd6a3aece2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dev10"
+		rxversion="9.2.1.0"
+		host="VINICIUS-TESTER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1366x1536"
+		timestamp="30/11/2022 08:13:17"
+		timestampiso="2022-11-30T11:13:17"
+		endtime="30/11/2022 08:13:25"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FrmConfiguracao_Semaforo">
+		<detail>
+			FrmConfiguracao_Semaforo
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.713"
+			timeRelativeToTestModuleStartTime="00:03.713"
+			timeWallClock="08:13:21"
+			time="00:03.713"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BASEDETESTESBIANCHINI.Cadastro' at 38;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/?/?/menuitem[@name='Cadastro1']"
+				itempath="?/?/menuitem[@name='Cadastro1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Cadastro"
+				id="5bd6788206874fbcaacc0eead95fd63a"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\FrmConfiguracao_Semaforo.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.200"
+			timeRelativeToTestModuleStartTime="00:06.200"
+			timeWallClock="08:13:24"
+			time="00:06.200"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Oficina.MenuItem1' at 68;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Oficina']/contextmenu/menuitem[1]"
+				itempath="contextmenu/menuitem[1]"
+				fullname="SomaGestaoRepository.Oficina.MenuItem1"
+				id="f8934f3ca1094a35a43204536ee17a87"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\FrmConfiguracao_Semaforo.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.733"
+			timeRelativeToTestModuleStartTime="00:06.733"
+			timeWallClock="08:13:24"
+			time="00:06.733"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Oficina.MenuItem3' at 90;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Oficina']/contextmenu/menuitem[4]"
+				itempath="contextmenu/menuitem[4]"
+				fullname="SomaGestaoRepository.Oficina.MenuItem3"
+				id="8303d9deb1944db0b12cc072163b2cee"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\FrmConfiguracao_Semaforo.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.266"
+			timeRelativeToTestModuleStartTime="00:07.266"
+			timeWallClock="08:13:25"
+			time="00:07.266"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'FrmPrincipal.Form6528021'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='FrmConfiguracao_Semaforo']"
+				itempath="form[@name='FrmConfiguracao_Semaforo']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528021"
+				id="780d2bffa4d04eeca60f4c0d13738cb7"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\FrmConfiguracao_Semaforo.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.471"
+			timeRelativeToTestModuleStartTime="00:07.471"
+			timeWallClock="08:13:25"
+			time="00:07.471"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Form6528021' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='FrmConfiguracao_Semaforo']"
+				itempath="form[@name='FrmConfiguracao_Semaforo']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528021"
+				id="780d2bffa4d04eeca60f4c0d13738cb7"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\FrmConfiguracao_Semaforo.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="10.15s"
+		durationms="10147"
+		type="root"
+		rid="5e5a38f438ebcc8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dev10"
+		rxversion="9.2.1.0"
+		host="VINICIUS-TESTER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1366x1536"
+		timestamp="10/11/2022 08:12:48"
+		timestampiso="2022-11-10T11:12:48"
+		endtime="10/11/2022 08:12:58"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="BrowEndereco">
+		<detail>
+			BrowEndereco
+		</detail>
+		<errormessage>
+			Failed to move to location '-69;10' within element '{MenuItem:MenuItem}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.330"
+			timeRelativeToTestModuleStartTime="00:03.330"
+			timeWallClock="08:12:52"
+			time="00:03.330"
+			level="Info"
+			category="Mouse"
+			errimg="images_BrowEnde_6abe0d29\BrowEnde_6abe0d29_6931ef80_trace.jpg"
+			errthumb="images_BrowEnde_6abe0d29\BrowEnde_6abe0d29_6931ef80_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'BASEDETESTESBIANCHINI.Cadastro' at 5;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/?/?/menuitem[@name='Cadastro1']"
+				itempath="?/?/menuitem[@name='Cadastro1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Cadastro"
+				id="5bd6788206874fbcaacc0eead95fd63a"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\BrowEndereco.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.809"
+			timeRelativeToTestModuleStartTime="00:09.809"
+			timeWallClock="08:12:58"
+			time="00:09.809"
+			level="Info"
+			category="Mouse"
+			errimg="images_BrowEnde_6abe0d29\BrowEnde_6abe0d29_7ee930f1_trace.jpg"
+			errthumb="images_BrowEnde_6abe0d29\BrowEnde_6abe0d29_7ee930f1_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Oficina.MenuItem1' at -69;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Oficina']/contextmenu/menuitem[1]"
+				itempath="contextmenu/menuitem[1]"
+				fullname="SomaGestaoRepository.Oficina.MenuItem1"
+				id="f8934f3ca1094a35a43204536ee17a87"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\BrowEndereco.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.983"
+			timeRelativeToTestModuleStartTime="00:09.983"
+			timeWallClock="08:12:58"
+			time="00:09.983"
+			level="Warn"
+			category="Click"
+			errimg="images_BrowEnde_6abe0d29\BrowEnde_4a5da3ef_rxlog.jpg"
+			errthumb="images_BrowEnde_6abe0d29\BrowEnde_4a5da3ef_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\BrowEndereco.cs"
+				codeline="87"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.077"
+			timeRelativeToTestModuleStartTime="00:10.077"
+			timeWallClock="08:12:58"
+			time="00:10.077"
+			level="Error"
+			category="Module"
+			errimg="images_BrowEnde_6abe0d29\BrowEnde_6abe0d29_0091e5d3_trace.jpg"
+			errthumb="images_BrowEnde_6abe0d29\BrowEnde_6abe0d29_0091e5d3_trace_thumb.jpg">
+			<message>
+				Failed to move to location '-69;10' within element '{MenuItem:MenuItem}'.<br/>The pointer cannot be moved to point '{X=-66,Y=55}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   em Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   em Ranorex.Mouse.Click(Element element, MouseButtons buttons, Location location, Int32 times, Duration moveTime)
+   em Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   em Ranorex.Adapter.Click(Location location)
+   em SomaGestao.BrowEndereco.Ranorex.Core.Testing.ITestModule.Run() na c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\BrowEndereco.cs:linha 87
+   em Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\BrowEndereco.cs"
+				codeline="87"
+				type="repoitem"
+				path="/contextmenu[@processname='Oficina']/contextmenu/menuitem[1]"
+				itempath="contextmenu/menuitem[1]"
+				fullname="SomaGestaoRepository.Oficina.MenuItem1"
+				id="f8934f3ca1094a35a43204536ee17a87"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

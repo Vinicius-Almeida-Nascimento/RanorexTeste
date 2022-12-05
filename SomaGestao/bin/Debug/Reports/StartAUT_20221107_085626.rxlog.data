@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.88s"
+		durationms="3883"
+		type="root"
+		rid="3420f8fb94d2d3c9"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dev10"
+		rxversion="9.2.1.0"
+		host="VINICIUS-TESTER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1366x1536"
+		timestamp="07/11/2022 08:56:29"
+		timestampiso="2022-11-07T11:56:29"
+		endtime="07/11/2022 08:56:33"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.800"
+			timeRelativeToTestModuleStartTime="00:03.800"
+			timeWallClock="08:56:33"
+			time="00:03.800"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.824"
+			timeRelativeToTestModuleStartTime="00:03.824"
+			timeWallClock="08:56:33"
+			time="00:03.824"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Programas\Oficina.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\StartAUT.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.86s"
+		durationms="7861"
+		type="root"
+		rid="11614e24bf2d0ac"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dev10"
+		rxversion="9.2.1.0"
+		host="VINICIUS-TESTER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1366x1536"
+		timestamp="10/11/2022 08:57:00"
+		timestampiso="2022-11-10T11:57:00"
+		endtime="10/11/2022 08:57:07"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="FrmReajusteItemContrato">
+		<detail>
+			FrmReajusteItemContrato
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.026"
+			timeRelativeToTestModuleStartTime="00:04.026"
+			timeWallClock="08:57:04"
+			time="00:04.026"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'BASEDETESTESBIANCHINI.Image1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\FrmReajusteItemContrato.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.552"
+			timeRelativeToTestModuleStartTime="00:05.552"
+			timeWallClock="08:57:05"
+			time="00:05.552"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Image1' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\FrmReajusteItemContrato.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.654"
+			timeRelativeToTestModuleStartTime="00:05.654"
+			timeWallClock="08:57:05"
+			time="00:05.654"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BASEDETESTESBIANCHINI.Cadastro' at 35;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/?/?/menuitem[@name='Cadastro1']"
+				itempath="?/?/menuitem[@name='Cadastro1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Cadastro"
+				id="5bd6788206874fbcaacc0eead95fd63a"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\FrmReajusteItemContrato.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.265"
+			timeRelativeToTestModuleStartTime="00:06.265"
+			timeWallClock="08:57:06"
+			time="00:06.265"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Oficina.MenuItem' at 130;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Oficina']/contextmenu/menuitem[3]"
+				itempath="contextmenu/menuitem[3]"
+				fullname="SomaGestaoRepository.Oficina.MenuItem"
+				id="90f321cf937a48229a84a6c4319cea47"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\FrmReajusteItemContrato.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.830"
+			timeRelativeToTestModuleStartTime="00:06.830"
+			timeWallClock="08:57:06"
+			time="00:06.830"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Oficina.MenuItem15' at 115;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Oficina']/contextmenu/menuitem[16]"
+				itempath="contextmenu/menuitem[16]"
+				fullname="SomaGestaoRepository.Oficina.MenuItem15"
+				id="f680e3505d554a32902569f20f82ad7a"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\FrmReajusteItemContrato.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.398"
+			timeRelativeToTestModuleStartTime="00:07.398"
+			timeWallClock="08:57:07"
+			time="00:07.398"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'FrmPrincipal.Form6528013'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='FrmReajusteItemContrato']"
+				itempath="form[@name='FrmReajusteItemContrato']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528013"
+				id="2519ec99e3534d118e262bba3819384b"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\FrmReajusteItemContrato.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.751"
+			timeRelativeToTestModuleStartTime="00:07.751"
+			timeWallClock="08:57:07"
+			time="00:07.751"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Form6528013' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='FrmReajusteItemContrato']"
+				itempath="form[@name='FrmReajusteItemContrato']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528013"
+				id="2519ec99e3534d118e262bba3819384b"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\FrmReajusteItemContrato.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

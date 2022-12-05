@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.77s"
+		durationms="7774"
+		type="root"
+		rid="234cbde01d4176d"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dev10"
+		rxversion="9.2.1.0"
+		host="VINICIUS-TESTER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1366x1536"
+		timestamp="07/11/2022 09:20:57"
+		timestampiso="2022-11-07T12:20:57"
+		endtime="07/11/2022 09:21:05"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseAUT">
+		<detail>
+			CloseAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.896"
+			timeRelativeToTestModuleStartTime="00:03.896"
+			timeWallClock="09:21:01"
+			time="00:03.896"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>CloseAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.929"
+			timeRelativeToTestModuleStartTime="00:03.929"
+			timeWallClock="09:21:01"
+			time="00:03.929"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'BASEDETESTESBIANCHINI.Image1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\CloseAUT.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.819"
+			timeRelativeToTestModuleStartTime="00:04.819"
+			timeWallClock="09:21:02"
+			time="00:04.819"
+			level="Warn"
+			category="Qt">
+			<message>
+				Ranorex can&#8217;t identify UI elements in your Qt AUT because it couldn&#8217;t instrument it automatically. Start Ranorex Studio and the AUT with the same privileges, preferably as an administrator, and ensure your Qt version is supported.<br/>Process: 'fdm' (pid 11908)<br/>https://www.ranorex.com/help/v9.2/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				showInProgressDialog="False"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\CloseAUT.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.438"
+			timeRelativeToTestModuleStartTime="00:06.438"
+			timeWallClock="09:21:04"
+			time="00:06.438"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Image1' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\CloseAUT.cs"
+				codeline="96"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.542"
+			timeRelativeToTestModuleStartTime="00:06.542"
+			timeWallClock="09:21:04"
+			time="00:06.542"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BASEDETESTESBIANCHINI.BASEDETESTESBIANCHINI' at 1334;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/titlebar[@accessiblerole='TitleBar']"
+				itempath="titlebar[@accessiblerole='TitleBar']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.BASEDETESTESBIANCHINI"
+				id="33aaad138bb94185b488c0f57c420eef"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\CloseAUT.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.056"
+			timeRelativeToTestModuleStartTime="00:07.056"
+			timeWallClock="09:21:04"
+			time="00:07.056"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'Assistente'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Assistente']"
+				itempath="/form[@title='Assistente']"
+				fullname="SomaGestaoRepository.Assistente.Self"
+				id="605408b5f547452d86415ec58cefd800"
+				timeout="30000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\CloseAUT.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.260"
+			timeRelativeToTestModuleStartTime="00:07.260"
+			timeWallClock="09:21:04"
+			time="00:07.260"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Self' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Assistente']"
+				itempath="/form[@title='Assistente']"
+				fullname="SomaGestaoRepository.Assistente.Self"
+				id="605408b5f547452d86415ec58cefd800"
+				timeout="30000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\CloseAUT.cs"
+				codeline="104"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.369"
+			timeRelativeToTestModuleStartTime="00:07.369"
+			timeWallClock="09:21:04"
+			time="00:07.369"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Assistente.ButtonSim' at 23;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Assistente']/button[@text='&amp;Sim']"
+				itempath="button[@text='&amp;Sim']"
+				fullname="SomaGestaoRepository.Assistente.ButtonSim"
+				id="c1bcc7581a494ac4ba83e6c8bf3c3333"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\CloseAUT.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

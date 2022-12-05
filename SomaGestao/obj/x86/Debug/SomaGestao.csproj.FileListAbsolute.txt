@@ -1,0 +1,13 @@
+C:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\bin\Debug\SomaGestao.rxtmg
+C:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\bin\Debug\SomaGestao.rxtst
+C:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\bin\Debug\SomaGestao.exe.config
+C:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\bin\Debug\SomaGestao.xml
+C:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\bin\Debug\SomaGestao.exe
+C:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\bin\Debug\SomaGestao.pdb
+C:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\obj\x86\Debug\SomaGestao.csprojResolveAssemblyReference.cache
+C:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\obj\x86\Debug\SomaGestao.exe
+C:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\obj\x86\Debug\SomaGestao.pdb
+C:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\bin\Debug\RepositoryImages\SomaGestaoRepositoryf2cd860b.rximgres
+C:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\bin\Debug\BrowCliente_DataSource.csv
+C:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\bin\Debug\BrowEndereco_DataSource1.csv

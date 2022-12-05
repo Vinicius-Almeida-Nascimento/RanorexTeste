@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="21.49s"
+		durationms="21485"
+		type="root"
+		rid="1f10e21b744d6348"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dev10"
+		rxversion="9.2.1.0"
+		host="VINICIUS-TESTER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1366x1536"
+		timestamp="10/11/2022 08:28:47"
+		timestampiso="2022-11-10T11:28:47"
+		endtime="10/11/2022 08:29:08"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="DeleteBrowSituacao_Cliente">
+		<detail>
+			DeleteBrowSituacao_Cliente
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.436"
+			timeRelativeToTestModuleStartTime="00:03.436"
+			timeWallClock="08:28:50"
+			time="00:03.436"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'FrmPrincipal.Form652803'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='BrowSituacao_Cliente']"
+				itempath="form[@name='BrowSituacao_Cliente']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form652803"
+				id="f3acf89643c44b3e91cdbe7a0b44220f"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\DeleteBrowSituacao_Cliente.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.482"
+			timeRelativeToTestModuleStartTime="00:21.482"
+			timeWallClock="08:29:08"
+			time="00:21.482"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

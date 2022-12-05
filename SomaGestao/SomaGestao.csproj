@@ -1,0 +1,2479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{AE1C0BCF-727B-4B70-B890-48CD8DE3434A}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SomaGestao</RootNamespace>
+    <AssemblyName>SomaGestao</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>d410f13c-22be-49c8-84f7-752547d2870b</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlterBrowEmpresa.cs">
+      <BoundTo>34a4a679-a5fa-41ab-ade9-5da1a5fb4ff7</BoundTo>
+      <DependentUpon>AlterBrowEmpresa.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ef1cb226-946c-4e3c-b619-6987ab8b97e2</id>
+    </Compile>
+    <Compile Include="AlterBrowEmpresa.UserCode.cs">
+      <BoundTo>34a4a679-a5fa-41ab-ade9-5da1a5fb4ff7</BoundTo>
+      <DependentUpon>AlterBrowEmpresa.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>49f3db50-f24c-43e9-9ec1-c3e109e509a0</id>
+    </Compile>
+    <Compile Include="AlterBrowParametro.cs">
+      <BoundTo>eef897f9-a5e5-4861-b487-ea3427f2fafd</BoundTo>
+      <DependentUpon>AlterBrowParametro.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9e5ff00f-1a42-4c29-8e3b-de6dfc78ef54</id>
+    </Compile>
+    <Compile Include="AlterBrowParametro.UserCode.cs">
+      <BoundTo>eef897f9-a5e5-4861-b487-ea3427f2fafd</BoundTo>
+      <DependentUpon>AlterBrowParametro.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>772c9f5e-3da9-4037-89f5-0734aeebf9dd</id>
+    </Compile>
+    <Compile Include="AlterFrmCRM.cs">
+      <BoundTo>1cfecef6-d8ef-403c-a18c-4b86bb08e678</BoundTo>
+      <DependentUpon>AlterFrmCRM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f8a78461-15a9-4c91-8390-775b97887e9e</id>
+    </Compile>
+    <Compile Include="AlterFrmCRM.UserCode.cs">
+      <BoundTo>1cfecef6-d8ef-403c-a18c-4b86bb08e678</BoundTo>
+      <DependentUpon>AlterFrmCRM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>093f377d-e42c-49eb-bc07-cb6660035822</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>e4ae8a08-528f-4e90-90dd-266aa2d8c66b</id>
+    </Compile>
+    <Compile Include="BrowCampoDinamico.cs">
+      <BoundTo>37d35bb8-5bfc-4c87-a85d-ff005c464db5</BoundTo>
+      <DependentUpon>BrowCampoDinamico.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>43d145e0-c5f6-4370-9620-97e3a467e7f0</id>
+    </Compile>
+    <Compile Include="BrowCampoDinamico.UserCode.cs">
+      <BoundTo>37d35bb8-5bfc-4c87-a85d-ff005c464db5</BoundTo>
+      <DependentUpon>BrowCampoDinamico.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c928c627-abb5-499c-8610-74ab6a8b77c0</id>
+    </Compile>
+    <Compile Include="BrowCampoObrigatorio.cs">
+      <BoundTo>8d515b85-5e00-4104-8755-a8f2a6d8ecb0</BoundTo>
+      <DependentUpon>BrowCampoObrigatorio.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>388d6b8c-1114-4e80-ad25-ddf9448f4307</id>
+    </Compile>
+    <Compile Include="BrowCampoObrigatorio.UserCode.cs">
+      <BoundTo>8d515b85-5e00-4104-8755-a8f2a6d8ecb0</BoundTo>
+      <DependentUpon>BrowCampoObrigatorio.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>24eff6ea-3a87-4580-a398-f1a0425de061</id>
+    </Compile>
+    <Compile Include="BrowCargo.cs">
+      <BoundTo>0ade64f6-61a0-49fb-9f16-05158a3295c4</BoundTo>
+      <DependentUpon>BrowCargo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b1e8c4dd-b192-4186-a758-30f0fbc4b836</id>
+    </Compile>
+    <Compile Include="BrowCargo.UserCode.cs">
+      <BoundTo>0ade64f6-61a0-49fb-9f16-05158a3295c4</BoundTo>
+      <DependentUpon>BrowCargo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b1f69d91-1e22-45a5-adcf-07eaeffc2c46</id>
+    </Compile>
+    <Compile Include="BrowCategorias_Orcamento.cs">
+      <BoundTo>fe58aec0-2800-4662-972f-d668c1150f38</BoundTo>
+      <DependentUpon>BrowCategorias_Orcamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9cf5526d-1a01-4b66-8760-c85b0677b648</id>
+    </Compile>
+    <Compile Include="BrowCategorias_Orcamento.UserCode.cs">
+      <BoundTo>fe58aec0-2800-4662-972f-d668c1150f38</BoundTo>
+      <DependentUpon>BrowCategorias_Orcamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ee66dfe4-2f6e-4a31-8faa-57236154d75c</id>
+    </Compile>
+    <Compile Include="BrowCategoria_Status.cs">
+      <BoundTo>6fcbda65-327d-479d-a9ce-c9e102a507ba</BoundTo>
+      <DependentUpon>BrowCategoria_Status.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5621cae7-a861-4016-907c-f1951f65655c</id>
+    </Compile>
+    <Compile Include="BrowCategoria_Status.UserCode.cs">
+      <BoundTo>6fcbda65-327d-479d-a9ce-c9e102a507ba</BoundTo>
+      <DependentUpon>BrowCategoria_Status.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a5353f4a-cd61-4c90-be8d-38d460cfd9dc</id>
+    </Compile>
+    <Compile Include="BrowClassificacao_Cliente.cs">
+      <BoundTo>f9730f4f-c1bb-4e9c-9710-5b9a55315b23</BoundTo>
+      <DependentUpon>BrowClassificacao_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eeb2b389-82db-4fec-b523-d300d4e3b408</id>
+    </Compile>
+    <Compile Include="BrowClassificacao_Cliente.UserCode.cs">
+      <BoundTo>f9730f4f-c1bb-4e9c-9710-5b9a55315b23</BoundTo>
+      <DependentUpon>BrowClassificacao_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9f643051-753e-4eac-be7f-04dbe60ef6ba</id>
+    </Compile>
+    <Compile Include="BrowCliente_CRM.cs">
+      <BoundTo>15af24ea-a179-4023-8109-e7023e1fab16</BoundTo>
+      <DependentUpon>BrowCliente_CRM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a765d61f-de5c-421a-93a6-6720850b5928</id>
+    </Compile>
+    <Compile Include="BrowCliente_CRM.UserCode.cs">
+      <BoundTo>15af24ea-a179-4023-8109-e7023e1fab16</BoundTo>
+      <DependentUpon>BrowCliente_CRM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aad3b4e4-58fe-4b14-a006-3391261ec2bf</id>
+    </Compile>
+    <Compile Include="BrowContato_CRM_Cliente.cs">
+      <BoundTo>23e8cd69-c60e-4322-8042-1c539ca718d6</BoundTo>
+      <DependentUpon>BrowContato_CRM_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c5b5257b-36f4-484a-b228-f87c270702b4</id>
+    </Compile>
+    <Compile Include="BrowContato_CRM_Cliente.UserCode.cs">
+      <BoundTo>23e8cd69-c60e-4322-8042-1c539ca718d6</BoundTo>
+      <DependentUpon>BrowContato_CRM_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e7e241fe-95af-48e9-b246-c4c17c6164d9</id>
+    </Compile>
+    <Compile Include="BrowContratoPadrao.cs">
+      <BoundTo>233ebaac-c690-4d5d-88cb-1973b4c853b1</BoundTo>
+      <DependentUpon>BrowContratoPadrao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>40e1f76a-8fa0-4616-884c-a4e03c4edca1</id>
+    </Compile>
+    <Compile Include="BrowContratoPadrao.UserCode.cs">
+      <BoundTo>233ebaac-c690-4d5d-88cb-1973b4c853b1</BoundTo>
+      <DependentUpon>BrowContratoPadrao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8f886414-51d2-4bc2-8f67-51a07759898e</id>
+    </Compile>
+    <Compile Include="BrowCorretoras.cs">
+      <BoundTo>f01c0f7b-d868-4b32-9c7a-1198b0c39a6f</BoundTo>
+      <DependentUpon>BrowCorretoras.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>89de4e78-2636-4755-8912-9e2bd5ce885c</id>
+    </Compile>
+    <Compile Include="BrowCorretoras.UserCode.cs">
+      <BoundTo>f01c0f7b-d868-4b32-9c7a-1198b0c39a6f</BoundTo>
+      <DependentUpon>BrowCorretoras.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5623facb-1eee-481b-9b83-3df65bcd083c</id>
+    </Compile>
+    <Compile Include="BrowDepartamento.cs">
+      <BoundTo>2105253d-1907-45ea-9aa3-ae815df9ffbb</BoundTo>
+      <DependentUpon>BrowDepartamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>26715c7a-d19a-4f2f-a387-31fe600a289d</id>
+    </Compile>
+    <Compile Include="BrowDepartamento.UserCode.cs">
+      <BoundTo>2105253d-1907-45ea-9aa3-ae815df9ffbb</BoundTo>
+      <DependentUpon>BrowDepartamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d9b4a7f2-797e-4661-931e-eedde533554c</id>
+    </Compile>
+    <Compile Include="BrowEndereco.cs">
+      <BoundTo>a35dd5b5-6ee3-42d7-9d03-8b692359db77</BoundTo>
+      <DependentUpon>BrowEndereco.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>81c9e955-6f06-4509-adeb-14cc0eb173f1</id>
+    </Compile>
+    <Compile Include="BrowEndereco.UserCode.cs">
+      <BoundTo>a35dd5b5-6ee3-42d7-9d03-8b692359db77</BoundTo>
+      <DependentUpon>BrowEndereco.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>efbb118b-aedc-4ac8-a288-3b096e104f88</id>
+    </Compile>
+    <Compile Include="BrowForma_Cobranca.cs">
+      <BoundTo>cc9b0ce1-3248-437f-aee1-d777a0211eb9</BoundTo>
+      <DependentUpon>BrowForma_Cobranca.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b7401d71-901b-464c-9454-9496d4ba9c21</id>
+    </Compile>
+    <Compile Include="BrowForma_Cobranca.UserCode.cs">
+      <BoundTo>cc9b0ce1-3248-437f-aee1-d777a0211eb9</BoundTo>
+      <DependentUpon>BrowForma_Cobranca.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7ebabd28-ddab-4a44-bac7-c97fd56dd3ab</id>
+    </Compile>
+    <Compile Include="BrowFrmMidia.cs">
+      <BoundTo>6de4cc9a-3049-4b92-956e-e0b8fbef0113</BoundTo>
+      <DependentUpon>BrowFrmMidia.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8e9ab87a-e30c-4de7-8855-6d4e3dbf7051</id>
+    </Compile>
+    <Compile Include="BrowFrmMidia.UserCode.cs">
+      <BoundTo>6de4cc9a-3049-4b92-956e-e0b8fbef0113</BoundTo>
+      <DependentUpon>BrowFrmMidia.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4cad5a21-ef9a-49c2-bb9a-92e868c93ff2</id>
+    </Compile>
+    <Compile Include="BrowFrmParametros.cs">
+      <BoundTo>6c281479-166a-4ffc-a066-67ba32cb48b5</BoundTo>
+      <DependentUpon>BrowFrmParametros.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7fab57d9-fb73-40b0-9e30-4e24d84b78c9</id>
+    </Compile>
+    <Compile Include="BrowFrmParametros.UserCode.cs">
+      <BoundTo>6c281479-166a-4ffc-a066-67ba32cb48b5</BoundTo>
+      <DependentUpon>BrowFrmParametros.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>da881c73-6d32-4825-a666-dd7e7ed6a2fa</id>
+    </Compile>
+    <Compile Include="BrowFrm_Feriado.cs">
+      <BoundTo>99c9593e-51b7-4454-912b-2b230db5681d</BoundTo>
+      <DependentUpon>BrowFrm_Feriado.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7dca2e03-7fd7-406f-9c09-41c94ae66921</id>
+    </Compile>
+    <Compile Include="BrowFrm_Feriado.UserCode.cs">
+      <BoundTo>99c9593e-51b7-4454-912b-2b230db5681d</BoundTo>
+      <DependentUpon>BrowFrm_Feriado.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b81eb857-9ec1-4b07-beae-014efa5cf9d3</id>
+    </Compile>
+    <Compile Include="BrowInformacao_de_Credito.cs">
+      <BoundTo>7157eeaa-df33-48d5-a591-adc7373f8519</BoundTo>
+      <DependentUpon>BrowInformacao_de_Credito.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1909271a-fa1b-4745-aa51-74ff7085ab87</id>
+    </Compile>
+    <Compile Include="BrowInformacao_de_Credito.UserCode.cs">
+      <BoundTo>7157eeaa-df33-48d5-a591-adc7373f8519</BoundTo>
+      <DependentUpon>BrowInformacao_de_Credito.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7763aa8d-a424-48a2-a922-22c581001f4f</id>
+    </Compile>
+    <Compile Include="BrowOrigemCadastro.cs">
+      <BoundTo>c150262e-9794-42ba-97ad-5bf03a487d93</BoundTo>
+      <DependentUpon>BrowOrigemCadastro.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>23744fc0-aa60-4729-9db4-128d9989d5fa</id>
+    </Compile>
+    <Compile Include="BrowOrigemCadastro.UserCode.cs">
+      <BoundTo>c150262e-9794-42ba-97ad-5bf03a487d93</BoundTo>
+      <DependentUpon>BrowOrigemCadastro.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>470cebe6-6d45-4ab5-a139-0f49313e5480</id>
+    </Compile>
+    <Compile Include="BrowPais_Cliente.cs">
+      <BoundTo>ade7dd2b-7d73-44c8-a197-30fc2fd1036d</BoundTo>
+      <DependentUpon>BrowPais_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ce75ac73-b55e-4fbf-bcd7-8fa485de5b22</id>
+    </Compile>
+    <Compile Include="BrowPais_Cliente.UserCode.cs">
+      <BoundTo>ade7dd2b-7d73-44c8-a197-30fc2fd1036d</BoundTo>
+      <DependentUpon>BrowPais_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>42e9fcc7-1c3b-455e-ba0c-18016672ab40</id>
+    </Compile>
+    <Compile Include="BrowParametro.cs">
+      <BoundTo>4e787a01-48a1-4ab2-aa4e-a0d50940e05c</BoundTo>
+      <DependentUpon>BrowParametro.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c556fddc-8a3f-424f-9e43-f73acb46fcdb</id>
+    </Compile>
+    <Compile Include="BrowParametro.UserCode.cs">
+      <BoundTo>4e787a01-48a1-4ab2-aa4e-a0d50940e05c</BoundTo>
+      <DependentUpon>BrowParametro.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7dd9691a-872c-4aa3-8e17-9cfbeb889b95</id>
+    </Compile>
+    <Compile Include="BrowReajusteContrato.cs">
+      <BoundTo>037bbb28-60d6-4a72-8772-29dc93d4ed26</BoundTo>
+      <DependentUpon>BrowReajusteContrato.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>819a4788-e47a-4ec8-89ec-5d67a5fd3a2f</id>
+    </Compile>
+    <Compile Include="BrowReajusteContrato.UserCode.cs">
+      <BoundTo>037bbb28-60d6-4a72-8772-29dc93d4ed26</BoundTo>
+      <DependentUpon>BrowReajusteContrato.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f5361f38-ff22-402a-905f-b0a68f0269d8</id>
+    </Compile>
+    <Compile Include="BrowRegiao_Cliente.cs">
+      <BoundTo>caddfbfa-6835-4e96-80e0-9e09e3f55860</BoundTo>
+      <DependentUpon>BrowRegiao_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>19f613b5-1df1-41fa-9f2a-d8db39848fff</id>
+    </Compile>
+    <Compile Include="BrowRegiao_Cliente.UserCode.cs">
+      <BoundTo>caddfbfa-6835-4e96-80e0-9e09e3f55860</BoundTo>
+      <DependentUpon>BrowRegiao_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aa89fae4-4d08-457a-aa09-0cfc50ebbe95</id>
+    </Compile>
+    <Compile Include="BrowSeguradoras.cs">
+      <BoundTo>09c53175-c768-4f32-97dd-5200cd652144</BoundTo>
+      <DependentUpon>BrowSeguradoras.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bf271d8a-f66f-4270-9502-6fedce8b6f55</id>
+    </Compile>
+    <Compile Include="BrowSeguradoras.UserCode.cs">
+      <BoundTo>09c53175-c768-4f32-97dd-5200cd652144</BoundTo>
+      <DependentUpon>BrowSeguradoras.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ff50e185-3deb-4f44-b661-7c9cdef4fcb5</id>
+    </Compile>
+    <Compile Include="BrowSituacao_Cliente.cs">
+      <BoundTo>0bb40ede-ecc7-4e89-8488-acfc3bef28a8</BoundTo>
+      <DependentUpon>BrowSituacao_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5d516bfd-24f3-4763-83f6-63c6e93dd109</id>
+    </Compile>
+    <Compile Include="BrowSituacao_Cliente.UserCode.cs">
+      <BoundTo>0bb40ede-ecc7-4e89-8488-acfc3bef28a8</BoundTo>
+      <DependentUpon>BrowSituacao_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4ba410b8-25c1-441f-bc1d-fcede72d1ac8</id>
+    </Compile>
+    <Compile Include="BrowTipo_Cobertura.cs">
+      <BoundTo>439a9756-c2f2-4da6-8f31-faa00fd5cedd</BoundTo>
+      <DependentUpon>BrowTipo_Cobertura.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c58ac46f-c425-496c-b061-e3c0e7c91834</id>
+    </Compile>
+    <Compile Include="BrowTipo_Cobertura.UserCode.cs">
+      <BoundTo>439a9756-c2f2-4da6-8f31-faa00fd5cedd</BoundTo>
+      <DependentUpon>BrowTipo_Cobertura.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d0e710f9-8e72-4fbe-be9c-d4cef1c5697c</id>
+    </Compile>
+    <Compile Include="BrowTipo_Contato.cs">
+      <BoundTo>18a6d8a8-6773-4d8c-bdbb-4d2f96259f7e</BoundTo>
+      <DependentUpon>BrowTipo_Contato.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2e87daad-6d78-4701-a8c5-1c609eaf60c4</id>
+    </Compile>
+    <Compile Include="BrowTipo_Contato.UserCode.cs">
+      <BoundTo>18a6d8a8-6773-4d8c-bdbb-4d2f96259f7e</BoundTo>
+      <DependentUpon>BrowTipo_Contato.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>576911b8-c0a2-4165-ad7c-aac3df5f2bca</id>
+    </Compile>
+    <Compile Include="BrowTipo_de_Cliente.cs">
+      <BoundTo>d1a610ba-dd95-4fb9-a533-70663295a743</BoundTo>
+      <DependentUpon>BrowTipo_de_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e21fedff-f965-45d6-bbe4-6ea69a1b74a0</id>
+    </Compile>
+    <Compile Include="BrowTipo_de_Cliente.UserCode.cs">
+      <BoundTo>d1a610ba-dd95-4fb9-a533-70663295a743</BoundTo>
+      <DependentUpon>BrowTipo_de_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>97d16a53-7b86-4f0f-89cf-fc821a126ab0</id>
+    </Compile>
+    <Compile Include="BrowTipo_de_Endereco.cs">
+      <BoundTo>6d4def51-d083-41b8-86d6-09ff15672d95</BoundTo>
+      <DependentUpon>BrowTipo_de_Endereco.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5d9b215b-ec44-40cc-81b7-d03d9e028c2a</id>
+    </Compile>
+    <Compile Include="BrowTipo_de_Endereco.UserCode.cs">
+      <BoundTo>6d4def51-d083-41b8-86d6-09ff15672d95</BoundTo>
+      <DependentUpon>BrowTipo_de_Endereco.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b9015d1c-a247-48f0-bc8a-29039fe13b1a</id>
+    </Compile>
+    <Compile Include="Brow_Consulta_Cliente.cs">
+      <BoundTo>c507f4a7-e89e-411e-927b-50f2c6ed2f5f</BoundTo>
+      <DependentUpon>Brow_Consulta_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0d074077-574f-4d60-ab6b-ebb1a250d375</id>
+    </Compile>
+    <Compile Include="Brow_Consulta_Cliente.UserCode.cs">
+      <BoundTo>c507f4a7-e89e-411e-927b-50f2c6ed2f5f</BoundTo>
+      <DependentUpon>Brow_Consulta_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2d47e90a-94c5-4aad-8364-784a9f212f36</id>
+    </Compile>
+    <Compile Include="Brow_Dados_Cadastrais.cs">
+      <BoundTo>e7a6d78c-d09a-4763-91d4-2209e7844412</BoundTo>
+      <DependentUpon>Brow_Dados_Cadastrais.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>67d9f8fb-3855-4893-9fd1-02c87aa5e87e</id>
+    </Compile>
+    <Compile Include="Brow_Dados_Cadastrais.UserCode.cs">
+      <BoundTo>e7a6d78c-d09a-4763-91d4-2209e7844412</BoundTo>
+      <DependentUpon>Brow_Dados_Cadastrais.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>898896cb-9771-430b-b331-e48811b7f922</id>
+    </Compile>
+    <Compile Include="CloseAUT.cs">
+      <BoundTo>75b5588f-6d72-4623-a0b7-834b8722ff9c</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5dc16c38-6545-417a-a2fe-2019027c8811</id>
+    </Compile>
+    <Compile Include="CloseAUT.UserCode.cs">
+      <BoundTo>75b5588f-6d72-4623-a0b7-834b8722ff9c</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>11b11f78-ca1d-4669-a5c6-d90da45a7876</id>
+    </Compile>
+    <Compile Include="DeleteBrowCampoDinamico.cs">
+      <BoundTo>00348d04-8457-45f9-97c3-8f0b8d3f2127</BoundTo>
+      <DependentUpon>DeleteBrowCampoDinamico.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6fb5e12f-6871-43a2-a08b-66c75d8ebcb9</id>
+    </Compile>
+    <Compile Include="DeleteBrowCampoDinamico.UserCode.cs">
+      <BoundTo>00348d04-8457-45f9-97c3-8f0b8d3f2127</BoundTo>
+      <DependentUpon>DeleteBrowCampoDinamico.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8269249d-5aa3-4eae-abf1-a9ae200d881f</id>
+    </Compile>
+    <Compile Include="DeleteBrowCampoObrigatorio.cs">
+      <BoundTo>a609150c-86f5-4213-b433-9c83995a2642</BoundTo>
+      <DependentUpon>DeleteBrowCampoObrigatorio.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b6576ff9-6a33-41f8-9bef-e2ca765cd1c6</id>
+    </Compile>
+    <Compile Include="DeleteBrowCampoObrigatorio.UserCode.cs">
+      <BoundTo>a609150c-86f5-4213-b433-9c83995a2642</BoundTo>
+      <DependentUpon>DeleteBrowCampoObrigatorio.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4dd7ab47-0631-4b07-a81b-364348e5c7b9</id>
+    </Compile>
+    <Compile Include="DeleteBrowCargo.cs">
+      <BoundTo>9b7c7770-eb7c-4092-afae-ad605dad0386</BoundTo>
+      <DependentUpon>DeleteBrowCargo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7cb5a16b-bd05-4694-b1f1-49b15b5f6200</id>
+    </Compile>
+    <Compile Include="DeleteBrowCargo.UserCode.cs">
+      <BoundTo>9b7c7770-eb7c-4092-afae-ad605dad0386</BoundTo>
+      <DependentUpon>DeleteBrowCargo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4424979d-1cfe-464d-9c23-21eac66891da</id>
+    </Compile>
+    <Compile Include="DeleteBrowCategorias_Orcamento.cs">
+      <BoundTo>9828c98f-6954-4f35-992c-b430ca3adf68</BoundTo>
+      <DependentUpon>DeleteBrowCategorias_Orcamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6e5c5942-78b6-4e4f-a8f9-84b9c3ef1167</id>
+    </Compile>
+    <Compile Include="DeleteBrowCategorias_Orcamento.UserCode.cs">
+      <BoundTo>9828c98f-6954-4f35-992c-b430ca3adf68</BoundTo>
+      <DependentUpon>DeleteBrowCategorias_Orcamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4f22e9ce-91ac-44bf-b6a4-430d1607b38c</id>
+    </Compile>
+    <Compile Include="DeleteBrowCategoria_Status.cs">
+      <BoundTo>00274bc1-762e-4510-afea-311a0edbb7f7</BoundTo>
+      <DependentUpon>DeleteBrowCategoria_Status.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b58c871c-9b3d-46e6-9393-7f9b357058b8</id>
+    </Compile>
+    <Compile Include="DeleteBrowCategoria_Status.UserCode.cs">
+      <BoundTo>00274bc1-762e-4510-afea-311a0edbb7f7</BoundTo>
+      <DependentUpon>DeleteBrowCategoria_Status.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3cf0ea57-42c7-4340-b5b8-c1ef60b1f5b6</id>
+    </Compile>
+    <Compile Include="DeleteBrowCliente.cs">
+      <BoundTo>a2f7e89c-1fd4-4406-8600-fa2eb1634635</BoundTo>
+      <DependentUpon>DeleteBrowCliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ad996403-6c25-40ea-8531-66a9063236ca</id>
+    </Compile>
+    <Compile Include="DeleteBrowCliente.UserCode.cs">
+      <BoundTo>a2f7e89c-1fd4-4406-8600-fa2eb1634635</BoundTo>
+      <DependentUpon>DeleteBrowCliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>92f67c87-c6eb-4281-a6a4-1d809548f3a7</id>
+    </Compile>
+    <Compile Include="DeleteBrowCliente_CRM.cs">
+      <BoundTo>c081e32b-ad82-490f-81ca-4f66aa7f8d8b</BoundTo>
+      <DependentUpon>DeleteBrowCliente_CRM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bbcc331f-c922-4c15-ab9d-cf09ea1b8588</id>
+    </Compile>
+    <Compile Include="DeleteBrowCliente_CRM.UserCode.cs">
+      <BoundTo>c081e32b-ad82-490f-81ca-4f66aa7f8d8b</BoundTo>
+      <DependentUpon>DeleteBrowCliente_CRM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a39a2b75-1df5-4535-8272-34d6276ccf2f</id>
+    </Compile>
+    <Compile Include="DeleteBrowContato_CRM_Cliente.cs">
+      <BoundTo>c717f16b-757b-4c76-9c75-40ca35bbf65d</BoundTo>
+      <DependentUpon>DeleteBrowContato_CRM_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>df11b972-5dda-468d-a58c-c71cc50f9540</id>
+    </Compile>
+    <Compile Include="DeleteBrowContato_CRM_Cliente.UserCode.cs">
+      <BoundTo>c717f16b-757b-4c76-9c75-40ca35bbf65d</BoundTo>
+      <DependentUpon>DeleteBrowContato_CRM_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d45c2cd3-2709-477c-b8c5-021e1365c5f6</id>
+    </Compile>
+    <Compile Include="DeleteBrowContratoPadrao.cs">
+      <BoundTo>7e2d8785-d271-4532-8b02-da26ecf823c5</BoundTo>
+      <DependentUpon>DeleteBrowContratoPadrao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>41f694e3-8f94-4c89-891c-b04017a96b40</id>
+    </Compile>
+    <Compile Include="DeleteBrowContratoPadrao.UserCode.cs">
+      <BoundTo>7e2d8785-d271-4532-8b02-da26ecf823c5</BoundTo>
+      <DependentUpon>DeleteBrowContratoPadrao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>04bbd9f0-f4b6-4e6f-9883-d8aba4007709</id>
+    </Compile>
+    <Compile Include="DeleteBrowCorretoras.cs">
+      <BoundTo>234bad86-0ddd-4309-946c-782480bc5cdf</BoundTo>
+      <DependentUpon>DeleteBrowCorretoras.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>137c2a7f-8c24-4556-8a49-c5ff895b4c44</id>
+    </Compile>
+    <Compile Include="DeleteBrowCorretoras.UserCode.cs">
+      <BoundTo>234bad86-0ddd-4309-946c-782480bc5cdf</BoundTo>
+      <DependentUpon>DeleteBrowCorretoras.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>41a3bd5a-7e3b-4605-bb08-78537809e84a</id>
+    </Compile>
+    <Compile Include="DeleteBrowDepartamento.cs">
+      <BoundTo>57a887bf-57bb-4b8e-b7ba-caca288ac3ae</BoundTo>
+      <DependentUpon>DeleteBrowDepartamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6507e876-484b-41ba-b8c1-71de6a20fe7c</id>
+    </Compile>
+    <Compile Include="DeleteBrowDepartamento.UserCode.cs">
+      <BoundTo>57a887bf-57bb-4b8e-b7ba-caca288ac3ae</BoundTo>
+      <DependentUpon>DeleteBrowDepartamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f6b75519-ed9d-445f-8f09-3e8ebf31ae47</id>
+    </Compile>
+    <Compile Include="DeleteBrowEndereco.cs">
+      <BoundTo>3133820a-b3d0-4ab9-a149-81f98ca3f3ed</BoundTo>
+      <DependentUpon>DeleteBrowEndereco.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0c09299d-11da-4eca-b718-fa9000529878</id>
+    </Compile>
+    <Compile Include="DeleteBrowEndereco.UserCode.cs">
+      <BoundTo>3133820a-b3d0-4ab9-a149-81f98ca3f3ed</BoundTo>
+      <DependentUpon>DeleteBrowEndereco.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b3aaa9f3-ce27-4c92-a966-34a8ef98d46c</id>
+    </Compile>
+    <Compile Include="DeleteBrowForma_Cobranca.cs">
+      <BoundTo>fa56ff10-06a4-4fbd-a1d0-dcf9c2814bb6</BoundTo>
+      <DependentUpon>DeleteBrowForma_Cobranca.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>08cb9621-56e1-4542-9ff3-d7595efd1b90</id>
+    </Compile>
+    <Compile Include="DeleteBrowForma_Cobranca.UserCode.cs">
+      <BoundTo>fa56ff10-06a4-4fbd-a1d0-dcf9c2814bb6</BoundTo>
+      <DependentUpon>DeleteBrowForma_Cobranca.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8ccaa2ab-5cc3-4eb8-b9fc-df0b79e14c45</id>
+    </Compile>
+    <Compile Include="DeleteBrowInformacao_de_Credito.cs">
+      <BoundTo>7e9b2dae-0e78-477a-ad99-040caa0b087d</BoundTo>
+      <DependentUpon>DeleteBrowInformacao_de_Credito.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0b725a86-d6dd-4f4d-bdb9-7e2c916f0252</id>
+    </Compile>
+    <Compile Include="DeleteBrowInformacao_de_Credito.UserCode.cs">
+      <BoundTo>7e9b2dae-0e78-477a-ad99-040caa0b087d</BoundTo>
+      <DependentUpon>DeleteBrowInformacao_de_Credito.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>44df6e79-54bd-45c3-bbc3-301aa86847ac</id>
+    </Compile>
+    <Compile Include="DeleteBrowOrigemCadastro.cs">
+      <BoundTo>ff526c08-de1f-4be5-951d-c50d5e61381e</BoundTo>
+      <DependentUpon>DeleteBrowOrigemCadastro.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8adadfb1-7bc7-468d-9d35-aea1e1f68f7b</id>
+    </Compile>
+    <Compile Include="DeleteBrowOrigemCadastro.UserCode.cs">
+      <BoundTo>ff526c08-de1f-4be5-951d-c50d5e61381e</BoundTo>
+      <DependentUpon>DeleteBrowOrigemCadastro.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f10f7110-50f7-4f12-9afb-17a86bac4edb</id>
+    </Compile>
+    <Compile Include="DeleteBrowPais_Cliente.cs">
+      <BoundTo>30b8bede-78ab-4237-a4e9-779a941c471c</BoundTo>
+      <DependentUpon>DeleteBrowPais_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5445e2a6-613f-4ddb-b229-07ca61790366</id>
+    </Compile>
+    <Compile Include="DeleteBrowPais_Cliente.UserCode.cs">
+      <BoundTo>30b8bede-78ab-4237-a4e9-779a941c471c</BoundTo>
+      <DependentUpon>DeleteBrowPais_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>477e42f2-1b74-4d18-bbb9-f0e990107e0a</id>
+    </Compile>
+    <Compile Include="DeleteBrowRegiao_Cliente.cs">
+      <BoundTo>568ff4b6-2bd9-427c-940a-cfbd8989995f</BoundTo>
+      <DependentUpon>DeleteBrowRegiao_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>85aa2786-ee63-44bc-a8cc-fdd8ebe0424a</id>
+    </Compile>
+    <Compile Include="DeleteBrowRegiao_Cliente.UserCode.cs">
+      <BoundTo>568ff4b6-2bd9-427c-940a-cfbd8989995f</BoundTo>
+      <DependentUpon>DeleteBrowRegiao_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fb2c810c-fdc0-4c83-8f27-9bbb426b748a</id>
+    </Compile>
+    <Compile Include="DeleteBrowSeguradoras.cs">
+      <BoundTo>2dc843b8-7086-4313-bc3c-71c3c914ef1b</BoundTo>
+      <DependentUpon>DeleteBrowSeguradoras.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>595f78a0-4eac-408e-807c-4ce24dc79ffd</id>
+    </Compile>
+    <Compile Include="DeleteBrowSeguradoras.UserCode.cs">
+      <BoundTo>2dc843b8-7086-4313-bc3c-71c3c914ef1b</BoundTo>
+      <DependentUpon>DeleteBrowSeguradoras.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>10b126df-ff7d-4576-9414-81262023e77d</id>
+    </Compile>
+    <Compile Include="DeleteBrowSituacao_Cliente.cs">
+      <BoundTo>f0ee8996-1d93-48ed-b31f-f4c3b9904040</BoundTo>
+      <DependentUpon>DeleteBrowSituacao_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3cb208ca-6937-48ef-9fe5-1bb14b929231</id>
+    </Compile>
+    <Compile Include="DeleteBrowSituacao_Cliente.UserCode.cs">
+      <BoundTo>f0ee8996-1d93-48ed-b31f-f4c3b9904040</BoundTo>
+      <DependentUpon>DeleteBrowSituacao_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>202778eb-cbfe-4760-b1d4-f50116d27b1e</id>
+    </Compile>
+    <Compile Include="DeleteBrowTipo_Cobertura.cs">
+      <BoundTo>935da75c-dd39-4b41-917d-2e3ea4435413</BoundTo>
+      <DependentUpon>DeleteBrowTipo_Cobertura.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d38e6dc3-4d66-4356-b2d3-2955576094b4</id>
+    </Compile>
+    <Compile Include="DeleteBrowTipo_Cobertura.UserCode.cs">
+      <BoundTo>935da75c-dd39-4b41-917d-2e3ea4435413</BoundTo>
+      <DependentUpon>DeleteBrowTipo_Cobertura.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>88bd8814-bb51-434f-88ff-d17925b0a9fd</id>
+    </Compile>
+    <Compile Include="DeleteBrowTipo_Contato.cs">
+      <BoundTo>6beecb0c-dbf8-4558-9f9f-544bc34b4d45</BoundTo>
+      <DependentUpon>DeleteBrowTipo_Contato.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>abac7493-a2d8-4263-9feb-f6b3af74d0ff</id>
+    </Compile>
+    <Compile Include="DeleteBrowTipo_Contato.UserCode.cs">
+      <BoundTo>6beecb0c-dbf8-4558-9f9f-544bc34b4d45</BoundTo>
+      <DependentUpon>DeleteBrowTipo_Contato.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>32b37fad-dbfb-4382-85c7-84bc0c03d177</id>
+    </Compile>
+    <Compile Include="DeleteBrowTipo_de_Cliente.cs">
+      <BoundTo>11f769d2-c5d4-4dea-b412-ac6645739d36</BoundTo>
+      <DependentUpon>DeleteBrowTipo_de_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cd093048-1ec1-42c5-b2bf-d030ae873945</id>
+    </Compile>
+    <Compile Include="DeleteBrowTipo_de_Cliente.UserCode.cs">
+      <BoundTo>11f769d2-c5d4-4dea-b412-ac6645739d36</BoundTo>
+      <DependentUpon>DeleteBrowTipo_de_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>29b5ea3f-94b2-43aa-97bc-2195b488a1c0</id>
+    </Compile>
+    <Compile Include="DeleteBrow_Dados_Cadastais.cs">
+      <BoundTo>d94d09de-5261-448f-9012-44b9344a5d14</BoundTo>
+      <DependentUpon>DeleteBrow_Dados_Cadastais.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>afba7713-e990-4c05-8e72-42beea2eb89b</id>
+    </Compile>
+    <Compile Include="DeleteBrow_Dados_Cadastais.UserCode.cs">
+      <BoundTo>d94d09de-5261-448f-9012-44b9344a5d14</BoundTo>
+      <DependentUpon>DeleteBrow_Dados_Cadastais.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a3c1aa07-90d6-4e24-b3a4-28324c962273</id>
+    </Compile>
+    <Compile Include="DeleteClassificacao_Cliente.cs">
+      <BoundTo>b71a6378-381a-4d9f-9055-327025a414cd</BoundTo>
+      <DependentUpon>DeleteClassificacao_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>55d1f486-fb3c-4398-8814-ec6981f8bcbf</id>
+    </Compile>
+    <Compile Include="DeleteClassificacao_Cliente.UserCode.cs">
+      <BoundTo>b71a6378-381a-4d9f-9055-327025a414cd</BoundTo>
+      <DependentUpon>DeleteClassificacao_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d0424748-f553-4018-bf72-ff8731945a0a</id>
+    </Compile>
+    <Compile Include="DeleteFrmBonificacao_Configuracao.cs">
+      <BoundTo>1223dedc-6359-4adc-89f2-401b51ab6dd3</BoundTo>
+      <DependentUpon>DeleteFrmBonificacao_Configuracao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>204c8113-4f91-42b0-a3d1-b3fe8b5f85a6</id>
+    </Compile>
+    <Compile Include="DeleteFrmBonificacao_Configuracao.UserCode.cs">
+      <BoundTo>1223dedc-6359-4adc-89f2-401b51ab6dd3</BoundTo>
+      <DependentUpon>DeleteFrmBonificacao_Configuracao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7693df68-e57a-463b-94ca-a30d65fed554</id>
+    </Compile>
+    <Compile Include="DeleteFrmConfiguracao_Semaforo.cs">
+      <BoundTo>b4c81cba-8e2e-4a64-b05d-0041d16054f8</BoundTo>
+      <DependentUpon>DeleteFrmConfiguracao_Semaforo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f55ef94f-6a95-4d41-985a-7dfeaf13cdbf</id>
+    </Compile>
+    <Compile Include="DeleteFrmConfiguracao_Semaforo.UserCode.cs">
+      <BoundTo>b4c81cba-8e2e-4a64-b05d-0041d16054f8</BoundTo>
+      <DependentUpon>DeleteFrmConfiguracao_Semaforo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>99d87afa-eec3-48f6-acc6-c9d080d05513</id>
+    </Compile>
+    <Compile Include="DeleteFrmMidia.cs">
+      <BoundTo>7b5c90ef-84eb-48c1-9a60-a37b8d33d5ff</BoundTo>
+      <DependentUpon>DeleteFrmMidia.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>01cc0173-4aa8-44be-a7d4-1a26c3e77422</id>
+    </Compile>
+    <Compile Include="DeleteFrmMidia.UserCode.cs">
+      <BoundTo>7b5c90ef-84eb-48c1-9a60-a37b8d33d5ff</BoundTo>
+      <DependentUpon>DeleteFrmMidia.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>258391c5-b60e-4be3-91ac-f7080fbf5f74</id>
+    </Compile>
+    <Compile Include="DeleteFrm_Feriado.cs">
+      <BoundTo>3f1c90d6-a0a8-4dd4-b505-f8cca84e9dd9</BoundTo>
+      <DependentUpon>DeleteFrm_Feriado.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fc2a3b63-a46a-4452-ac1f-49c2e944ddbb</id>
+    </Compile>
+    <Compile Include="DeleteFrm_Feriado.UserCode.cs">
+      <BoundTo>3f1c90d6-a0a8-4dd4-b505-f8cca84e9dd9</BoundTo>
+      <DependentUpon>DeleteFrm_Feriado.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f239bedd-1d56-4538-b7ec-5fceca4e31ce</id>
+    </Compile>
+    <Compile Include="DeleteTipo_de_Endereco.cs">
+      <BoundTo>d333e9f1-4027-4e39-acd8-ea6779794bc4</BoundTo>
+      <DependentUpon>DeleteTipo_de_Endereco.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f903b716-ed91-46ae-b8c5-685a03388d1a</id>
+    </Compile>
+    <Compile Include="DeleteTipo_de_Endereco.UserCode.cs">
+      <BoundTo>d333e9f1-4027-4e39-acd8-ea6779794bc4</BoundTo>
+      <DependentUpon>DeleteTipo_de_Endereco.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4226cf79-3fc1-413b-bc2d-d258790c6629</id>
+    </Compile>
+    <Compile Include="FrmBonificacao_Configuracao.cs">
+      <BoundTo>9c83e3f7-4294-42c4-8817-f72669fea9c4</BoundTo>
+      <DependentUpon>FrmBonificacao_Configuracao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>05f9f362-5c3a-454f-b3a4-a68d2a57d5dd</id>
+    </Compile>
+    <Compile Include="FrmBonificacao_Configuracao.UserCode.cs">
+      <BoundTo>9c83e3f7-4294-42c4-8817-f72669fea9c4</BoundTo>
+      <DependentUpon>FrmBonificacao_Configuracao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e76da4b2-bb51-4d6a-b973-c8892571b1a5</id>
+    </Compile>
+    <Compile Include="FrmConfiguracao_Semaforo.cs">
+      <BoundTo>27e4a135-fc5b-4867-b9c3-bde19c381e56</BoundTo>
+      <DependentUpon>FrmConfiguracao_Semaforo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d9ea4cdc-7273-4380-89d6-67d0eb61cc7d</id>
+    </Compile>
+    <Compile Include="FrmConfiguracao_Semaforo.UserCode.cs">
+      <BoundTo>27e4a135-fc5b-4867-b9c3-bde19c381e56</BoundTo>
+      <DependentUpon>FrmConfiguracao_Semaforo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0ae0248f-08c0-4e24-92a6-f542ea8dcbcd</id>
+    </Compile>
+    <Compile Include="FrmCrm.cs">
+      <BoundTo>be28fcf3-8222-4860-9970-6bc5143d2a99</BoundTo>
+      <DependentUpon>FrmCrm.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>49363c5c-dff0-4a26-b8e9-399395ca9443</id>
+    </Compile>
+    <Compile Include="FrmCrm.UserCode.cs">
+      <BoundTo>be28fcf3-8222-4860-9970-6bc5143d2a99</BoundTo>
+      <DependentUpon>FrmCrm.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>de9d8d0a-73fd-49a9-8968-76951fb9ce16</id>
+    </Compile>
+    <Compile Include="FrmReajusteItemContrato.cs">
+      <BoundTo>f3b25948-ab05-4c7e-9d48-0ecef1d268cf</BoundTo>
+      <DependentUpon>FrmReajusteItemContrato.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d7f51bf0-8e0c-4336-87c8-54eaa1e805fc</id>
+    </Compile>
+    <Compile Include="FrmReajusteItemContrato.UserCode.cs">
+      <BoundTo>f3b25948-ab05-4c7e-9d48-0ecef1d268cf</BoundTo>
+      <DependentUpon>FrmReajusteItemContrato.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e82ecfb0-8ba5-4c1f-ac05-72df08b7040a</id>
+    </Compile>
+    <Compile Include="InsertBrowCampoDinamico.cs">
+      <BoundTo>24184882-78d0-4ac5-a578-342e84d5d469</BoundTo>
+      <DependentUpon>InsertBrowCampoDinamico.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9779ec03-4336-42c5-a22a-9ed8314ed8fb</id>
+    </Compile>
+    <Compile Include="InsertBrowCampoDinamico.UserCode.cs">
+      <BoundTo>24184882-78d0-4ac5-a578-342e84d5d469</BoundTo>
+      <DependentUpon>InsertBrowCampoDinamico.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aa5225de-c8f8-4c72-85b5-b3144f904f7d</id>
+    </Compile>
+    <Compile Include="InsertBrowCampoObrigatorio.cs">
+      <BoundTo>e6be2a2b-1e9d-43df-a651-4acd9790ce81</BoundTo>
+      <DependentUpon>InsertBrowCampoObrigatorio.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>464db4e3-b50c-4350-92e3-49b1686f6fef</id>
+    </Compile>
+    <Compile Include="InsertBrowCampoObrigatorio.UserCode.cs">
+      <BoundTo>e6be2a2b-1e9d-43df-a651-4acd9790ce81</BoundTo>
+      <DependentUpon>InsertBrowCampoObrigatorio.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>586b6310-46db-44fe-a785-ef08de5b22ef</id>
+    </Compile>
+    <Compile Include="InsertBrowCategorias_Orcamento.cs">
+      <BoundTo>849321dd-4cf5-41ee-b2cd-aa6baea1503a</BoundTo>
+      <DependentUpon>InsertBrowCategorias_Orcamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dd57da89-2adc-4f0c-a88f-c51bb4e899c4</id>
+    </Compile>
+    <Compile Include="InsertBrowCategorias_Orcamento.UserCode.cs">
+      <BoundTo>849321dd-4cf5-41ee-b2cd-aa6baea1503a</BoundTo>
+      <DependentUpon>InsertBrowCategorias_Orcamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b626ee5a-000d-402a-8051-99058e598d1e</id>
+    </Compile>
+    <Compile Include="InsertBrowCategoria_Status.cs">
+      <BoundTo>5b766464-54ce-489c-b63b-561e2cbf7edd</BoundTo>
+      <DependentUpon>InsertBrowCategoria_Status.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>21e9bd20-4005-4f96-9175-6d8b0739bdf3</id>
+    </Compile>
+    <Compile Include="InsertBrowCategoria_Status.UserCode.cs">
+      <BoundTo>5b766464-54ce-489c-b63b-561e2cbf7edd</BoundTo>
+      <DependentUpon>InsertBrowCategoria_Status.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9faabeff-46ba-440a-a505-4322e41d7819</id>
+    </Compile>
+    <Compile Include="InsertBrowClassificacao_Cliente.cs">
+      <BoundTo>ca6cd5e4-276e-4b62-b6aa-ea9cbc098a76</BoundTo>
+      <DependentUpon>InsertBrowClassificacao_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c41699cf-1d5d-4b8a-acc8-84aa4bc5211f</id>
+    </Compile>
+    <Compile Include="InsertBrowClassificacao_Cliente.UserCode.cs">
+      <BoundTo>ca6cd5e4-276e-4b62-b6aa-ea9cbc098a76</BoundTo>
+      <DependentUpon>InsertBrowClassificacao_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>74e2147a-afbc-4e1f-ab7d-7efc283c139c</id>
+    </Compile>
+    <Compile Include="InsertBrowCliente.cs">
+      <BoundTo>ede7298d-3d29-4391-9528-5b31efd07a30</BoundTo>
+      <DependentUpon>InsertBrowCliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8bae607d-2fc5-42e5-8b4b-f8b9fce44f71</id>
+    </Compile>
+    <Compile Include="InsertBrowCliente.UserCode.cs">
+      <BoundTo>ede7298d-3d29-4391-9528-5b31efd07a30</BoundTo>
+      <DependentUpon>InsertBrowCliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c04f96b8-afcf-47be-a3f2-cce74def89cd</id>
+    </Compile>
+    <Compile Include="InsertBrowCliente_CRM.cs">
+      <BoundTo>311fbc73-076e-4be2-9681-4a59f4c61c9e</BoundTo>
+      <DependentUpon>InsertBrowCliente_CRM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f864a89c-77f0-436b-bd01-f9c811ffe4b6</id>
+    </Compile>
+    <Compile Include="InsertBrowCliente_CRM.UserCode.cs">
+      <BoundTo>311fbc73-076e-4be2-9681-4a59f4c61c9e</BoundTo>
+      <DependentUpon>InsertBrowCliente_CRM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>64c825ad-7883-45e3-9241-60e96e529136</id>
+    </Compile>
+    <Compile Include="InsertBrowContratoPadrao.cs">
+      <BoundTo>6efbfdc6-5927-4f1c-a5dd-0f1eeb2faa17</BoundTo>
+      <DependentUpon>InsertBrowContratoPadrao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dbd8c39a-e8c3-4969-bc47-2eb0cec67bf7</id>
+    </Compile>
+    <Compile Include="InsertBrowContratoPadrao.UserCode.cs">
+      <BoundTo>6efbfdc6-5927-4f1c-a5dd-0f1eeb2faa17</BoundTo>
+      <DependentUpon>InsertBrowContratoPadrao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c98cd7a9-c827-4f1a-ba88-1d1a5899d739</id>
+    </Compile>
+    <Compile Include="InsertBrowCorretoras.cs">
+      <BoundTo>920f37dd-7fa6-409b-84f2-f9fa5de69580</BoundTo>
+      <DependentUpon>InsertBrowCorretoras.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0d065b7b-c53e-4dd1-8cb2-1c7539cd5227</id>
+    </Compile>
+    <Compile Include="InsertBrowCorretoras.UserCode.cs">
+      <BoundTo>920f37dd-7fa6-409b-84f2-f9fa5de69580</BoundTo>
+      <DependentUpon>InsertBrowCorretoras.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1e6e8d22-67ad-435b-af64-75fbf1ca5015</id>
+    </Compile>
+    <Compile Include="InsertBrowDepartamento.cs">
+      <BoundTo>80e06aab-f8f6-4e0b-8a4a-466ecca68188</BoundTo>
+      <DependentUpon>InsertBrowDepartamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f7983f41-4eb6-4496-8f72-5b50196c4a5a</id>
+    </Compile>
+    <Compile Include="InsertBrowDepartamento.UserCode.cs">
+      <BoundTo>80e06aab-f8f6-4e0b-8a4a-466ecca68188</BoundTo>
+      <DependentUpon>InsertBrowDepartamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>42e5a168-f71f-4022-b0a7-0f3f327365df</id>
+    </Compile>
+    <Compile Include="InsertBrowEmpresa.cs">
+      <BoundTo>189e8c17-b647-4d5b-b33a-86eb2360bfd1</BoundTo>
+      <DependentUpon>InsertBrowEmpresa.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>36278294-978f-49f2-bac5-c0411b76e989</id>
+    </Compile>
+    <Compile Include="InsertBrowEmpresa.UserCode.cs">
+      <BoundTo>189e8c17-b647-4d5b-b33a-86eb2360bfd1</BoundTo>
+      <DependentUpon>InsertBrowEmpresa.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b252c98e-aeb6-49a4-b121-a0376d2ee603</id>
+    </Compile>
+    <Compile Include="InsertBrowEndereco.cs">
+      <BoundTo>cef471c9-02de-43dc-a0d0-8d03f75e6bcb</BoundTo>
+      <DependentUpon>InsertBrowEndereco.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>620a4ca6-93e0-47ae-b256-329767be4919</id>
+    </Compile>
+    <Compile Include="InsertBrowEndereco.UserCode.cs">
+      <BoundTo>cef471c9-02de-43dc-a0d0-8d03f75e6bcb</BoundTo>
+      <DependentUpon>InsertBrowEndereco.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9948530d-a7ae-43df-9c92-7dc4445d6aaa</id>
+    </Compile>
+    <Compile Include="InsertBrowForma_Cobranca.cs">
+      <BoundTo>1a71f2c2-58f2-457b-8cfb-d4b09a2372fc</BoundTo>
+      <DependentUpon>InsertBrowForma_Cobranca.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>64c60b62-9d74-4268-a185-078d7bf9c007</id>
+    </Compile>
+    <Compile Include="InsertBrowForma_Cobranca.UserCode.cs">
+      <BoundTo>1a71f2c2-58f2-457b-8cfb-d4b09a2372fc</BoundTo>
+      <DependentUpon>InsertBrowForma_Cobranca.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ad70ea56-2687-4c3a-bf31-6a8ef94b61bc</id>
+    </Compile>
+    <Compile Include="InsertBrowInformacao_de_Credito.cs">
+      <BoundTo>5faa62ee-4845-4e75-a832-475a0e849bb5</BoundTo>
+      <DependentUpon>InsertBrowInformacao_de_Credito.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bb78a17a-2e60-46c1-b156-453160fcbcdd</id>
+    </Compile>
+    <Compile Include="InsertBrowInformacao_de_Credito.UserCode.cs">
+      <BoundTo>5faa62ee-4845-4e75-a832-475a0e849bb5</BoundTo>
+      <DependentUpon>InsertBrowInformacao_de_Credito.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ca099d1e-f086-4257-903c-5ba733b44f75</id>
+    </Compile>
+    <Compile Include="InsertBrowOrigemCadastro.cs">
+      <BoundTo>63fed9ea-bce7-42c7-86f9-49febbffc529</BoundTo>
+      <DependentUpon>InsertBrowOrigemCadastro.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>77cdf647-d153-467c-b5d6-1a4da0f87c93</id>
+    </Compile>
+    <Compile Include="InsertBrowOrigemCadastro.UserCode.cs">
+      <BoundTo>63fed9ea-bce7-42c7-86f9-49febbffc529</BoundTo>
+      <DependentUpon>InsertBrowOrigemCadastro.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c386cbdb-7950-46fd-94f6-7766a23327e4</id>
+    </Compile>
+    <Compile Include="InsertBrowRegiao_Cliente.cs">
+      <BoundTo>9f800c8d-b61e-4d5a-8a84-fc24eaf3ad09</BoundTo>
+      <DependentUpon>InsertBrowRegiao_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>400232fc-874a-4405-9099-403ac074ce22</id>
+    </Compile>
+    <Compile Include="InsertBrowRegiao_Cliente.UserCode.cs">
+      <BoundTo>9f800c8d-b61e-4d5a-8a84-fc24eaf3ad09</BoundTo>
+      <DependentUpon>InsertBrowRegiao_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a58155e7-a8b4-4cb4-b88e-0f8395a4538e</id>
+    </Compile>
+    <Compile Include="InsertBrowSeguradoras.cs">
+      <BoundTo>aed2b7ed-7109-4614-b270-1ac7430ea965</BoundTo>
+      <DependentUpon>InsertBrowSeguradoras.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>085b7d89-3a7d-4f72-97ef-007d2b281c46</id>
+    </Compile>
+    <Compile Include="InsertBrowSeguradoras.UserCode.cs">
+      <BoundTo>aed2b7ed-7109-4614-b270-1ac7430ea965</BoundTo>
+      <DependentUpon>InsertBrowSeguradoras.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>09b6827a-7401-4af1-a333-085f902f82a5</id>
+    </Compile>
+    <Compile Include="InsertBrowSituacao_Cliente.cs">
+      <BoundTo>43398acf-a678-418e-be72-fcfb394cd62f</BoundTo>
+      <DependentUpon>InsertBrowSituacao_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ed943396-81be-4e4b-b352-cee6ea7b0aae</id>
+    </Compile>
+    <Compile Include="InsertBrowSituacao_Cliente.UserCode.cs">
+      <BoundTo>43398acf-a678-418e-be72-fcfb394cd62f</BoundTo>
+      <DependentUpon>InsertBrowSituacao_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>65d44b92-ed13-4938-8634-f4338d9abd37</id>
+    </Compile>
+    <Compile Include="InsertBrowTipo_Cobertura.cs">
+      <BoundTo>414068cf-7e3b-4754-8c37-414cbddffde7</BoundTo>
+      <DependentUpon>InsertBrowTipo_Cobertura.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5065e0e6-e645-4e02-a081-df332b773251</id>
+    </Compile>
+    <Compile Include="InsertBrowTipo_Cobertura.UserCode.cs">
+      <BoundTo>414068cf-7e3b-4754-8c37-414cbddffde7</BoundTo>
+      <DependentUpon>InsertBrowTipo_Cobertura.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b25fd170-d4ae-4152-9a4f-2f346642058a</id>
+    </Compile>
+    <Compile Include="InsertBrowTipo_Contato.cs">
+      <BoundTo>984154b5-a6a7-4229-ac88-f60e64c12555</BoundTo>
+      <DependentUpon>InsertBrowTipo_Contato.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>533975ee-b4ad-46aa-839d-7380c73a2507</id>
+    </Compile>
+    <Compile Include="InsertBrowTipo_Contato.UserCode.cs">
+      <BoundTo>984154b5-a6a7-4229-ac88-f60e64c12555</BoundTo>
+      <DependentUpon>InsertBrowTipo_Contato.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7c4b60a6-0662-49e4-bcb9-ee86516e70e3</id>
+    </Compile>
+    <Compile Include="InsertBrowTipo_de_Cliente.cs">
+      <BoundTo>ac09a4d6-9cd5-4110-b92a-7e93e34601b1</BoundTo>
+      <DependentUpon>InsertBrowTipo_de_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8958c3b5-2a80-41bb-9832-5ec50ad34492</id>
+    </Compile>
+    <Compile Include="InsertBrowTipo_de_Cliente.UserCode.cs">
+      <BoundTo>ac09a4d6-9cd5-4110-b92a-7e93e34601b1</BoundTo>
+      <DependentUpon>InsertBrowTipo_de_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a1886357-99f8-45c0-adb7-cb1b510486a8</id>
+    </Compile>
+    <Compile Include="InsertBrowTipo_de_Endereco.cs">
+      <BoundTo>4eb5cedb-6e65-4e5f-aa44-9d243540b4cb</BoundTo>
+      <DependentUpon>InsertBrowTipo_de_Endereco.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d08aa34e-ac70-4e8b-b005-0e825b7ca6cc</id>
+    </Compile>
+    <Compile Include="InsertBrowTipo_de_Endereco.UserCode.cs">
+      <BoundTo>4eb5cedb-6e65-4e5f-aa44-9d243540b4cb</BoundTo>
+      <DependentUpon>InsertBrowTipo_de_Endereco.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cc7e0529-06c3-47c8-9c24-181dca5ca8eb</id>
+    </Compile>
+    <Compile Include="InsertBrow_Consulta_Cliente.cs">
+      <BoundTo>187b289c-acda-4e48-98b5-17eb0aede256</BoundTo>
+      <DependentUpon>InsertBrow_Consulta_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c2ba3a12-b17a-41ea-b70e-9351831816cc</id>
+    </Compile>
+    <Compile Include="InsertBrow_Consulta_Cliente.UserCode.cs">
+      <BoundTo>187b289c-acda-4e48-98b5-17eb0aede256</BoundTo>
+      <DependentUpon>InsertBrow_Consulta_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>780f0944-feb4-451c-bb77-69330dfdf64e</id>
+    </Compile>
+    <Compile Include="InsertBrow_Dados_Cadastrais.cs">
+      <BoundTo>4fa5fb0b-a756-4bc3-a963-55fbd64b9dd1</BoundTo>
+      <DependentUpon>InsertBrow_Dados_Cadastrais.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f94f04c3-b21b-4294-b092-be2b20cc77ac</id>
+    </Compile>
+    <Compile Include="InsertBrow_Dados_Cadastrais.UserCode.cs">
+      <BoundTo>4fa5fb0b-a756-4bc3-a963-55fbd64b9dd1</BoundTo>
+      <DependentUpon>InsertBrow_Dados_Cadastrais.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2e993fe6-0b1a-496c-9265-b5f5a3324716</id>
+    </Compile>
+    <Compile Include="InsertFrmBonificacao_Configuracao.cs">
+      <BoundTo>3aaa9515-8164-46ef-b34c-cfb7d2aa9207</BoundTo>
+      <DependentUpon>InsertFrmBonificacao_Configuracao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a1ebc9f9-2bba-46b5-b6f1-0e88f787518a</id>
+    </Compile>
+    <Compile Include="InsertFrmBonificacao_Configuracao.UserCode.cs">
+      <BoundTo>3aaa9515-8164-46ef-b34c-cfb7d2aa9207</BoundTo>
+      <DependentUpon>InsertFrmBonificacao_Configuracao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eb813d4b-cf4e-42c9-aa42-2a4ca967f9a5</id>
+    </Compile>
+    <Compile Include="InsertFrmConfiguracao_Semaforo.cs">
+      <BoundTo>14171ba9-c301-4931-a0b7-5bda849bd69d</BoundTo>
+      <DependentUpon>InsertFrmConfiguracao_Semaforo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0b99964f-c12c-4461-9221-7dfcb23dd8b8</id>
+    </Compile>
+    <Compile Include="InsertFrmConfiguracao_Semaforo.UserCode.cs">
+      <BoundTo>14171ba9-c301-4931-a0b7-5bda849bd69d</BoundTo>
+      <DependentUpon>InsertFrmConfiguracao_Semaforo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8d214efd-ebdc-4e40-a4c7-32cc5d4c2b2d</id>
+    </Compile>
+    <Compile Include="InsertFrmCRM.cs">
+      <BoundTo>fd1b3c5e-8a93-409f-b5c6-fc12a0916f25</BoundTo>
+      <DependentUpon>InsertFrmCRM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>49218aa3-42bf-4825-a1c2-83761b58c289</id>
+    </Compile>
+    <Compile Include="InsertFrmCRM.UserCode.cs">
+      <BoundTo>fd1b3c5e-8a93-409f-b5c6-fc12a0916f25</BoundTo>
+      <DependentUpon>InsertFrmCRM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>48cab9bc-29f7-41b1-b3f6-b91630843948</id>
+    </Compile>
+    <Compile Include="InsertFrmMidia.cs">
+      <BoundTo>9e3240bd-a04a-4bff-a04e-a609167da857</BoundTo>
+      <DependentUpon>InsertFrmMidia.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a4b8a290-f80d-4097-af03-3a029e4d6c71</id>
+    </Compile>
+    <Compile Include="InsertFrmMidia.UserCode.cs">
+      <BoundTo>9e3240bd-a04a-4bff-a04e-a609167da857</BoundTo>
+      <DependentUpon>InsertFrmMidia.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>50098ac1-6b77-451f-8f31-4eb575d74f83</id>
+    </Compile>
+    <Compile Include="InsertFrmReajusteItemContrato.cs">
+      <BoundTo>276f8d8c-a2ae-4b34-86a5-de6f0075ce59</BoundTo>
+      <DependentUpon>InsertFrmReajusteItemContrato.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9503b08f-88cd-4dba-a5f4-9845ff74c93d</id>
+    </Compile>
+    <Compile Include="InsertFrmReajusteItemContrato.UserCode.cs">
+      <BoundTo>276f8d8c-a2ae-4b34-86a5-de6f0075ce59</BoundTo>
+      <DependentUpon>InsertFrmReajusteItemContrato.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4b3c53fc-167d-45f7-b55b-75394f35ad42</id>
+    </Compile>
+    <Compile Include="InsertFrm_Feriado.cs">
+      <BoundTo>1cc44d47-96de-4a2c-80d9-dd8a6369d94d</BoundTo>
+      <DependentUpon>InsertFrm_Feriado.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e20837a8-3a4d-404c-8e10-1b64b2928c9a</id>
+    </Compile>
+    <Compile Include="InsertFrm_Feriado.UserCode.cs">
+      <BoundTo>1cc44d47-96de-4a2c-80d9-dd8a6369d94d</BoundTo>
+      <DependentUpon>InsertFrm_Feriado.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bee6d794-8986-4da3-a3dc-84c3a8bd8aad</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>cb39281d-c089-440c-acd4-c9c9cdde4803</id>
+    </Compile>
+    <Compile Include="BrowCliente.cs">
+      <BoundTo>4d81b9a9-f2b4-4bea-9e10-a112ac963ad3</BoundTo>
+      <DependentUpon>BrowCliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2050fa8b-4309-4e4d-8772-eccf3698a38d</id>
+    </Compile>
+    <Compile Include="BrowCliente.UserCode.cs">
+      <BoundTo>4d81b9a9-f2b4-4bea-9e10-a112ac963ad3</BoundTo>
+      <DependentUpon>BrowCliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3e385abe-28bb-4a32-a7da-ffd98ae1616f</id>
+    </Compile>
+    <Compile Include="InsertBrowPais_Cliente.cs">
+      <BoundTo>5e56d571-b64b-44d5-8f2d-a18c6e1fdbb5</BoundTo>
+      <DependentUpon>InsertBrowPais_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3670925b-075b-43ef-a960-fc3a782a7799</id>
+    </Compile>
+    <Compile Include="InsertBrowPais_Cliente.UserCode.cs">
+      <BoundTo>5e56d571-b64b-44d5-8f2d-a18c6e1fdbb5</BoundTo>
+      <DependentUpon>InsertBrowPais_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e012bd85-fd9f-40ee-853d-a0a714345ed9</id>
+    </Compile>
+    <Compile Include="InsertBrowCargo.cs">
+      <BoundTo>048c218d-5835-43d2-9ed6-a3d6a248f461</BoundTo>
+      <DependentUpon>InsertBrowCargo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f42024d6-3036-4a1d-99c0-f458eb31bb0b</id>
+    </Compile>
+    <Compile Include="InsertBrowCargo.UserCode.cs">
+      <BoundTo>048c218d-5835-43d2-9ed6-a3d6a248f461</BoundTo>
+      <DependentUpon>InsertBrowCargo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>79e636be-98f4-40da-84ba-2a5b164ff604</id>
+    </Compile>
+    <Compile Include="BrowEmpresa.cs">
+      <BoundTo>a6d1e5c9-f1bc-436e-a386-b7c79a9bdfe4</BoundTo>
+      <DependentUpon>BrowEmpresa.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d95b9e88-ae71-421f-9693-d21007ebd9b9</id>
+    </Compile>
+    <Compile Include="BrowEmpresa.UserCode.cs">
+      <BoundTo>a6d1e5c9-f1bc-436e-a386-b7c79a9bdfe4</BoundTo>
+      <DependentUpon>BrowEmpresa.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>350edecb-719c-4d15-8929-1dbf4279a588</id>
+    </Compile>
+    <Compile Include="InsertBrowContato_CRM_Cliente.cs">
+      <BoundTo>cab93d6c-b005-477d-bb7d-ab5cb4dd0eae</BoundTo>
+      <DependentUpon>InsertBrowContato_CRM_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1ed673c0-f0c4-4c3e-afdf-0dbddfb3521e</id>
+    </Compile>
+    <Compile Include="InsertBrowContato_CRM_Cliente.UserCode.cs">
+      <BoundTo>cab93d6c-b005-477d-bb7d-ab5cb4dd0eae</BoundTo>
+      <DependentUpon>InsertBrowContato_CRM_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ad1ec5a5-5b51-4399-9405-23dc1368d49f</id>
+    </Compile>
+    <Compile Include="SearchBrowCampoDinamico.cs">
+      <BoundTo>eda4c324-ee66-42e6-8626-c0ff53ad2541</BoundTo>
+      <DependentUpon>SearchBrowCampoDinamico.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8f368998-8e63-4059-8782-121d05f1d2c8</id>
+    </Compile>
+    <Compile Include="SearchBrowCampoDinamico.UserCode.cs">
+      <BoundTo>eda4c324-ee66-42e6-8626-c0ff53ad2541</BoundTo>
+      <DependentUpon>SearchBrowCampoDinamico.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>96d9a7b8-24c5-4acd-9aab-7a3804156879</id>
+    </Compile>
+    <Compile Include="SearchBrowCampoObrigatorio.cs">
+      <BoundTo>8949b4df-e87c-408a-be14-5acb1d6b8219</BoundTo>
+      <DependentUpon>SearchBrowCampoObrigatorio.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e1d44f56-b245-4ff4-b815-9d102f3b76d5</id>
+    </Compile>
+    <Compile Include="SearchBrowCampoObrigatorio.UserCode.cs">
+      <BoundTo>8949b4df-e87c-408a-be14-5acb1d6b8219</BoundTo>
+      <DependentUpon>SearchBrowCampoObrigatorio.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c4a56236-408c-4001-a582-71af2236f2fc</id>
+    </Compile>
+    <Compile Include="SearchBrowCargo.cs">
+      <BoundTo>e83d9b00-c150-4fff-a328-8ccb9097c236</BoundTo>
+      <DependentUpon>SearchBrowCargo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>45fb63c9-8e64-43e6-b5cf-3087a05ff1f8</id>
+    </Compile>
+    <Compile Include="SearchBrowCargo.UserCode.cs">
+      <BoundTo>e83d9b00-c150-4fff-a328-8ccb9097c236</BoundTo>
+      <DependentUpon>SearchBrowCargo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a7703194-e986-4ac3-b03b-cf288b489a4e</id>
+    </Compile>
+    <Compile Include="SearchBrowCategorias_Orcamento.cs">
+      <BoundTo>85b4148d-e598-4dab-9f8c-476287025962</BoundTo>
+      <DependentUpon>SearchBrowCategorias_Orcamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9f4350ef-9bd8-416d-8f5f-f17377acd7a7</id>
+    </Compile>
+    <Compile Include="SearchBrowCategorias_Orcamento.UserCode.cs">
+      <BoundTo>85b4148d-e598-4dab-9f8c-476287025962</BoundTo>
+      <DependentUpon>SearchBrowCategorias_Orcamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c1246e08-8920-4930-bbb2-6982c19ef49a</id>
+    </Compile>
+    <Compile Include="SearchBrowCategoria_Status.cs">
+      <BoundTo>271d42f7-4baf-4119-8054-8d62add2ab55</BoundTo>
+      <DependentUpon>SearchBrowCategoria_Status.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>85474a99-f20a-44a6-b4e4-968284bb314d</id>
+    </Compile>
+    <Compile Include="SearchBrowCategoria_Status.UserCode.cs">
+      <BoundTo>271d42f7-4baf-4119-8054-8d62add2ab55</BoundTo>
+      <DependentUpon>SearchBrowCategoria_Status.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e04a966b-c1d2-4d2c-b9fe-8f966684a7ff</id>
+    </Compile>
+    <Compile Include="SearchBrowClassificacao_Cliente.cs">
+      <BoundTo>c696d725-cbb6-462c-9f6c-e19a64d64881</BoundTo>
+      <DependentUpon>SearchBrowClassificacao_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4bbce7b0-b321-4d5f-9d1e-e64b1b9a60be</id>
+    </Compile>
+    <Compile Include="SearchBrowClassificacao_Cliente.UserCode.cs">
+      <BoundTo>c696d725-cbb6-462c-9f6c-e19a64d64881</BoundTo>
+      <DependentUpon>SearchBrowClassificacao_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9e70a529-7b14-4026-9c6a-20599731da0f</id>
+    </Compile>
+    <Compile Include="SearchBrowCliente.cs">
+      <BoundTo>f544c21b-4986-4832-890a-5405cbad1905</BoundTo>
+      <DependentUpon>SearchBrowCliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>47fd734c-dfae-416b-a878-f27dedbe48c3</id>
+    </Compile>
+    <Compile Include="SearchBrowCliente.UserCode.cs">
+      <BoundTo>f544c21b-4986-4832-890a-5405cbad1905</BoundTo>
+      <DependentUpon>SearchBrowCliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8f66cbc7-870f-4d41-9c04-7479e060ac95</id>
+    </Compile>
+    <Compile Include="SearchBrowCliente_CRM.cs">
+      <BoundTo>56104000-bb8f-4731-b79c-494a2871e490</BoundTo>
+      <DependentUpon>SearchBrowCliente_CRM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>21757031-812a-48c1-ab96-d07ee0beb05c</id>
+    </Compile>
+    <Compile Include="SearchBrowCliente_CRM.UserCode.cs">
+      <BoundTo>56104000-bb8f-4731-b79c-494a2871e490</BoundTo>
+      <DependentUpon>SearchBrowCliente_CRM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eb770dd0-ed52-4b38-adc5-5d08bb1d2e77</id>
+    </Compile>
+    <Compile Include="SearchBrowContato_CRM_Cliente.cs">
+      <BoundTo>43d0d378-ecc9-4bc3-9fae-84f549d36563</BoundTo>
+      <DependentUpon>SearchBrowContato_CRM_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ba3ca935-8c94-4436-82e9-1db93d94d16f</id>
+    </Compile>
+    <Compile Include="SearchBrowContato_CRM_Cliente.UserCode.cs">
+      <BoundTo>43d0d378-ecc9-4bc3-9fae-84f549d36563</BoundTo>
+      <DependentUpon>SearchBrowContato_CRM_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e0111537-a381-442d-bd19-e9ec7b61c1a3</id>
+    </Compile>
+    <Compile Include="SearchBrowContratoPadrao.cs">
+      <BoundTo>1c0bc6e5-47cf-4395-8606-ece9ae11824e</BoundTo>
+      <DependentUpon>SearchBrowContratoPadrao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>199d52b9-25c7-422f-b353-41fea02addf0</id>
+    </Compile>
+    <Compile Include="SearchBrowContratoPadrao.UserCode.cs">
+      <BoundTo>1c0bc6e5-47cf-4395-8606-ece9ae11824e</BoundTo>
+      <DependentUpon>SearchBrowContratoPadrao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f8916d75-3924-4f7f-816d-9b334ceac9f2</id>
+    </Compile>
+    <Compile Include="SearchBrowCorretoras.cs">
+      <BoundTo>b4da7cb9-5e75-4b10-834e-0dcf153d63a5</BoundTo>
+      <DependentUpon>SearchBrowCorretoras.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>da4937a1-7dff-4da7-9134-cddce6144d89</id>
+    </Compile>
+    <Compile Include="SearchBrowCorretoras.UserCode.cs">
+      <BoundTo>b4da7cb9-5e75-4b10-834e-0dcf153d63a5</BoundTo>
+      <DependentUpon>SearchBrowCorretoras.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>881ed3f8-9d0f-4b8b-8737-316b1ff8e398</id>
+    </Compile>
+    <Compile Include="SearchBrowDepartamento.cs">
+      <BoundTo>d78f14da-a5af-4fc9-b385-deba61dd4dff</BoundTo>
+      <DependentUpon>SearchBrowDepartamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>108989db-144e-460d-8693-4e7eff52d485</id>
+    </Compile>
+    <Compile Include="SearchBrowDepartamento.UserCode.cs">
+      <BoundTo>d78f14da-a5af-4fc9-b385-deba61dd4dff</BoundTo>
+      <DependentUpon>SearchBrowDepartamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7ad69bbd-9ab1-4300-99c7-546d1bac9ddd</id>
+    </Compile>
+    <Compile Include="SearchBrowEmpresa.cs">
+      <BoundTo>44dc2327-2a76-406e-83ae-08102dfd7e24</BoundTo>
+      <DependentUpon>SearchBrowEmpresa.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4409782c-fe33-419a-89a5-5aeb18f45326</id>
+    </Compile>
+    <Compile Include="SearchBrowEmpresa.UserCode.cs">
+      <BoundTo>44dc2327-2a76-406e-83ae-08102dfd7e24</BoundTo>
+      <DependentUpon>SearchBrowEmpresa.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d49dde9a-afef-4b1f-8928-3cebc7fffd86</id>
+    </Compile>
+    <Compile Include="SearchBrowEndereco.cs">
+      <BoundTo>59ee2cbf-cc32-4fc6-bfb8-f4fc70ff334b</BoundTo>
+      <DependentUpon>SearchBrowEndereco.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bd228147-5a23-4bee-a1f6-65e9ca26b780</id>
+    </Compile>
+    <Compile Include="SearchBrowEndereco.UserCode.cs">
+      <BoundTo>59ee2cbf-cc32-4fc6-bfb8-f4fc70ff334b</BoundTo>
+      <DependentUpon>SearchBrowEndereco.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0e6c5b2f-9aa7-494e-9f15-9b8028d51706</id>
+    </Compile>
+    <Compile Include="SearchBrowForma_Cobranca.cs">
+      <BoundTo>88cf0ec7-be9f-4443-8922-ede01fe9ab97</BoundTo>
+      <DependentUpon>SearchBrowForma_Cobranca.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a41c566c-1bd7-438a-ab22-9e734d446192</id>
+    </Compile>
+    <Compile Include="SearchBrowForma_Cobranca.UserCode.cs">
+      <BoundTo>88cf0ec7-be9f-4443-8922-ede01fe9ab97</BoundTo>
+      <DependentUpon>SearchBrowForma_Cobranca.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f14cb34e-7765-4f63-9f98-cbc93002e998</id>
+    </Compile>
+    <Compile Include="SearchBrowInformacao_de_Credito.cs">
+      <BoundTo>29ed8c55-284b-478d-92b7-b7e000ddfdab</BoundTo>
+      <DependentUpon>SearchBrowInformacao_de_Credito.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2df85bac-7425-4639-80bb-950b4f19eea6</id>
+    </Compile>
+    <Compile Include="SearchBrowInformacao_de_Credito.UserCode.cs">
+      <BoundTo>29ed8c55-284b-478d-92b7-b7e000ddfdab</BoundTo>
+      <DependentUpon>SearchBrowInformacao_de_Credito.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e6f76a0e-5a4e-4e2f-84c4-ac7cdbac59f4</id>
+    </Compile>
+    <Compile Include="SearchBrowOrigemCadastro.cs">
+      <BoundTo>ae68bc47-599f-4c03-bda8-3c22b61868b9</BoundTo>
+      <DependentUpon>SearchBrowOrigemCadastro.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>290457f4-e4ef-4e30-85f8-5617b987f01e</id>
+    </Compile>
+    <Compile Include="SearchBrowOrigemCadastro.UserCode.cs">
+      <BoundTo>ae68bc47-599f-4c03-bda8-3c22b61868b9</BoundTo>
+      <DependentUpon>SearchBrowOrigemCadastro.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ba07aafe-0fea-482b-bd48-642b73522809</id>
+    </Compile>
+    <Compile Include="SearchBrowPais_Cliente.cs">
+      <BoundTo>720ac43a-d007-43e7-b541-efc71ff5ce94</BoundTo>
+      <DependentUpon>SearchBrowPais_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>94776542-08fe-42b2-8fb0-5c07fb52c97e</id>
+    </Compile>
+    <Compile Include="SearchBrowPais_Cliente.UserCode.cs">
+      <BoundTo>720ac43a-d007-43e7-b541-efc71ff5ce94</BoundTo>
+      <DependentUpon>SearchBrowPais_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>52f0f79e-046e-4df4-88c2-29fcb8467828</id>
+    </Compile>
+    <Compile Include="SearchBrowParametro.cs">
+      <BoundTo>402880d2-ad7b-441b-bf46-eec813ed7ec3</BoundTo>
+      <DependentUpon>SearchBrowParametro.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>869c9c2e-3793-4ea7-9d5e-02f3f6d21cba</id>
+    </Compile>
+    <Compile Include="SearchBrowParametro.UserCode.cs">
+      <BoundTo>402880d2-ad7b-441b-bf46-eec813ed7ec3</BoundTo>
+      <DependentUpon>SearchBrowParametro.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ccf8b224-ff90-4e93-a86e-48ac1ee5ca58</id>
+    </Compile>
+    <Compile Include="SearchBrowReajusteContrato.cs">
+      <BoundTo>e35b98a6-01e0-4b1d-a82a-a6e0fcf053fd</BoundTo>
+      <DependentUpon>SearchBrowReajusteContrato.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3487bdf7-fa80-4841-acd3-a524be82014e</id>
+    </Compile>
+    <Compile Include="SearchBrowReajusteContrato.UserCode.cs">
+      <BoundTo>e35b98a6-01e0-4b1d-a82a-a6e0fcf053fd</BoundTo>
+      <DependentUpon>SearchBrowReajusteContrato.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b61e4982-478b-415a-b4b1-fd4a6c314fa5</id>
+    </Compile>
+    <Compile Include="SearchBrowRegiao_Cliente.cs">
+      <BoundTo>b5871ff1-1c1e-4050-a147-a0baea4fbc81</BoundTo>
+      <DependentUpon>SearchBrowRegiao_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>28c07053-afd4-4548-910f-9332be8f30f4</id>
+    </Compile>
+    <Compile Include="SearchBrowRegiao_Cliente.UserCode.cs">
+      <BoundTo>b5871ff1-1c1e-4050-a147-a0baea4fbc81</BoundTo>
+      <DependentUpon>SearchBrowRegiao_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>240dbd2f-6084-47bd-b15f-fd726ac6bb94</id>
+    </Compile>
+    <Compile Include="SearchBrowSeguradoras.cs">
+      <BoundTo>03ada973-d982-4dd4-8332-56495a776e10</BoundTo>
+      <DependentUpon>SearchBrowSeguradoras.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ac5c6413-0300-4a88-9cbd-886a3fb38e34</id>
+    </Compile>
+    <Compile Include="SearchBrowSeguradoras.UserCode.cs">
+      <BoundTo>03ada973-d982-4dd4-8332-56495a776e10</BoundTo>
+      <DependentUpon>SearchBrowSeguradoras.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>340cf819-859c-4876-9093-e245b28e6e9f</id>
+    </Compile>
+    <Compile Include="SearchBrowSituacao_Cliente.cs">
+      <BoundTo>105fd8e0-0bb8-48a8-9720-dc125a6dc86f</BoundTo>
+      <DependentUpon>SearchBrowSituacao_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c5e7ce73-caab-4d88-aaa9-f382c1ed21ac</id>
+    </Compile>
+    <Compile Include="SearchBrowSituacao_Cliente.UserCode.cs">
+      <BoundTo>105fd8e0-0bb8-48a8-9720-dc125a6dc86f</BoundTo>
+      <DependentUpon>SearchBrowSituacao_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8cc36b28-f927-4c11-9fa5-43b3028d755f</id>
+    </Compile>
+    <Compile Include="SearchBrowTipo_Cobertura.cs">
+      <BoundTo>f58af26f-ca7c-4503-a1ff-cdd38e06ce53</BoundTo>
+      <DependentUpon>SearchBrowTipo_Cobertura.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5fcef31c-4544-4d6d-a374-129161d9deeb</id>
+    </Compile>
+    <Compile Include="SearchBrowTipo_Cobertura.UserCode.cs">
+      <BoundTo>f58af26f-ca7c-4503-a1ff-cdd38e06ce53</BoundTo>
+      <DependentUpon>SearchBrowTipo_Cobertura.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>87477e66-c748-4f32-83d6-b3bb904c4ed8</id>
+    </Compile>
+    <Compile Include="SearchBrowTipo_Contato.cs">
+      <BoundTo>cd6a234d-59e6-4a81-813b-972f5ca71bbb</BoundTo>
+      <DependentUpon>SearchBrowTipo_Contato.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3af37ba7-85ce-4526-aec3-5add26b4cfd7</id>
+    </Compile>
+    <Compile Include="SearchBrowTipo_Contato.UserCode.cs">
+      <BoundTo>cd6a234d-59e6-4a81-813b-972f5ca71bbb</BoundTo>
+      <DependentUpon>SearchBrowTipo_Contato.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>be9c996a-6e8c-447d-b8a2-df6f9cae3c30</id>
+    </Compile>
+    <Compile Include="SearchBrowTipo_de_Cliente.cs">
+      <BoundTo>0aa0c258-3ace-41f8-9f25-d2361321c297</BoundTo>
+      <DependentUpon>SearchBrowTipo_de_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5ca04941-43f3-4724-933a-29df29fbace0</id>
+    </Compile>
+    <Compile Include="SearchBrowTipo_de_Cliente.UserCode.cs">
+      <BoundTo>0aa0c258-3ace-41f8-9f25-d2361321c297</BoundTo>
+      <DependentUpon>SearchBrowTipo_de_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5d91acd9-6212-41de-acd7-416f222f6598</id>
+    </Compile>
+    <Compile Include="SearchBrowTipo_de_Endereco.cs">
+      <BoundTo>a256e7ba-4fda-4683-900a-2c990e77356d</BoundTo>
+      <DependentUpon>SearchBrowTipo_de_Endereco.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>436da991-3372-414c-93f4-d3cd3412d6b6</id>
+    </Compile>
+    <Compile Include="SearchBrowTipo_de_Endereco.UserCode.cs">
+      <BoundTo>a256e7ba-4fda-4683-900a-2c990e77356d</BoundTo>
+      <DependentUpon>SearchBrowTipo_de_Endereco.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>026d3033-cf1e-4e02-82a6-22a1c83bd494</id>
+    </Compile>
+    <Compile Include="SearchBrow_Consulta_Cliente.cs">
+      <BoundTo>03d9915b-427a-43a6-8f67-8edff258cec5</BoundTo>
+      <DependentUpon>SearchBrow_Consulta_Cliente.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d3d1759c-9372-45a9-b534-451646545a6e</id>
+    </Compile>
+    <Compile Include="SearchBrow_Consulta_Cliente.UserCode.cs">
+      <BoundTo>03d9915b-427a-43a6-8f67-8edff258cec5</BoundTo>
+      <DependentUpon>SearchBrow_Consulta_Cliente.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>858e8ba7-ea43-441b-8bbb-15392135bc76</id>
+    </Compile>
+    <Compile Include="SearchBrow_Dados_Cadastais.cs">
+      <BoundTo>49a69563-b6f8-4823-98a0-2493f6a6d3e4</BoundTo>
+      <DependentUpon>SearchBrow_Dados_Cadastais.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4b344875-5ed0-4e48-8724-982b918c52de</id>
+    </Compile>
+    <Compile Include="SearchBrow_Dados_Cadastais.UserCode.cs">
+      <BoundTo>49a69563-b6f8-4823-98a0-2493f6a6d3e4</BoundTo>
+      <DependentUpon>SearchBrow_Dados_Cadastais.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>38be9b8a-d8ae-4ef7-ac2c-75eebdf1120f</id>
+    </Compile>
+    <Compile Include="SearchFrmMidia.cs">
+      <BoundTo>e5128dac-85cd-4c30-9210-f8db64325a83</BoundTo>
+      <DependentUpon>SearchFrmMidia.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fb6c080f-1bed-421a-ae7b-dbf475e37767</id>
+    </Compile>
+    <Compile Include="SearchFrmMidia.UserCode.cs">
+      <BoundTo>e5128dac-85cd-4c30-9210-f8db64325a83</BoundTo>
+      <DependentUpon>SearchFrmMidia.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>83c8b52e-0128-4e6f-8479-7d7c4b9a31e9</id>
+    </Compile>
+    <Compile Include="SearchFrmReajusteItemContrato.cs">
+      <BoundTo>e9fa4f5f-352c-4d50-ac22-4570d0b06f85</BoundTo>
+      <DependentUpon>SearchFrmReajusteItemContrato.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>580e10f9-df27-4358-8755-14b3b9cc9a9f</id>
+    </Compile>
+    <Compile Include="SearchFrmReajusteItemContrato.UserCode.cs">
+      <BoundTo>e9fa4f5f-352c-4d50-ac22-4570d0b06f85</BoundTo>
+      <DependentUpon>SearchFrmReajusteItemContrato.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b4fbb3e9-ba6b-4316-a2ca-5b529d70372c</id>
+    </Compile>
+    <Compile Include="SearchFrm_Feriado.cs">
+      <BoundTo>6b79731a-b1eb-4d26-81e8-3223436c98fa</BoundTo>
+      <DependentUpon>SearchFrm_Feriado.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f2d679c1-78af-4625-ac01-e96792f20257</id>
+    </Compile>
+    <Compile Include="SearchFrm_Feriado.UserCode.cs">
+      <BoundTo>6b79731a-b1eb-4d26-81e8-3223436c98fa</BoundTo>
+      <DependentUpon>SearchFrm_Feriado.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9405c4cf-e64d-42e2-890a-da8b14512ced</id>
+    </Compile>
+    <Compile Include="SomaGestaoRepository.cs">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <DependentUpon>SomaGestaoRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>eeaf69a7-02fb-47d2-b9c8-9e5864cc913d</id>
+    </Compile>
+    <Compile Include="OpenAUT.cs">
+      <BoundTo>a29d1b34-8c9b-4007-883e-e8bb25271434</BoundTo>
+      <DependentUpon>OpenAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>36a5c1ed-b72d-4e1e-bfa0-5e3c20ef2c90</id>
+    </Compile>
+    <Compile Include="OpenAUT.UserCode.cs">
+      <BoundTo>a29d1b34-8c9b-4007-883e-e8bb25271434</BoundTo>
+      <DependentUpon>OpenAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2aee07c4-8a3d-4621-8a48-e21452853916</id>
+    </Compile>
+    <Compile Include="UserCodeModule1.cs">
+      <id>c57731b3-9352-4cfb-ba4a-1ab2299fdc76</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AlterBrowEmpresa.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>34a4a679-a5fa-41ab-ade9-5da1a5fb4ff7</id>
+      <recordtableid>dc31070f-d29f-4e04-9dfd-05471a9249d8</recordtableid>
+    </None>
+    <None Include="AlterBrowParametro.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>eef897f9-a5e5-4861-b487-ea3427f2fafd</id>
+      <recordtableid>e28ed914-6d28-427c-b590-d45826ed24a5</recordtableid>
+    </None>
+    <None Include="AlterFrmCRM.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>1cfecef6-d8ef-403c-a18c-4b86bb08e678</id>
+      <recordtableid>b72a0925-e641-4d22-8aff-5341edac45e8</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>248ba2ff-2cdb-48f0-a331-3ad6418df616</id>
+    </None>
+    <Content Include="BrowCliente_DataSource.csv">
+      <Link>BrowCliente_DataSource.csv</Link>
+      <BoundTo>6742cdb0-57b3-480b-a8a3-979a949a67c2</BoundTo>
+      <DependentUpon>SomaGestao.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>a1e2e397-d9f7-496e-ab13-08e81c579e9e</id>
+    </Content>
+    <None Include="BrowCampoDinamico.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>37d35bb8-5bfc-4c87-a85d-ff005c464db5</id>
+      <recordtableid>a27b3828-d56b-4368-baf6-2bff796a176d</recordtableid>
+    </None>
+    <None Include="BrowCampoObrigatorio.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>8d515b85-5e00-4104-8755-a8f2a6d8ecb0</id>
+      <recordtableid>f1155544-43e1-4cc7-9869-1ae8c1aed391</recordtableid>
+    </None>
+    <None Include="BrowCargo.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>0ade64f6-61a0-49fb-9f16-05158a3295c4</id>
+      <recordtableid>5b1083da-67b0-47ee-a870-069eba203e9c</recordtableid>
+    </None>
+    <None Include="BrowCategorias_Orcamento.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>fe58aec0-2800-4662-972f-d668c1150f38</id>
+      <recordtableid>a72ef234-fe02-4a25-80c5-eee2f8e4a738</recordtableid>
+    </None>
+    <None Include="BrowCategoria_Status.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>6fcbda65-327d-479d-a9ce-c9e102a507ba</id>
+      <recordtableid>a11f9344-9c3b-46a3-aa5b-94f623a226aa</recordtableid>
+    </None>
+    <None Include="BrowClassificacao_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>f9730f4f-c1bb-4e9c-9710-5b9a55315b23</id>
+      <recordtableid>d7d40b11-f3d8-43d3-99ec-5fe1a83024a0</recordtableid>
+    </None>
+    <None Include="BrowCliente_CRM.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>15af24ea-a179-4023-8109-e7023e1fab16</id>
+      <recordtableid>d1d06518-1127-4669-a5b9-b719279e7e50</recordtableid>
+    </None>
+    <None Include="BrowContato_CRM_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>23e8cd69-c60e-4322-8042-1c539ca718d6</id>
+      <recordtableid>d584c045-251a-492b-83fb-50852239e75b</recordtableid>
+    </None>
+    <None Include="BrowContratoPadrao.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>233ebaac-c690-4d5d-88cb-1973b4c853b1</id>
+      <recordtableid>11d76175-996c-4433-9d1d-7756fc5ea43f</recordtableid>
+    </None>
+    <None Include="BrowCorretoras.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>f01c0f7b-d868-4b32-9c7a-1198b0c39a6f</id>
+      <recordtableid>3615c0cd-f0e2-4f62-8078-72ae98dac832</recordtableid>
+    </None>
+    <None Include="BrowDepartamento.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>2105253d-1907-45ea-9aa3-ae815df9ffbb</id>
+      <recordtableid>6b114faa-33e1-4283-b0f9-0409c55387f4</recordtableid>
+    </None>
+    <None Include="BrowEndereco.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>a35dd5b5-6ee3-42d7-9d03-8b692359db77</id>
+      <recordtableid>a479e240-1326-42dc-9c06-d7290aa06c2c</recordtableid>
+    </None>
+    <Content Include="BrowEndereco_DataSource1.csv">
+      <Link>BrowEndereco_DataSource1.csv</Link>
+      <BoundTo>6742cdb0-57b3-480b-a8a3-979a949a67c2</BoundTo>
+      <DependentUpon>SomaGestao.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>0332bfb6-bc4d-4719-accc-27ea235069dd</id>
+    </Content>
+    <None Include="BrowForma_Cobranca.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>cc9b0ce1-3248-437f-aee1-d777a0211eb9</id>
+      <recordtableid>2f2b8620-0f28-46fb-b63a-0413af804f2c</recordtableid>
+    </None>
+    <None Include="BrowFrmMidia.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>6de4cc9a-3049-4b92-956e-e0b8fbef0113</id>
+      <recordtableid>108e4586-8c3e-4a0f-94af-d4b31ab5f94e</recordtableid>
+    </None>
+    <None Include="BrowFrmParametros.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>6c281479-166a-4ffc-a066-67ba32cb48b5</id>
+      <recordtableid>fa79c0b7-c646-42e9-8152-8ec93949d525</recordtableid>
+    </None>
+    <None Include="BrowFrm_Feriado.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>99c9593e-51b7-4454-912b-2b230db5681d</id>
+      <recordtableid>08590316-9e4f-470a-a2d5-3c864f9107b3</recordtableid>
+    </None>
+    <None Include="BrowInformacao_de_Credito.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>7157eeaa-df33-48d5-a591-adc7373f8519</id>
+      <recordtableid>20ba33aa-2c1a-4fff-b8bf-5c359d540dcc</recordtableid>
+    </None>
+    <None Include="BrowOrigemCadastro.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>c150262e-9794-42ba-97ad-5bf03a487d93</id>
+      <recordtableid>4fbe1c3e-6a3f-4075-8158-520f0bea6ff0</recordtableid>
+    </None>
+    <None Include="BrowPais_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>ade7dd2b-7d73-44c8-a197-30fc2fd1036d</id>
+      <recordtableid>7866dc98-62ba-4b03-986c-0e199195d62d</recordtableid>
+    </None>
+    <None Include="BrowParametro.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>4e787a01-48a1-4ab2-aa4e-a0d50940e05c</id>
+      <recordtableid>23714eb0-9d86-494b-bf80-934575048891</recordtableid>
+    </None>
+    <None Include="BrowReajusteContrato.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>037bbb28-60d6-4a72-8772-29dc93d4ed26</id>
+      <recordtableid>d63195fa-14a4-49f4-91e4-10faa9a719b6</recordtableid>
+    </None>
+    <None Include="BrowRegiao_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>caddfbfa-6835-4e96-80e0-9e09e3f55860</id>
+      <recordtableid>dda57139-f719-4d54-a3f1-ca9746769c99</recordtableid>
+    </None>
+    <None Include="BrowSeguradoras.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>09c53175-c768-4f32-97dd-5200cd652144</id>
+      <recordtableid>075d0068-5982-46f7-9bed-d90e038ea25c</recordtableid>
+    </None>
+    <None Include="BrowSituacao_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>0bb40ede-ecc7-4e89-8488-acfc3bef28a8</id>
+      <recordtableid>2d103168-d3e2-43bc-a051-bbc112ba43b9</recordtableid>
+    </None>
+    <None Include="BrowTipo_Cobertura.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>439a9756-c2f2-4da6-8f31-faa00fd5cedd</id>
+      <recordtableid>ef47d68c-352c-4f72-8811-b28ad4849ebd</recordtableid>
+    </None>
+    <None Include="BrowTipo_Contato.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>18a6d8a8-6773-4d8c-bdbb-4d2f96259f7e</id>
+      <recordtableid>93b9023c-241c-4462-b7c3-ee6793859d80</recordtableid>
+    </None>
+    <None Include="BrowTipo_de_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>d1a610ba-dd95-4fb9-a533-70663295a743</id>
+      <recordtableid>c3d1e1e9-7249-4b17-b140-609fdaf470d7</recordtableid>
+    </None>
+    <None Include="BrowTipo_de_Endereco.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>6d4def51-d083-41b8-86d6-09ff15672d95</id>
+      <recordtableid>17a855e6-704e-4a62-acf3-8c808ca6ba0c</recordtableid>
+    </None>
+    <None Include="Brow_Consulta_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>c507f4a7-e89e-411e-927b-50f2c6ed2f5f</id>
+      <recordtableid>47e2fec0-7fab-4f03-af88-73441ed5bd6c</recordtableid>
+    </None>
+    <None Include="Brow_Dados_Cadastrais.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>e7a6d78c-d09a-4763-91d4-2209e7844412</id>
+      <recordtableid>518a3dee-f178-401b-9e28-058c2494e019</recordtableid>
+    </None>
+    <None Include="CloseAUT.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>75b5588f-6d72-4623-a0b7-834b8722ff9c</id>
+      <recordtableid>a635e0b6-8f98-4b2a-9e17-25356293fb1d</recordtableid>
+    </None>
+    <None Include="BrowCliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>4d81b9a9-f2b4-4bea-9e10-a112ac963ad3</id>
+      <recordtableid>0e2c1288-8a57-44c4-aebd-2789ad77f130</recordtableid>
+    </None>
+    <None Include="DeleteBrowCampoDinamico.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>00348d04-8457-45f9-97c3-8f0b8d3f2127</id>
+      <recordtableid>41bff4b9-479e-4aac-a1c4-083af4bfbcd6</recordtableid>
+    </None>
+    <None Include="DeleteBrowCampoObrigatorio.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>a609150c-86f5-4213-b433-9c83995a2642</id>
+      <recordtableid>4edb761e-bd50-45c4-bb3b-59ca77dc1af1</recordtableid>
+    </None>
+    <None Include="DeleteBrowCargo.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>9b7c7770-eb7c-4092-afae-ad605dad0386</id>
+      <recordtableid>1e849d40-e03a-431e-a638-4f9a1d601689</recordtableid>
+    </None>
+    <None Include="DeleteBrowCategorias_Orcamento.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>9828c98f-6954-4f35-992c-b430ca3adf68</id>
+      <recordtableid>395e7fea-e915-4f8b-9d55-8839a334141d</recordtableid>
+    </None>
+    <None Include="DeleteBrowCategoria_Status.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>00274bc1-762e-4510-afea-311a0edbb7f7</id>
+      <recordtableid>2780c0ff-932c-406b-961d-8b8827115bff</recordtableid>
+    </None>
+    <None Include="DeleteBrowCliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>a2f7e89c-1fd4-4406-8600-fa2eb1634635</id>
+      <recordtableid>149cf6f8-7131-4441-b612-e3f6c0def3f6</recordtableid>
+    </None>
+    <None Include="DeleteBrowCliente_CRM.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>c081e32b-ad82-490f-81ca-4f66aa7f8d8b</id>
+      <recordtableid>2f93b958-4ef4-4c6f-8c4d-5b71d8863955</recordtableid>
+    </None>
+    <None Include="DeleteBrowContato_CRM_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>c717f16b-757b-4c76-9c75-40ca35bbf65d</id>
+      <recordtableid>02aa8d28-17a2-4ae5-9424-13f7298f9135</recordtableid>
+    </None>
+    <None Include="DeleteBrowContratoPadrao.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>7e2d8785-d271-4532-8b02-da26ecf823c5</id>
+      <recordtableid>d3b880f2-a992-41ed-8c54-ac515be2568a</recordtableid>
+    </None>
+    <None Include="DeleteBrowCorretoras.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>234bad86-0ddd-4309-946c-782480bc5cdf</id>
+      <recordtableid>6ca68bd5-73d1-40d5-93b4-d209d65f82fb</recordtableid>
+    </None>
+    <None Include="DeleteBrowDepartamento.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>57a887bf-57bb-4b8e-b7ba-caca288ac3ae</id>
+      <recordtableid>e1cea31a-f38d-42a0-9317-14bafcfd51f6</recordtableid>
+    </None>
+    <None Include="DeleteBrowEndereco.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>3133820a-b3d0-4ab9-a149-81f98ca3f3ed</id>
+      <recordtableid>8a9d79ef-2127-4841-b5a3-42f80606d01d</recordtableid>
+    </None>
+    <None Include="DeleteBrowForma_Cobranca.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>fa56ff10-06a4-4fbd-a1d0-dcf9c2814bb6</id>
+      <recordtableid>21973d16-e776-48f7-9df4-f529630db85a</recordtableid>
+    </None>
+    <None Include="DeleteBrowInformacao_de_Credito.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>7e9b2dae-0e78-477a-ad99-040caa0b087d</id>
+      <recordtableid>d0503493-c93d-4770-940a-adf5bb1a49e1</recordtableid>
+    </None>
+    <None Include="DeleteBrowOrigemCadastro.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>ff526c08-de1f-4be5-951d-c50d5e61381e</id>
+      <recordtableid>c86f292b-7625-43ef-b29a-de5c7f6abffe</recordtableid>
+    </None>
+    <None Include="DeleteBrowPais_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>30b8bede-78ab-4237-a4e9-779a941c471c</id>
+      <recordtableid>ccb0dd33-4817-40b6-8509-3ce71e1219b0</recordtableid>
+    </None>
+    <None Include="DeleteBrowRegiao_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>568ff4b6-2bd9-427c-940a-cfbd8989995f</id>
+      <recordtableid>7f00b6a5-5dcc-4398-a066-7b2bdfbc2d39</recordtableid>
+    </None>
+    <None Include="DeleteBrowSeguradoras.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>2dc843b8-7086-4313-bc3c-71c3c914ef1b</id>
+      <recordtableid>3d148e29-c759-49ce-bcf2-4e8cbca27f24</recordtableid>
+    </None>
+    <None Include="DeleteBrowSituacao_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>f0ee8996-1d93-48ed-b31f-f4c3b9904040</id>
+      <recordtableid>9a5e9208-1971-4597-8e85-2154de2f493d</recordtableid>
+    </None>
+    <None Include="DeleteBrowTipo_Cobertura.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>935da75c-dd39-4b41-917d-2e3ea4435413</id>
+      <recordtableid>3a127c55-0351-43ca-99ba-668ce15537f9</recordtableid>
+    </None>
+    <None Include="DeleteBrowTipo_Contato.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>6beecb0c-dbf8-4558-9f9f-544bc34b4d45</id>
+      <recordtableid>85a5be25-4b00-400c-9e0b-3a992712a960</recordtableid>
+    </None>
+    <None Include="DeleteBrowTipo_de_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>11f769d2-c5d4-4dea-b412-ac6645739d36</id>
+      <recordtableid>aa46d737-e8c8-4e3a-9218-c843a538fd7f</recordtableid>
+    </None>
+    <None Include="DeleteBrow_Dados_Cadastais.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>d94d09de-5261-448f-9012-44b9344a5d14</id>
+      <recordtableid>9ee78247-2334-4859-9f95-ef91dba45294</recordtableid>
+    </None>
+    <None Include="DeleteClassificacao_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>b71a6378-381a-4d9f-9055-327025a414cd</id>
+      <recordtableid>9fa7a889-b1c1-4610-88d9-77c5d5390d58</recordtableid>
+    </None>
+    <None Include="DeleteFrmBonificacao_Configuracao.rxrec">
+      <id>1223dedc-6359-4adc-89f2-401b51ab6dd3</id>
+      <recordtableid>a686abc9-3075-4c19-8723-04bb5b51ae2b</recordtableid>
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+    </None>
+    <None Include="DeleteFrmConfiguracao_Semaforo.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>b4c81cba-8e2e-4a64-b05d-0041d16054f8</id>
+      <recordtableid>5bc303f5-cd92-4358-95f0-e14a5e0e7837</recordtableid>
+    </None>
+    <None Include="DeleteFrmMidia.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>7b5c90ef-84eb-48c1-9a60-a37b8d33d5ff</id>
+      <recordtableid>b6c598d9-3322-4452-bdd5-d30a50afbbc2</recordtableid>
+    </None>
+    <None Include="DeleteFrm_Feriado.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>3f1c90d6-a0a8-4dd4-b505-f8cca84e9dd9</id>
+      <recordtableid>4028b389-9484-43b9-968c-494fbc3e0a37</recordtableid>
+    </None>
+    <None Include="DeleteTipo_de_Endereco.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>d333e9f1-4027-4e39-acd8-ea6779794bc4</id>
+      <recordtableid>048d6b19-bcad-461d-a71c-eb8c92004e50</recordtableid>
+    </None>
+    <None Include="FrmBonificacao_Configuracao.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>9c83e3f7-4294-42c4-8817-f72669fea9c4</id>
+      <recordtableid>89e39d70-70f4-4a6d-9d74-2b617bf55a0d</recordtableid>
+    </None>
+    <None Include="FrmConfiguracao_Semaforo.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>27e4a135-fc5b-4867-b9c3-bde19c381e56</id>
+      <recordtableid>797e8479-9a59-4894-921f-8921caa8bac1</recordtableid>
+    </None>
+    <None Include="FrmCrm.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>be28fcf3-8222-4860-9970-6bc5143d2a99</id>
+      <recordtableid>de82ce5f-53bf-430d-a294-13e1cd7bd470</recordtableid>
+    </None>
+    <None Include="FrmReajusteItemContrato.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>f3b25948-ab05-4c7e-9d48-0ecef1d268cf</id>
+      <recordtableid>e395f24e-87e1-40f2-ae30-c7e939142ae2</recordtableid>
+    </None>
+    <None Include="InsertBrowCampoDinamico.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>24184882-78d0-4ac5-a578-342e84d5d469</id>
+      <recordtableid>f9f8be61-df53-4678-a417-59e385bfb5e5</recordtableid>
+    </None>
+    <None Include="InsertBrowCampoObrigatorio.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>e6be2a2b-1e9d-43df-a651-4acd9790ce81</id>
+      <recordtableid>200adccd-72db-42a7-8f14-6cb5ccab39fe</recordtableid>
+    </None>
+    <None Include="InsertBrowCategorias_Orcamento.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>849321dd-4cf5-41ee-b2cd-aa6baea1503a</id>
+      <recordtableid>4ec857ec-7635-4f17-9a3e-f80cb04986ac</recordtableid>
+    </None>
+    <None Include="InsertBrowCategoria_Status.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>5b766464-54ce-489c-b63b-561e2cbf7edd</id>
+      <recordtableid>2f40e2d5-f974-4a7c-b482-76d22d004c44</recordtableid>
+    </None>
+    <None Include="InsertBrowClassificacao_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>ca6cd5e4-276e-4b62-b6aa-ea9cbc098a76</id>
+      <recordtableid>33d088b5-b45a-4586-aa47-0663d5262350</recordtableid>
+    </None>
+    <None Include="InsertBrowCliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>ede7298d-3d29-4391-9528-5b31efd07a30</id>
+      <recordtableid>31c0731b-8f05-435b-be20-3b16c85509aa</recordtableid>
+    </None>
+    <None Include="InsertBrowCliente_CRM.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>311fbc73-076e-4be2-9681-4a59f4c61c9e</id>
+      <recordtableid>5c5a338a-d827-4350-894a-137250c2db06</recordtableid>
+    </None>
+    <None Include="InsertBrowContratoPadrao.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>6efbfdc6-5927-4f1c-a5dd-0f1eeb2faa17</id>
+      <recordtableid>516a1522-668b-424d-aeb3-3eafbfc3aead</recordtableid>
+    </None>
+    <None Include="InsertBrowCorretoras.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>920f37dd-7fa6-409b-84f2-f9fa5de69580</id>
+      <recordtableid>27caca27-ee4b-40d9-bf2e-cddce7474bed</recordtableid>
+    </None>
+    <None Include="InsertBrowDepartamento.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>80e06aab-f8f6-4e0b-8a4a-466ecca68188</id>
+      <recordtableid>1440bd28-0540-4a1c-bfdd-f19e80c2ee9a</recordtableid>
+    </None>
+    <None Include="InsertBrowEmpresa.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>189e8c17-b647-4d5b-b33a-86eb2360bfd1</id>
+      <recordtableid>a68dd19d-c44c-4783-a76b-42c8b8178ba1</recordtableid>
+    </None>
+    <None Include="InsertBrowEndereco.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>cef471c9-02de-43dc-a0d0-8d03f75e6bcb</id>
+      <recordtableid>3ab0147d-4d54-430c-91e2-6c16113d6da2</recordtableid>
+    </None>
+    <None Include="InsertBrowForma_Cobranca.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>1a71f2c2-58f2-457b-8cfb-d4b09a2372fc</id>
+      <recordtableid>26a974ac-e747-4d98-a0a2-06ead311237f</recordtableid>
+    </None>
+    <None Include="InsertBrowInformacao_de_Credito.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>5faa62ee-4845-4e75-a832-475a0e849bb5</id>
+      <recordtableid>9c88dee1-96cc-4c4e-8ff9-7bdf230b9256</recordtableid>
+    </None>
+    <None Include="InsertBrowOrigemCadastro.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>63fed9ea-bce7-42c7-86f9-49febbffc529</id>
+      <recordtableid>cc27a739-0e6b-41c5-ad0f-e1069740ec26</recordtableid>
+    </None>
+    <None Include="InsertBrowRegiao_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>9f800c8d-b61e-4d5a-8a84-fc24eaf3ad09</id>
+      <recordtableid>e8b34184-2061-4bf9-8134-857669e6e882</recordtableid>
+    </None>
+    <None Include="InsertBrowSeguradoras.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>aed2b7ed-7109-4614-b270-1ac7430ea965</id>
+      <recordtableid>07fa7dc0-7104-41c3-9713-80c9ab3fdbf8</recordtableid>
+    </None>
+    <None Include="InsertBrowSituacao_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>43398acf-a678-418e-be72-fcfb394cd62f</id>
+      <recordtableid>2d9ab0b5-f136-4700-b95c-6103c38eaf7f</recordtableid>
+    </None>
+    <None Include="InsertBrowTipo_Cobertura.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>414068cf-7e3b-4754-8c37-414cbddffde7</id>
+      <recordtableid>cf1013e5-1e0a-4c1b-a64c-09245e831931</recordtableid>
+    </None>
+    <None Include="InsertBrowTipo_Contato.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>984154b5-a6a7-4229-ac88-f60e64c12555</id>
+      <recordtableid>c4007683-ba62-4f66-b45e-9edbc6751574</recordtableid>
+    </None>
+    <None Include="InsertBrowTipo_de_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>ac09a4d6-9cd5-4110-b92a-7e93e34601b1</id>
+      <recordtableid>b30c353f-f637-45b8-8d18-1779a28db97e</recordtableid>
+    </None>
+    <None Include="InsertBrowTipo_de_Endereco.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>4eb5cedb-6e65-4e5f-aa44-9d243540b4cb</id>
+      <recordtableid>0fc030b0-d9e8-416e-a81f-f74078d18c49</recordtableid>
+    </None>
+    <None Include="InsertBrowPais_Cliente.rxrec">
+      <id>5e56d571-b64b-44d5-8f2d-a18c6e1fdbb5</id>
+      <recordtableid>621b436c-7761-4b95-bf11-6698db39838e</recordtableid>
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+    </None>
+    <None Include="InsertBrow_Consulta_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>187b289c-acda-4e48-98b5-17eb0aede256</id>
+      <recordtableid>f5e50823-ee42-403b-9880-6bf4bec83594</recordtableid>
+    </None>
+    <None Include="InsertBrow_Dados_Cadastrais.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>4fa5fb0b-a756-4bc3-a963-55fbd64b9dd1</id>
+      <recordtableid>ae52540f-2880-460c-add0-7d5555ed0c18</recordtableid>
+    </None>
+    <None Include="InsertFrmBonificacao_Configuracao.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>3aaa9515-8164-46ef-b34c-cfb7d2aa9207</id>
+      <recordtableid>da28a05d-ca6b-4a13-b32e-42625c5544fb</recordtableid>
+    </None>
+    <None Include="InsertFrmConfiguracao_Semaforo.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>14171ba9-c301-4931-a0b7-5bda849bd69d</id>
+      <recordtableid>7cf3934b-bf87-4e46-be8e-5bddd86f9fec</recordtableid>
+    </None>
+    <None Include="InsertFrmCRM.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>fd1b3c5e-8a93-409f-b5c6-fc12a0916f25</id>
+      <recordtableid>917cc805-de68-41fc-996a-2a5c3619ecfd</recordtableid>
+    </None>
+    <None Include="InsertFrmMidia.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>9e3240bd-a04a-4bff-a04e-a609167da857</id>
+      <recordtableid>509bff59-4e4f-441e-968c-09ddd9f1b65f</recordtableid>
+    </None>
+    <None Include="InsertFrmReajusteItemContrato.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>276f8d8c-a2ae-4b34-86a5-de6f0075ce59</id>
+      <recordtableid>d8a8bb84-b31b-428f-9de2-6609f0d5d457</recordtableid>
+    </None>
+    <None Include="InsertBrowCargo.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>048c218d-5835-43d2-9ed6-a3d6a248f461</id>
+      <recordtableid>3cd10dbb-09aa-49cc-9657-522c3bff6c3c</recordtableid>
+    </None>
+    <None Include="InsertFrm_Feriado.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>1cc44d47-96de-4a2c-80d9-dd8a6369d94d</id>
+      <recordtableid>3e8e8fb7-3451-4901-9069-a278c67f8491</recordtableid>
+    </None>
+    <None Include="BrowEmpresa.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>a6d1e5c9-f1bc-436e-a386-b7c79a9bdfe4</id>
+      <recordtableid>f7934be6-d9b3-4695-bc67-524fa397a6cd</recordtableid>
+    </None>
+    <None Include="InsertBrowContato_CRM_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>cab93d6c-b005-477d-bb7d-ab5cb4dd0eae</id>
+      <recordtableid>0ca916d4-cc0a-4740-95d9-560d265bc8c8</recordtableid>
+    </None>
+    <None Include="SearchBrowCampoDinamico.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>eda4c324-ee66-42e6-8626-c0ff53ad2541</id>
+      <recordtableid>7543d314-7346-4a5e-b83f-bacfb0dc73d4</recordtableid>
+    </None>
+    <None Include="SearchBrowCampoObrigatorio.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>8949b4df-e87c-408a-be14-5acb1d6b8219</id>
+      <recordtableid>e10d4097-bd52-4722-8cca-9e9a8d5e8cfc</recordtableid>
+    </None>
+    <None Include="SearchBrowCargo.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>e83d9b00-c150-4fff-a328-8ccb9097c236</id>
+      <recordtableid>9daa71a3-8a06-4c20-a87c-e57427140745</recordtableid>
+    </None>
+    <None Include="SearchBrowCategorias_Orcamento.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>85b4148d-e598-4dab-9f8c-476287025962</id>
+      <recordtableid>b21870f8-8ce1-4370-ab1b-0e4d4b5ebfe5</recordtableid>
+    </None>
+    <None Include="SearchBrowCategoria_Status.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>271d42f7-4baf-4119-8054-8d62add2ab55</id>
+      <recordtableid>53788bd6-4b1b-4f6c-9930-72e2d0d1b1b5</recordtableid>
+    </None>
+    <None Include="SearchBrowClassificacao_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>c696d725-cbb6-462c-9f6c-e19a64d64881</id>
+      <recordtableid>a3898230-84fe-4bc1-a99b-cce69a83d110</recordtableid>
+    </None>
+    <None Include="SearchBrowCliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>f544c21b-4986-4832-890a-5405cbad1905</id>
+      <recordtableid>54846abe-5fe8-4b67-b642-2ecf06749684</recordtableid>
+    </None>
+    <None Include="SearchBrowCliente_CRM.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>56104000-bb8f-4731-b79c-494a2871e490</id>
+      <recordtableid>367976be-0013-462e-b3c9-295d1e3e5a6e</recordtableid>
+    </None>
+    <None Include="SearchBrowContato_CRM_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>43d0d378-ecc9-4bc3-9fae-84f549d36563</id>
+      <recordtableid>d606a033-c5b8-457c-9cb1-949aa2b51702</recordtableid>
+    </None>
+    <None Include="SearchBrowContratoPadrao.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>1c0bc6e5-47cf-4395-8606-ece9ae11824e</id>
+      <recordtableid>042d33d9-ff64-4df8-a4af-34b060c02d6c</recordtableid>
+    </None>
+    <None Include="SearchBrowCorretoras.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>b4da7cb9-5e75-4b10-834e-0dcf153d63a5</id>
+      <recordtableid>f78c4fd8-df9b-469f-bff4-e6b98677db9a</recordtableid>
+    </None>
+    <None Include="SearchBrowDepartamento.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>d78f14da-a5af-4fc9-b385-deba61dd4dff</id>
+      <recordtableid>c7920045-47a6-4a86-978f-343834d52e39</recordtableid>
+    </None>
+    <None Include="SearchBrowEmpresa.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>44dc2327-2a76-406e-83ae-08102dfd7e24</id>
+      <recordtableid>6f8c3f56-9f88-4bcf-9792-0c4497e3de06</recordtableid>
+    </None>
+    <None Include="SearchBrowEndereco.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>59ee2cbf-cc32-4fc6-bfb8-f4fc70ff334b</id>
+      <recordtableid>73bd43f7-5733-49aa-a0e3-724f0c06a7e1</recordtableid>
+    </None>
+    <None Include="SearchBrowForma_Cobranca.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>88cf0ec7-be9f-4443-8922-ede01fe9ab97</id>
+      <recordtableid>ddfa9c11-a47c-4b50-805c-0839f93a9365</recordtableid>
+    </None>
+    <None Include="SearchBrowInformacao_de_Credito.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>29ed8c55-284b-478d-92b7-b7e000ddfdab</id>
+      <recordtableid>28d92c53-7617-4f4a-932e-1ee847ee8ea1</recordtableid>
+    </None>
+    <None Include="SearchBrowOrigemCadastro.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>ae68bc47-599f-4c03-bda8-3c22b61868b9</id>
+      <recordtableid>e6a8625b-7049-4316-b874-92485c9eee40</recordtableid>
+    </None>
+    <None Include="SearchBrowPais_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>720ac43a-d007-43e7-b541-efc71ff5ce94</id>
+      <recordtableid>2b584e0f-27da-4422-be41-a52f1fdb1439</recordtableid>
+    </None>
+    <None Include="SearchBrowParametro.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>402880d2-ad7b-441b-bf46-eec813ed7ec3</id>
+      <recordtableid>6a658f99-cc69-4aa0-8d86-94d2ea88ae86</recordtableid>
+    </None>
+    <None Include="SearchBrowReajusteContrato.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>e35b98a6-01e0-4b1d-a82a-a6e0fcf053fd</id>
+      <recordtableid>533696cc-6396-4765-bd3d-ce448fb86f82</recordtableid>
+    </None>
+    <None Include="SearchBrowRegiao_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>b5871ff1-1c1e-4050-a147-a0baea4fbc81</id>
+      <recordtableid>276655c2-43e1-44b5-a8f1-e324251414a6</recordtableid>
+    </None>
+    <None Include="SearchBrowSeguradoras.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>03ada973-d982-4dd4-8332-56495a776e10</id>
+      <recordtableid>15d2cdaf-7662-4fef-865c-f61c77c38088</recordtableid>
+    </None>
+    <None Include="SearchBrowSituacao_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>105fd8e0-0bb8-48a8-9720-dc125a6dc86f</id>
+      <recordtableid>f35d7301-d3e7-480b-907c-a7ae99ba1f02</recordtableid>
+    </None>
+    <None Include="SearchBrowTipo_Cobertura.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>f58af26f-ca7c-4503-a1ff-cdd38e06ce53</id>
+      <recordtableid>228f8740-6911-46ee-8c1d-85fe70c406f2</recordtableid>
+    </None>
+    <None Include="SearchBrowTipo_Contato.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>cd6a234d-59e6-4a81-813b-972f5ca71bbb</id>
+      <recordtableid>35fa57f7-3b6d-45f2-bc74-1b8ad0a4518e</recordtableid>
+    </None>
+    <None Include="SearchBrowTipo_de_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>0aa0c258-3ace-41f8-9f25-d2361321c297</id>
+      <recordtableid>8252d552-f462-40df-afe0-5613b714a31c</recordtableid>
+    </None>
+    <None Include="SearchBrowTipo_de_Endereco.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>a256e7ba-4fda-4683-900a-2c990e77356d</id>
+      <recordtableid>9afb129d-97a6-45f2-a256-78ae72ab59b8</recordtableid>
+    </None>
+    <None Include="SearchBrow_Consulta_Cliente.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>03d9915b-427a-43a6-8f67-8edff258cec5</id>
+      <recordtableid>7683128e-da68-4252-adeb-11ddaef39cec</recordtableid>
+    </None>
+    <None Include="SearchBrow_Dados_Cadastais.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>49a69563-b6f8-4823-98a0-2493f6a6d3e4</id>
+      <recordtableid>f3e5ae12-31ec-4dca-a6d8-0c3d212fec61</recordtableid>
+    </None>
+    <None Include="SearchFrmMidia.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>e5128dac-85cd-4c30-9210-f8db64325a83</id>
+      <recordtableid>89ca9479-253d-4da0-8afa-28afe0e2972a</recordtableid>
+    </None>
+    <None Include="SearchFrmReajusteItemContrato.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>e9fa4f5f-352c-4d50-ac22-4570d0b06f85</id>
+      <recordtableid>2f57421d-b1db-4f9c-b3d4-216996e09ca4</recordtableid>
+    </None>
+    <None Include="SearchFrm_Feriado.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>6b79731a-b1eb-4d26-81e8-3223436c98fa</id>
+      <recordtableid>dfeaae2b-9ed9-4619-93d2-457cff092a62</recordtableid>
+    </None>
+    <None Include="SomaGestaoRepository.rximg">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <DependentUpon>SomaGestaoRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>e6b1a84f-9ed9-432e-b61b-cb53fb7b6381</id>
+    </None>
+    <None Include="SomaGestaoRepository.rxrep">
+      <id>d410f13c-22be-49c8-84f7-752547d2870b</id>
+      <repoid>e673638c-a425-4557-bcc9-272a16b84fc6</repoid>
+      <reporootid>f2cd860b-bfa5-45ff-8440-ac23afd068d8</reporootid>
+    </None>
+    <None Include="OpenAUT.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>a29d1b34-8c9b-4007-883e-e8bb25271434</id>
+      <recordtableid>c8bd06b6-b0ac-462c-a3a0-22af1a68fdd6</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SomaGestao.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>102e277d-3c35-4100-aaed-ef2eacd60e30</id>
+    </Content>
+    <Content Include="SomaGestao.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>6742cdb0-57b3-480b-a8a3-979a949a67c2</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

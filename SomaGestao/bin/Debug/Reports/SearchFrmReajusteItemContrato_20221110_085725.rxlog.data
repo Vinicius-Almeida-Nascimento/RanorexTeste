@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.66s"
+		durationms="5657"
+		type="root"
+		rid="4fb7b83562ea09e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dev10"
+		rxversion="9.2.1.0"
+		host="VINICIUS-TESTER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1366x1536"
+		timestamp="10/11/2022 08:57:28"
+		timestampiso="2022-11-10T11:57:28"
+		endtime="10/11/2022 08:57:34"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SearchFrmReajusteItemContrato">
+		<detail>
+			SearchFrmReajusteItemContrato
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.432"
+			timeRelativeToTestModuleStartTime="00:03.432"
+			timeWallClock="08:57:31"
+			time="00:03.432"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'FrmPrincipal.Form6528013'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='FrmReajusteItemContrato']"
+				itempath="form[@name='FrmReajusteItemContrato']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528013"
+				id="2519ec99e3534d118e262bba3819384b"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\SearchFrmReajusteItemContrato.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.777"
+			timeRelativeToTestModuleStartTime="00:04.777"
+			timeWallClock="08:57:33"
+			time="00:04.777"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Form6528013' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='FrmReajusteItemContrato']"
+				itempath="form[@name='FrmReajusteItemContrato']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528013"
+				id="2519ec99e3534d118e262bba3819384b"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\SearchFrmReajusteItemContrato.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.884"
+			timeRelativeToTestModuleStartTime="00:04.884"
+			timeWallClock="08:57:33"
+			time="00:04.884"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BASEDETESTESBIANCHINI.Image1' at 1047;85.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\SearchFrmReajusteItemContrato.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.498"
+			timeRelativeToTestModuleStartTime="00:05.498"
+			timeWallClock="08:57:33"
+			time="00:05.498"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'FrmPrincipal.Form6528013'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='FrmReajusteItemContrato']"
+				itempath="form[@name='FrmReajusteItemContrato']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528013"
+				id="2519ec99e3534d118e262bba3819384b"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\SearchFrmReajusteItemContrato.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.550"
+			timeRelativeToTestModuleStartTime="00:05.550"
+			timeWallClock="08:57:34"
+			time="00:05.550"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Form6528013' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='FrmReajusteItemContrato']"
+				itempath="form[@name='FrmReajusteItemContrato']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528013"
+				id="2519ec99e3534d118e262bba3819384b"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\SearchFrmReajusteItemContrato.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

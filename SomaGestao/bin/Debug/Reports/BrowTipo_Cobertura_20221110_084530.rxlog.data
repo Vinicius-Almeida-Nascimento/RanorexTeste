@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.02s"
+		durationms="7018"
+		type="root"
+		rid="c602b61de6d0fb1"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dev10"
+		rxversion="9.2.1.0"
+		host="VINICIUS-TESTER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1366x1536"
+		timestamp="10/11/2022 08:45:33"
+		timestampiso="2022-11-10T11:45:33"
+		endtime="10/11/2022 08:45:40"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="BrowTipo_Cobertura">
+		<detail>
+			BrowTipo_Cobertura
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.510"
+			timeRelativeToTestModuleStartTime="00:03.510"
+			timeWallClock="08:45:37"
+			time="00:03.510"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'BASEDETESTESBIANCHINI.Image1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\BrowTipo_Cobertura.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.886"
+			timeRelativeToTestModuleStartTime="00:04.886"
+			timeWallClock="08:45:38"
+			time="00:04.886"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Image1' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\BrowTipo_Cobertura.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.994"
+			timeRelativeToTestModuleStartTime="00:04.994"
+			timeWallClock="08:45:38"
+			time="00:04.994"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BASEDETESTESBIANCHINI.Cadastro' at 15;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/?/?/menuitem[@name='Cadastro1']"
+				itempath="?/?/menuitem[@name='Cadastro1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Cadastro"
+				id="5bd6788206874fbcaacc0eead95fd63a"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\BrowTipo_Cobertura.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.599"
+			timeRelativeToTestModuleStartTime="00:05.599"
+			timeWallClock="08:45:39"
+			time="00:05.599"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Oficina.MenuItem' at 58;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Oficina']/contextmenu/menuitem[3]"
+				itempath="contextmenu/menuitem[3]"
+				fullname="SomaGestaoRepository.Oficina.MenuItem"
+				id="90f321cf937a48229a84a6c4319cea47"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\BrowTipo_Cobertura.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.150"
+			timeRelativeToTestModuleStartTime="00:06.150"
+			timeWallClock="08:45:39"
+			time="00:06.150"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Oficina.MenuItem14' at 97;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='Oficina']/contextmenu/menuitem[15]"
+				itempath="contextmenu/menuitem[15]"
+				fullname="SomaGestaoRepository.Oficina.MenuItem14"
+				id="a7f4d5bda0394329a07a0eda72827eac"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\BrowTipo_Cobertura.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.700"
+			timeRelativeToTestModuleStartTime="00:06.700"
+			timeWallClock="08:45:40"
+			time="00:06.700"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'FrmPrincipal.Form6528012'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='BrowTipo_Cobertura']"
+				itempath="form[@name='BrowTipo_Cobertura']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528012"
+				id="cee7ce51504541b59e6aa4bf4e69e481"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\BrowTipo_Cobertura.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.910"
+			timeRelativeToTestModuleStartTime="00:06.910"
+			timeWallClock="08:45:40"
+			time="00:06.910"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Form6528012' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='BrowTipo_Cobertura']"
+				itempath="form[@name='BrowTipo_Cobertura']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528012"
+				id="cee7ce51504541b59e6aa4bf4e69e481"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\BrowTipo_Cobertura.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

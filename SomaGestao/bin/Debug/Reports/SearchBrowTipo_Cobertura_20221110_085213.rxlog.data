@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.88s"
+		durationms="7878"
+		type="root"
+		rid="109c8e05f44eb49f"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dev10"
+		rxversion="9.2.1.0"
+		host="VINICIUS-TESTER"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="pt-BR"
+		dtnlanguage="pt-BR"
+		screenresolution="1366x1536"
+		timestamp="10/11/2022 08:52:16"
+		timestampiso="2022-11-10T11:52:16"
+		endtime="10/11/2022 08:52:24"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SearchBrowTipo_Cobertura">
+		<detail>
+			SearchBrowTipo_Cobertura
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.105"
+			timeRelativeToTestModuleStartTime="00:04.105"
+			timeWallClock="08:52:20"
+			time="00:04.105"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>DescricaoTipo
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.131"
+			timeRelativeToTestModuleStartTime="00:04.131"
+			timeWallClock="08:52:20"
+			time="00:04.131"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'FrmPrincipal.Form6528012'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='BrowTipo_Cobertura']"
+				itempath="form[@name='BrowTipo_Cobertura']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528012"
+				id="cee7ce51504541b59e6aa4bf4e69e481"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\SearchBrowTipo_Cobertura.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.641"
+			timeRelativeToTestModuleStartTime="00:05.641"
+			timeWallClock="08:52:22"
+			time="00:05.641"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Form6528012' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='BrowTipo_Cobertura']"
+				itempath="form[@name='BrowTipo_Cobertura']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528012"
+				id="cee7ce51504541b59e6aa4bf4e69e481"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\SearchBrowTipo_Cobertura.cs"
+				codeline="96"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.753"
+			timeRelativeToTestModuleStartTime="00:05.753"
+			timeWallClock="08:52:22"
+			time="00:05.753"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BASEDETESTESBIANCHINI.Image1' at 561;135.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\SearchBrowTipo_Cobertura.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.388"
+			timeRelativeToTestModuleStartTime="00:06.388"
+			timeWallClock="08:52:23"
+			time="00:06.388"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$DescricaoTipo' with focus on 'FrmPrincipal'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']"
+				itempath="/form[@controlname='FrmPrincipal']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Self"
+				id="eb1bacb402cd47e7bb71452522584988"
+				timeout="30000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\SearchBrowTipo_Cobertura.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.667"
+			timeRelativeToTestModuleStartTime="00:06.667"
+			timeWallClock="08:52:23"
+			time="00:06.667"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BASEDETESTESBIANCHINI.Image1' at 960;125.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@name='FrmPrincipal']/picture[@name='Image1']"
+				itempath="picture[@name='Image1']"
+				fullname="SomaGestaoRepository.BASEDETESTESBIANCHINI.Image1"
+				id="2cc20ef5ee994e90806c6a6d3bede6ab"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\SearchBrowTipo_Cobertura.cs"
+				codeline="108"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.738"
+			timeRelativeToTestModuleStartTime="00:07.738"
+			timeWallClock="08:52:24"
+			time="00:07.738"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'FrmPrincipal.Form6528012'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='BrowTipo_Cobertura']"
+				itempath="form[@name='BrowTipo_Cobertura']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528012"
+				id="cee7ce51504541b59e6aa4bf4e69e481"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\SearchBrowTipo_Cobertura.cs"
+				codeline="112"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.767"
+			timeRelativeToTestModuleStartTime="00:07.767"
+			timeWallClock="08:52:24"
+			time="00:07.767"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Form6528012' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmPrincipal']/form[@name='BrowTipo_Cobertura']"
+				itempath="form[@name='BrowTipo_Cobertura']"
+				fullname="SomaGestaoRepository.FrmPrincipal.Form6528012"
+				id="cee7ce51504541b59e6aa4bf4e69e481"
+				timeout="60000"
+				codefile="c:\Users\dev10\Documents\Ranorex\RanorexStudio Projects\SomaGestao\SomaGestao\SearchBrowTipo_Cobertura.cs"
+				codeline="113"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>
