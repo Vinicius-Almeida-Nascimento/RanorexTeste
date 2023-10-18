@@ -4,6 +4,84 @@
         <name>SomaGestao</name>
     </assembly>
     <members>
+        <member name="T:SomaGestao.AddUFrmCotacao">
+             <summary>
+            The AddUFrmCotacao recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.AddUFrmCotacao.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.AddUFrmCotacao.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.AddUFrmCotacao.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.AddUFrmCotacao.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.AddUFrmCotacao.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.AddUFrmCotacao.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.AddUFrmCotacao.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SomaGestao.AddUFrmOrcamento">
+             <summary>
+            The AddUFrmOrcamento recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.AddUFrmOrcamento.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.AddUFrmOrcamento.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.AddUFrmOrcamento.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.AddUFrmOrcamento.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.AddUFrmOrcamento.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.AddUFrmOrcamento.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.AddUFrmOrcamento.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:SomaGestao.AlterBrowEmpresa">
              <summary>
             The AlterBrowEmpresa recording.
@@ -361,6 +439,45 @@
             </summary>
         </member>
         <member name="P:SomaGestao.BrowClassificacao_Cliente.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SomaGestao.BrowCliente_CRM">
+             <summary>
+            The BrowCliente_CRM recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.BrowCliente_CRM.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.BrowCliente_CRM.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.BrowCliente_CRM.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.BrowCliente_CRM.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.BrowCliente_CRM.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.BrowCliente_CRM.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.BrowCliente_CRM.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
@@ -1067,6 +1184,45 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="T:SomaGestao.BrowTipo_Contato">
+             <summary>
+            The BrowTipo_Contato recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.BrowTipo_Contato.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.BrowTipo_Contato.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.BrowTipo_Contato.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.BrowTipo_Contato.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.BrowTipo_Contato.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.BrowTipo_Contato.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.BrowTipo_Contato.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:SomaGestao.BrowTipo_de_Cliente">
              <summary>
             The BrowTipo_de_Cliente recording.
@@ -1499,6 +1655,84 @@
         <member name="P:SomaGestao.DeleteBrowCliente.Confirmacao">
             <summary>
             Gets or sets the value of variable Confirmacao.
+            </summary>
+        </member>
+        <member name="T:SomaGestao.DeleteBrowCliente_CRM">
+             <summary>
+            The DeleteBrowCliente_CRM recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.DeleteBrowCliente_CRM.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.DeleteBrowCliente_CRM.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.DeleteBrowCliente_CRM.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.DeleteBrowCliente_CRM.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.DeleteBrowCliente_CRM.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.DeleteBrowCliente_CRM.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.DeleteBrowCliente_CRM.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SomaGestao.DeleteBrowContato_CRM_Cliente">
+             <summary>
+            The DeleteBrowContato_CRM_Cliente recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.DeleteBrowContato_CRM_Cliente.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.DeleteBrowContato_CRM_Cliente.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.DeleteBrowContato_CRM_Cliente.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.DeleteBrowContato_CRM_Cliente.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.DeleteBrowContato_CRM_Cliente.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.DeleteBrowContato_CRM_Cliente.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.DeleteBrowContato_CRM_Cliente.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="T:SomaGestao.DeleteBrowContratoPadrao">
@@ -1980,6 +2214,45 @@
             </summary>
         </member>
         <member name="P:SomaGestao.DeleteBrowTipo_Cobertura.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SomaGestao.DeleteBrowTipo_Contato">
+             <summary>
+            The DeleteBrowTipo_Contato recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.DeleteBrowTipo_Contato.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.DeleteBrowTipo_Contato.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.DeleteBrowTipo_Contato.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.DeleteBrowTipo_Contato.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.DeleteBrowTipo_Contato.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.DeleteBrowTipo_Contato.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.DeleteBrowTipo_Contato.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
@@ -2761,6 +3034,75 @@
             Gets or sets the value of variable NumCPF.
             </summary>
         </member>
+        <member name="T:SomaGestao.InsertBrowCliente_CRM">
+             <summary>
+            The InsertBrowCliente_CRM recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.InsertBrowCliente_CRM.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.InsertBrowCliente_CRM.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.InsertBrowCliente_CRM.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.InsertBrowCliente_CRM.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.InsertBrowCliente_CRM.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.InsertBrowCliente_CRM.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.InsertBrowCliente_CRM.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.InsertBrowCliente_CRM.Confirmacao">
+            <summary>
+            Gets or sets the value of variable Confirmacao.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.InsertBrowCliente_CRM.NumCNPJ">
+            <summary>
+            Gets or sets the value of variable NumCNPJ.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.InsertBrowCliente_CRM.DescricaoTipo">
+            <summary>
+            Gets or sets the value of variable DescricaoTipo.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.InsertBrowCliente_CRM.Data">
+            <summary>
+            Gets or sets the value of variable Data.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.InsertBrowCliente_CRM.NumCep">
+            <summary>
+            Gets or sets the value of variable NumCep.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.InsertBrowCliente_CRM.NumEnd">
+            <summary>
+            Gets or sets the value of variable NumEnd.
+            </summary>
+        </member>
         <member name="T:SomaGestao.InsertBrowContratoPadrao">
              <summary>
             The InsertBrowContratoPadrao recording.
@@ -3399,6 +3741,55 @@
             Gets or sets the value of variable Confirmacao.
             </summary>
         </member>
+        <member name="T:SomaGestao.InsertBrowTipo_Contato">
+             <summary>
+            The InsertBrowTipo_Contato recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.InsertBrowTipo_Contato.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.InsertBrowTipo_Contato.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.InsertBrowTipo_Contato.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.InsertBrowTipo_Contato.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.InsertBrowTipo_Contato.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.InsertBrowTipo_Contato.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.InsertBrowTipo_Contato.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.InsertBrowTipo_Contato.DescricaoTipo">
+            <summary>
+            Gets or sets the value of variable DescricaoTipo.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.InsertBrowTipo_Contato.Confirmacao">
+            <summary>
+            Gets or sets the value of variable Confirmacao.
+            </summary>
+        </member>
         <member name="T:SomaGestao.InsertBrowTipo_de_Cliente">
              <summary>
             The InsertBrowTipo_de_Cliente recording.
@@ -3884,6 +4275,84 @@
             Gets or sets the value of variable DescricaoTipo.
             </summary>
         </member>
+        <member name="T:SomaGestao.OpenUFrmCotacao">
+             <summary>
+            The OpenUFrmCotacao recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.OpenUFrmCotacao.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.OpenUFrmCotacao.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.OpenUFrmCotacao.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.OpenUFrmCotacao.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.OpenUFrmCotacao.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.OpenUFrmCotacao.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.OpenUFrmCotacao.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SomaGestao.OpenUFrmOrcamento">
+             <summary>
+            The OpenUFrmOrcamento recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.OpenUFrmOrcamento.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.OpenUFrmOrcamento.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.OpenUFrmOrcamento.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.OpenUFrmOrcamento.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.OpenUFrmOrcamento.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.OpenUFrmOrcamento.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.OpenUFrmOrcamento.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:SomaGestao.BrowCliente">
              <summary>
             The BrowCliente recording.
@@ -4051,6 +4520,45 @@
             </summary>
         </member>
         <member name="P:SomaGestao.BrowEmpresa.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SomaGestao.InsertBrowContato_CRM_Cliente">
+             <summary>
+            The InsertBrowContato_CRM_Cliente recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.InsertBrowContato_CRM_Cliente.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.InsertBrowContato_CRM_Cliente.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.InsertBrowContato_CRM_Cliente.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.InsertBrowContato_CRM_Cliente.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.InsertBrowContato_CRM_Cliente.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.InsertBrowContato_CRM_Cliente.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.InsertBrowContato_CRM_Cliente.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
@@ -4376,6 +4884,104 @@
         <member name="P:SomaGestao.SearchBrowCliente.SearchName">
             <summary>
             Gets or sets the value of variable SearchName.
+            </summary>
+        </member>
+        <member name="T:SomaGestao.SearchBrowCliente_CRM">
+             <summary>
+            The SearchBrowCliente_CRM recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.SearchBrowCliente_CRM.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.SearchBrowCliente_CRM.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.SearchBrowCliente_CRM.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.SearchBrowCliente_CRM.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.SearchBrowCliente_CRM.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.SearchBrowCliente_CRM.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SearchBrowCliente_CRM.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SearchBrowCliente_CRM.DescricaoTipo">
+            <summary>
+            Gets or sets the value of variable DescricaoTipo.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SearchBrowCliente_CRM.Confirmacao">
+            <summary>
+            Gets or sets the value of variable Confirmacao.
+            </summary>
+        </member>
+        <member name="T:SomaGestao.SearchBrowContato_CRM_Cliente">
+             <summary>
+            The SearchBrowContato_CRM_Cliente recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.SearchBrowContato_CRM_Cliente.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.SearchBrowContato_CRM_Cliente.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.SearchBrowContato_CRM_Cliente.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.SearchBrowContato_CRM_Cliente.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.SearchBrowContato_CRM_Cliente.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.SearchBrowContato_CRM_Cliente.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SearchBrowContato_CRM_Cliente.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SearchBrowContato_CRM_Cliente.DescricaoTipo">
+            <summary>
+            Gets or sets the value of variable DescricaoTipo.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SearchBrowContato_CRM_Cliente.Confirmacao">
+            <summary>
+            Gets or sets the value of variable Confirmacao.
             </summary>
         </member>
         <member name="T:SomaGestao.SearchBrowContratoPadrao">
@@ -5063,6 +5669,55 @@
             Gets or sets the value of variable DescricaoTipo.
             </summary>
         </member>
+        <member name="T:SomaGestao.SearchBrowTipo_Contato">
+             <summary>
+            The SearchBrowTipo_Contato recording.
+             </summary>
+        </member>
+        <member name="F:SomaGestao.SearchBrowTipo_Contato.repo">
+            <summary>
+            Holds an instance of the SomaGestaoRepository repository.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.SearchBrowTipo_Contato.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.SearchBrowTipo_Contato.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SomaGestao.SearchBrowTipo_Contato.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.SearchBrowTipo_Contato.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SomaGestao.SearchBrowTipo_Contato.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SearchBrowTipo_Contato.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SearchBrowTipo_Contato.Confirmacao">
+            <summary>
+            Gets or sets the value of variable Confirmacao.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SearchBrowTipo_Contato.DescricaoTipo">
+            <summary>
+            Gets or sets the value of variable DescricaoTipo.
+            </summary>
+        </member>
         <member name="T:SomaGestao.SearchBrowTipo_de_Cliente">
              <summary>
             The SearchBrowTipo_de_Cliente recording.
@@ -5416,19 +6071,9 @@
             The FrmSplash folder.
             </summary>
         </member>
-        <member name="P:SomaGestao.SomaGestaoRepository.Skype">
-            <summary>
-            The Skype folder.
-            </summary>
-        </member>
         <member name="P:SomaGestao.SomaGestaoRepository.BASEDETESTESBIANCHINI">
             <summary>
             The BASEDETESTESBIANCHINI folder.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepository.FrmMainRibbon">
-            <summary>
-            The FrmMainRibbon folder.
             </summary>
         </member>
         <member name="P:SomaGestao.SomaGestaoRepository.Assistente">
@@ -5481,11 +6126,6 @@
             The NovaNotificacao folder.
             </summary>
         </member>
-        <member name="P:SomaGestao.SomaGestaoRepository.Financeirotix01AtadAnyDesk">
-            <summary>
-            The Financeirotix01AtadAnyDesk folder.
-            </summary>
-        </member>
         <member name="P:SomaGestao.SomaGestaoRepository.OperacaoBloqueada">
             <summary>
             The OperacaoBloqueada folder.
@@ -5499,6 +6139,21 @@
         <member name="P:SomaGestao.SomaGestaoRepository.CRMEmAbertoFrmContatoCRMAberto">
             <summary>
             The CRMEmAbertoFrmContatoCRMAberto folder.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepository.None1">
+            <summary>
+            The None1 folder.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepository.AssitenteFrmAuxPedido">
+            <summary>
+            The AssitenteFrmAuxPedido folder.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepository.DocumentosEmAbertoFrmDocRece">
+            <summary>
+            The DocumentosEmAbertoFrmDocRece folder.
             </summary>
         </member>
         <member name="T:SomaGestao.SomaGestaoRepositoryFolders">
@@ -5536,26 +6191,6 @@
             The BaseDeTestes item info.
             </summary>
         </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.ExplorerAppFolder.BaseDeTestes1ExecutandoOWindows">
-            <summary>
-            The BaseDeTestes1ExecutandoOWindows item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.ExplorerAppFolder.BaseDeTestes1ExecutandoOWindowsInfo">
-            <summary>
-            The BaseDeTestes1ExecutandoOWindows item info.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.ExplorerAppFolder.AplicativosEmExecucao">
-            <summary>
-            The AplicativosEmExecucao item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.ExplorerAppFolder.AplicativosEmExecucaoInfo">
-            <summary>
-            The AplicativosEmExecucao item info.
-            </summary>
-        </member>
         <member name="T:SomaGestao.SomaGestaoRepositoryFolders.FrmSplashAppFolder">
             <summary>
             The FrmSplashAppFolder folder.
@@ -5584,26 +6219,6 @@
         <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmSplashAppFolder.CodigoInfo">
             <summary>
             The Codigo item info.
-            </summary>
-        </member>
-        <member name="T:SomaGestao.SomaGestaoRepositoryFolders.SkypeAppFolder">
-            <summary>
-            The SkypeAppFolder folder.
-            </summary>
-        </member>
-        <member name="M:SomaGestao.SomaGestaoRepositoryFolders.SkypeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            Creates a new Skype  folder.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.SkypeAppFolder.Self">
-            <summary>
-            The Self item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.SkypeAppFolder.SelfInfo">
-            <summary>
-            The Self item info.
             </summary>
         </member>
         <member name="T:SomaGestao.SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder">
@@ -5766,70 +6381,24 @@
             The Form652806 item info.
             </summary>
         </member>
-        <member name="T:SomaGestao.SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder.Image1InfoClass">
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder.Form652814">
             <summary>
-            The Image1InfoClass folder.
+            The Form652814 item.
             </summary>
         </member>
-        <member name="M:SomaGestao.SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder.Image1InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder.Form652814Info">
             <summary>
-            Image1InfoClass class constructor.
+            The Form652814 item info.
             </summary>
         </member>
-        <member name="M:SomaGestao.SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder.Image1InfoClass.GetScreenshot1">
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder.MenuItemFinanceiro">
             <summary>
-            Gets the Screenshot1 item image.
-            </summary>
-            <returns>The Screenshot1 image.</returns>
-        </member>
-        <member name="M:SomaGestao.SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder.Image1InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
-            <summary>
-            Gets the Screenshot1 item image.
-            </summary>
-            <param name="cropRect">The bounds of the sub-image to return.</param>
-            <returns>The cropped image.</returns>
-        </member>
-        <member name="M:SomaGestao.SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder.Image1InfoClass.GetScreenshot2">
-            <summary>
-            Gets the Screenshot2 item image.
-            </summary>
-            <returns>The Screenshot2 image.</returns>
-        </member>
-        <member name="M:SomaGestao.SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder.Image1InfoClass.GetScreenshot2(System.Drawing.Rectangle)">
-            <summary>
-            Gets the Screenshot2 item image.
-            </summary>
-            <param name="cropRect">The bounds of the sub-image to return.</param>
-            <returns>The cropped image.</returns>
-        </member>
-        <member name="T:SomaGestao.SomaGestaoRepositoryFolders.FrmMainRibbonAppFolder">
-            <summary>
-            The FrmMainRibbonAppFolder folder.
+            The MenuItemFinanceiro item.
             </summary>
         </member>
-        <member name="M:SomaGestao.SomaGestaoRepositoryFolders.FrmMainRibbonAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder.MenuItemFinanceiroInfo">
             <summary>
-            Creates a new FrmMainRibbon  folder.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmMainRibbonAppFolder.Self">
-            <summary>
-            The Self item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmMainRibbonAppFolder.SelfInfo">
-            <summary>
-            The Self item info.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmMainRibbonAppFolder.DataSources">
-            <summary>
-            The DataSources item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmMainRibbonAppFolder.DataSourcesInfo">
-            <summary>
-            The DataSources item info.
+            The MenuItemFinanceiro item info.
             </summary>
         </member>
         <member name="T:SomaGestao.SomaGestaoRepositoryFolders.AssistenteAppFolder">
@@ -5870,16 +6439,6 @@
         <member name="P:SomaGestao.SomaGestaoRepositoryFolders.AssistenteAppFolder.ButtonOKInfo">
             <summary>
             The ButtonOK item info.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.AssistenteAppFolder.Detalhes">
-            <summary>
-            The Detalhes item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.AssistenteAppFolder.DetalhesInfo">
-            <summary>
-            The Detalhes item info.
             </summary>
         </member>
         <member name="T:SomaGestao.SomaGestaoRepositoryFolders.OficinaAppFolder">
@@ -6332,16 +6891,6 @@
             The Form6528020 item info.
             </summary>
         </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.Form652813">
-            <summary>
-            The Form652813 item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.Form652813Info">
-            <summary>
-            The Form652813 item info.
-            </summary>
-        </member>
         <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.Form6528021">
             <summary>
             The Form6528021 item.
@@ -6390,6 +6939,66 @@
         <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.Form6528025Info">
             <summary>
             The Form6528025 item info.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.Form6528026">
+            <summary>
+            The Form6528026 item.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.Form6528026Info">
+            <summary>
+            The Form6528026 item info.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.Form6528027">
+            <summary>
+            The Form6528027 item.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.Form6528027Info">
+            <summary>
+            The Form6528027 item info.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.MenuItemMovimentos">
+            <summary>
+            The MenuItemMovimentos item.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.MenuItemMovimentosInfo">
+            <summary>
+            The MenuItemMovimentos item info.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.Form6528028">
+            <summary>
+            The Form6528028 item.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.Form6528028Info">
+            <summary>
+            The Form6528028 item info.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.ButtonOrcamentos">
+            <summary>
+            The ButtonOrcamentos item.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.ButtonOrcamentosInfo">
+            <summary>
+            The ButtonOrcamentos item info.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.Form6528029">
+            <summary>
+            The Form6528029 item.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.FrmPrincipalAppFolder.Form6528029Info">
+            <summary>
+            The Form6528029 item info.
             </summary>
         </member>
         <member name="T:SomaGestao.SomaGestaoRepositoryFolders.ProcuraFrmProcuraAppFolder">
@@ -6460,26 +7069,6 @@
         <member name="P:SomaGestao.SomaGestaoRepositoryFolders.NoneAppFolder.SelfInfo">
             <summary>
             The Self item info.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.NoneAppFolder.SomeButton">
-            <summary>
-            The SomeButton item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.NoneAppFolder.SomeButtonInfo">
-            <summary>
-            The SomeButton item info.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.NoneAppFolder.TJvLocCalendar">
-            <summary>
-            The TJvLocCalendar item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.NoneAppFolder.TJvLocCalendarInfo">
-            <summary>
-            The TJvLocCalendar item info.
             </summary>
         </member>
         <member name="T:SomaGestao.SomaGestaoRepositoryFolders.TipoDeCoberturaParaOsContratosFAppFolder">
@@ -6582,36 +7171,6 @@
             The TODOS item info.
             </summary>
         </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.List1000AppFolder.Venda">
-            <summary>
-            The Venda item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.List1000AppFolder.VendaInfo">
-            <summary>
-            The Venda item info.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.List1000AppFolder.Amarelo">
-            <summary>
-            The Amarelo item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.List1000AppFolder.AmareloInfo">
-            <summary>
-            The Amarelo item info.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.List1000AppFolder.Numerico">
-            <summary>
-            The Numerico item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.List1000AppFolder.NumericoInfo">
-            <summary>
-            The Numerico item info.
-            </summary>
-        </member>
         <member name="T:SomaGestao.SomaGestaoRepositoryFolders.AtencaoAppFolder">
             <summary>
             The AtencaoAppFolder folder.
@@ -6692,44 +7251,14 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.NovaNotificacaoAppFolder.TitleText">
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.NovaNotificacaoAppFolder.ToastCenterScrollViewer">
             <summary>
-            The TitleText item.
+            The ToastCenterScrollViewer item.
             </summary>
         </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.NovaNotificacaoAppFolder.TitleTextInfo">
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.NovaNotificacaoAppFolder.ToastCenterScrollViewerInfo">
             <summary>
-            The TitleText item info.
-            </summary>
-        </member>
-        <member name="T:SomaGestao.SomaGestaoRepositoryFolders.Financeirotix01AtadAnyDeskAppFolder">
-            <summary>
-            The Financeirotix01AtadAnyDeskAppFolder folder.
-            </summary>
-        </member>
-        <member name="M:SomaGestao.SomaGestaoRepositoryFolders.Financeirotix01AtadAnyDeskAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            Creates a new Financeirotix01AtadAnyDesk  folder.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.Financeirotix01AtadAnyDeskAppFolder.Self">
-            <summary>
-            The Self item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.Financeirotix01AtadAnyDeskAppFolder.SelfInfo">
-            <summary>
-            The Self item info.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.Financeirotix01AtadAnyDeskAppFolder.Fechar">
-            <summary>
-            The Fechar item.
-            </summary>
-        </member>
-        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.Financeirotix01AtadAnyDeskAppFolder.FecharInfo">
-            <summary>
-            The Fechar item info.
+            The ToastCenterScrollViewer item info.
             </summary>
         </member>
         <member name="T:SomaGestao.SomaGestaoRepositoryFolders.OperacaoBloqueadaAppFolder">
@@ -6830,6 +7359,76 @@
         <member name="P:SomaGestao.SomaGestaoRepositoryFolders.CRMEmAbertoFrmContatoCRMAbertoAppFolder.FecharInfo">
             <summary>
             The Fechar item info.
+            </summary>
+        </member>
+        <member name="T:SomaGestao.SomaGestaoRepositoryFolders.None1AppFolder">
+            <summary>
+            The None1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.SomaGestaoRepositoryFolders.None1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new None1  folder.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.None1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.None1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:SomaGestao.SomaGestaoRepositoryFolders.AssitenteFrmAuxPedidoAppFolder">
+            <summary>
+            The AssitenteFrmAuxPedidoAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.SomaGestaoRepositoryFolders.AssitenteFrmAuxPedidoAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AssitenteFrmAuxPedido  folder.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.AssitenteFrmAuxPedidoAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.AssitenteFrmAuxPedidoAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.AssitenteFrmAuxPedidoAppFolder.ButtonNovoOrcamento">
+            <summary>
+            The ButtonNovoOrcamento item.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.AssitenteFrmAuxPedidoAppFolder.ButtonNovoOrcamentoInfo">
+            <summary>
+            The ButtonNovoOrcamento item info.
+            </summary>
+        </member>
+        <member name="T:SomaGestao.SomaGestaoRepositoryFolders.DocumentosEmAbertoFrmDocReceAppFolder">
+            <summary>
+            The DocumentosEmAbertoFrmDocReceAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SomaGestao.SomaGestaoRepositoryFolders.DocumentosEmAbertoFrmDocReceAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DocumentosEmAbertoFrmDocRece  folder.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.DocumentosEmAbertoFrmDocReceAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SomaGestao.SomaGestaoRepositoryFolders.DocumentosEmAbertoFrmDocReceAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
             </summary>
         </member>
         <member name="T:SomaGestao.OpenAUT">

@@ -123,6 +123,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddUFrmCotacao.cs">
+      <BoundTo>6967d121-e16c-45d3-913c-a64f9499c29b</BoundTo>
+      <DependentUpon>AddUFrmCotacao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b37ec3d1-98d9-42da-9d29-70bfc07dcbfe</id>
+    </Compile>
+    <Compile Include="AddUFrmCotacao.UserCode.cs">
+      <BoundTo>6967d121-e16c-45d3-913c-a64f9499c29b</BoundTo>
+      <DependentUpon>AddUFrmCotacao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>24909e54-284e-4d7c-ab8b-8c148b9b3565</id>
+    </Compile>
+    <Compile Include="AddUFrmOrcamento.cs">
+      <BoundTo>6045ce7c-f719-4766-ae3f-9bb7076bbc79</BoundTo>
+      <DependentUpon>AddUFrmOrcamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bf4be290-be9d-46d2-8fcb-7d637a2910dc</id>
+    </Compile>
+    <Compile Include="AddUFrmOrcamento.UserCode.cs">
+      <BoundTo>6045ce7c-f719-4766-ae3f-9bb7076bbc79</BoundTo>
+      <DependentUpon>AddUFrmOrcamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>54faad6d-ae69-4533-bfad-88935c05eae9</id>
+    </Compile>
+    <Compile Include="AddUFrmVendasBalcao.cs">
+      <BoundTo>6a4034c2-ffa9-4db4-be9f-2de8e628cb7e</BoundTo>
+      <DependentUpon>AddUFrmVendasBalcao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e50132bc-70df-4867-afd6-af2cc7a88a0f</id>
+    </Compile>
+    <Compile Include="AddUFrmVendasBalcao.UserCode.cs">
+      <BoundTo>6a4034c2-ffa9-4db4-be9f-2de8e628cb7e</BoundTo>
+      <DependentUpon>AddUFrmVendasBalcao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0bcc01d6-edac-4029-b336-4263ede09fb7</id>
+    </Compile>
     <Compile Include="AlterBrowEmpresa.cs">
       <BoundTo>34a4a679-a5fa-41ab-ade9-5da1a5fb4ff7</BoundTo>
       <DependentUpon>AlterBrowEmpresa.rxrec</DependentUpon>
@@ -1290,6 +1326,42 @@
       <UserCode>true</UserCode>
       <id>bee6d794-8986-4da3-a3dc-84c3a8bd8aad</id>
     </Compile>
+    <Compile Include="OpenUFrmCotacao.cs">
+      <BoundTo>96d38c0e-63bd-4520-bd9d-5d7446125a33</BoundTo>
+      <DependentUpon>OpenUFrmCotacao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f9ba4398-3827-45ab-8270-bb14b7c19f45</id>
+    </Compile>
+    <Compile Include="OpenUFrmCotacao.UserCode.cs">
+      <BoundTo>96d38c0e-63bd-4520-bd9d-5d7446125a33</BoundTo>
+      <DependentUpon>OpenUFrmCotacao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>11b851ab-e2a4-4a9f-8ff9-6786a5f46e77</id>
+    </Compile>
+    <Compile Include="OpenUFrmOrcamento.cs">
+      <BoundTo>48362272-f55b-4626-b24f-083c2e0512a1</BoundTo>
+      <DependentUpon>OpenUFrmOrcamento.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>41b37dca-9881-467f-9015-6921b09cf11f</id>
+    </Compile>
+    <Compile Include="OpenUFrmOrcamento.UserCode.cs">
+      <BoundTo>48362272-f55b-4626-b24f-083c2e0512a1</BoundTo>
+      <DependentUpon>OpenUFrmOrcamento.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9e790346-dc3e-4582-b7a3-d9f3238eac0d</id>
+    </Compile>
+    <Compile Include="OpenUFrmVendasBalcao.cs">
+      <BoundTo>9cacb0cf-330c-4c0a-a1d9-91556a33e88b</BoundTo>
+      <DependentUpon>OpenUFrmVendasBalcao.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c980dbde-2ad4-4208-a1b5-1ed267af07a5</id>
+    </Compile>
+    <Compile Include="OpenUFrmVendasBalcao.UserCode.cs">
+      <BoundTo>9cacb0cf-330c-4c0a-a1d9-91556a33e88b</BoundTo>
+      <DependentUpon>OpenUFrmVendasBalcao.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3109e3a0-4068-45e5-97f7-329b7de8bec6</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>cb39281d-c089-440c-acd4-c9c9cdde4803</id>
     </Compile>
@@ -1760,15 +1832,30 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="AddUFrmCotacao.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>6967d121-e16c-45d3-913c-a64f9499c29b</id>
+      <recordtableid>f7a7bb9a-e07f-425f-8f4e-95017bd59094</recordtableid>
+    </None>
+    <None Include="AddUFrmOrcamento.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>6045ce7c-f719-4766-ae3f-9bb7076bbc79</id>
+      <recordtableid>c21e6b18-d0fc-42e2-8a2b-4896dc4720b1</recordtableid>
+    </None>
+    <None Include="AddUFrmVendasBalcao.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>6a4034c2-ffa9-4db4-be9f-2de8e628cb7e</id>
+      <recordtableid>21fbe9ff-c9ce-4150-afab-ba0ba34e1a6a</recordtableid>
+    </None>
     <None Include="AlterBrowEmpresa.rxrec">
       <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
       <id>34a4a679-a5fa-41ab-ade9-5da1a5fb4ff7</id>
       <recordtableid>dc31070f-d29f-4e04-9dfd-05471a9249d8</recordtableid>
     </None>
     <None Include="AlterBrowParametro.rxrec">
-      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
       <id>eef897f9-a5e5-4861-b487-ea3427f2fafd</id>
       <recordtableid>e28ed914-6d28-427c-b590-d45826ed24a5</recordtableid>
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
     </None>
     <None Include="AlterFrmCRM.rxrec">
       <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
@@ -2287,6 +2374,21 @@
       <id>cab93d6c-b005-477d-bb7d-ab5cb4dd0eae</id>
       <recordtableid>0ca916d4-cc0a-4740-95d9-560d265bc8c8</recordtableid>
     </None>
+    <None Include="OpenUFrmCotacao.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>96d38c0e-63bd-4520-bd9d-5d7446125a33</id>
+      <recordtableid>3230c4ef-eb81-4339-8b77-c1e9aaf27d08</recordtableid>
+    </None>
+    <None Include="OpenUFrmOrcamento.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>48362272-f55b-4626-b24f-083c2e0512a1</id>
+      <recordtableid>e90eb983-f2f7-4e2d-8f4f-4c0906e562f3</recordtableid>
+    </None>
+    <None Include="OpenUFrmVendasBalcao.rxrec">
+      <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
+      <id>9cacb0cf-330c-4c0a-a1d9-91556a33e88b</id>
+      <recordtableid>7fe39b56-f5b7-41fb-910c-b367a5240348</recordtableid>
+    </None>
     <None Include="SearchBrowCampoDinamico.rxrec">
       <BoundTo>d410f13c-22be-49c8-84f7-752547d2870b</BoundTo>
       <id>eda4c324-ee66-42e6-8626-c0ff53ad2541</id>
@@ -2465,6 +2567,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SomaGestao.cd">
+      <id>1149f637-b22f-4883-8e11-fd6fb3137238</id>
+    </Content>
     <Content Include="SomaGestao.rxtmg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>102e277d-3c35-4100-aaed-ef2eacd60e30</id>

@@ -29,9 +29,7 @@ namespace SomaGestao
         static SomaGestaoRepository instance = new SomaGestaoRepository();
         SomaGestaoRepositoryFolders.ExplorerAppFolder _explorer;
         SomaGestaoRepositoryFolders.FrmSplashAppFolder _frmsplash;
-        SomaGestaoRepositoryFolders.SkypeAppFolder _skype;
         SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder _basedetestesbianchini;
-        SomaGestaoRepositoryFolders.FrmMainRibbonAppFolder _frmmainribbon;
         SomaGestaoRepositoryFolders.AssistenteAppFolder _assistente;
         SomaGestaoRepositoryFolders.OficinaAppFolder _oficina;
         SomaGestaoRepositoryFolders.FrmPrincipalAppFolder _frmprincipal;
@@ -42,11 +40,12 @@ namespace SomaGestao
         SomaGestaoRepositoryFolders.AtencaoAppFolder _atencao;
         SomaGestaoRepositoryFolders.LocalizarProdutoFrmProdSAppFolder _localizarprodutofrmprods;
         SomaGestaoRepositoryFolders.NovaNotificacaoAppFolder _novanotificacao;
-        SomaGestaoRepositoryFolders.Financeirotix01AtadAnyDeskAppFolder _financeirotix01atadanydesk;
         SomaGestaoRepositoryFolders.OperacaoBloqueadaAppFolder _operacaobloqueada;
         SomaGestaoRepositoryFolders.OperacaoBloqueada1AppFolder _operacaobloqueada1;
         SomaGestaoRepositoryFolders.CRMEmAbertoFrmContatoCRMAbertoAppFolder _crmemabertofrmcontatocrmaberto;
         SomaGestaoRepositoryFolders.None1AppFolder _none1;
+        SomaGestaoRepositoryFolders.AssitenteFrmAuxPedidoAppFolder _assitentefrmauxpedido;
+        SomaGestaoRepositoryFolders.DocumentosEmAbertoFrmDocReceAppFolder _documentosemabertofrmdocrece;
 
         /// <summary>
         /// Gets the singleton class instance representing the SomaGestaoRepository element repository.
@@ -65,9 +64,7 @@ namespace SomaGestao
         {
             _explorer = new SomaGestaoRepositoryFolders.ExplorerAppFolder(this);
             _frmsplash = new SomaGestaoRepositoryFolders.FrmSplashAppFolder(this);
-            _skype = new SomaGestaoRepositoryFolders.SkypeAppFolder(this);
             _basedetestesbianchini = new SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder(this);
-            _frmmainribbon = new SomaGestaoRepositoryFolders.FrmMainRibbonAppFolder(this);
             _assistente = new SomaGestaoRepositoryFolders.AssistenteAppFolder(this);
             _oficina = new SomaGestaoRepositoryFolders.OficinaAppFolder(this);
             _frmprincipal = new SomaGestaoRepositoryFolders.FrmPrincipalAppFolder(this);
@@ -78,11 +75,12 @@ namespace SomaGestao
             _atencao = new SomaGestaoRepositoryFolders.AtencaoAppFolder(this);
             _localizarprodutofrmprods = new SomaGestaoRepositoryFolders.LocalizarProdutoFrmProdSAppFolder(this);
             _novanotificacao = new SomaGestaoRepositoryFolders.NovaNotificacaoAppFolder(this);
-            _financeirotix01atadanydesk = new SomaGestaoRepositoryFolders.Financeirotix01AtadAnyDeskAppFolder(this);
             _operacaobloqueada = new SomaGestaoRepositoryFolders.OperacaoBloqueadaAppFolder(this);
             _operacaobloqueada1 = new SomaGestaoRepositoryFolders.OperacaoBloqueada1AppFolder(this);
             _crmemabertofrmcontatocrmaberto = new SomaGestaoRepositoryFolders.CRMEmAbertoFrmContatoCRMAbertoAppFolder(this);
             _none1 = new SomaGestaoRepositoryFolders.None1AppFolder(this);
+            _assitentefrmauxpedido = new SomaGestaoRepositoryFolders.AssitenteFrmAuxPedidoAppFolder(this);
+            _documentosemabertofrmdocrece = new SomaGestaoRepositoryFolders.DocumentosEmAbertoFrmDocReceAppFolder(this);
         }
 
 #region Variables
@@ -120,30 +118,12 @@ namespace SomaGestao
         }
 
         /// <summary>
-        /// The Skype folder.
-        /// </summary>
-        [RepositoryFolder("0196ee2b-d83d-4df1-8564-67c0ad10404a")]
-        public virtual SomaGestaoRepositoryFolders.SkypeAppFolder Skype
-        {
-            get { return _skype; }
-        }
-
-        /// <summary>
         /// The BASEDETESTESBIANCHINI folder.
         /// </summary>
         [RepositoryFolder("610add2f-c7f4-4b30-ac4e-b02c628bbd27")]
         public virtual SomaGestaoRepositoryFolders.BASEDETESTESBIANCHINIAppFolder BASEDETESTESBIANCHINI
         {
             get { return _basedetestesbianchini; }
-        }
-
-        /// <summary>
-        /// The FrmMainRibbon folder.
-        /// </summary>
-        [RepositoryFolder("fc40e1d3-1ff0-45e9-875e-75df2beca514")]
-        public virtual SomaGestaoRepositoryFolders.FrmMainRibbonAppFolder FrmMainRibbon
-        {
-            get { return _frmmainribbon; }
         }
 
         /// <summary>
@@ -237,15 +217,6 @@ namespace SomaGestao
         }
 
         /// <summary>
-        /// The Financeirotix01AtadAnyDesk folder.
-        /// </summary>
-        [RepositoryFolder("2cf8bb0e-ac60-49bb-82ee-b9d428d2feac")]
-        public virtual SomaGestaoRepositoryFolders.Financeirotix01AtadAnyDeskAppFolder Financeirotix01AtadAnyDesk
-        {
-            get { return _financeirotix01atadanydesk; }
-        }
-
-        /// <summary>
         /// The OperacaoBloqueada folder.
         /// </summary>
         [RepositoryFolder("c04ea38f-6ed0-41d9-b6e7-860921d29fa3")]
@@ -280,6 +251,24 @@ namespace SomaGestao
         {
             get { return _none1; }
         }
+
+        /// <summary>
+        /// The AssitenteFrmAuxPedido folder.
+        /// </summary>
+        [RepositoryFolder("fbb88236-d2fe-4a5e-9156-dd5fc5c5a18f")]
+        public virtual SomaGestaoRepositoryFolders.AssitenteFrmAuxPedidoAppFolder AssitenteFrmAuxPedido
+        {
+            get { return _assitentefrmauxpedido; }
+        }
+
+        /// <summary>
+        /// The DocumentosEmAbertoFrmDocRece folder.
+        /// </summary>
+        [RepositoryFolder("228cb184-2313-4397-9c2f-a905c5ed76b1")]
+        public virtual SomaGestaoRepositoryFolders.DocumentosEmAbertoFrmDocReceAppFolder DocumentosEmAbertoFrmDocRece
+        {
+            get { return _documentosemabertofrmdocrece; }
+        }
     }
 
     /// <summary>
@@ -295,8 +284,6 @@ namespace SomaGestao
         public partial class ExplorerAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _basedetestesInfo;
-            RepoItemInfo _basedetestes1executandoowindowsInfo;
-            RepoItemInfo _aplicativosemexecucaoInfo;
 
             /// <summary>
             /// Creates a new Explorer  folder.
@@ -305,8 +292,6 @@ namespace SomaGestao
                     base("Explorer", "/menubar[@processname='explorer']", parentFolder, 30000, null, true, "e4b2b155-8405-4137-8395-40c45f8bc8bd", "")
             {
                 _basedetestesInfo = new RepoItemInfo(this, "BaseDeTestes", "container[@controlid='40965']//toolbar[@accessiblename='Aplicativos em execução']/button[@accessiblename='Base de Testes']", 30000, null, "75c53eac-66d1-458b-a79d-5596a45014f4");
-                _basedetestes1executandoowindowsInfo = new RepoItemInfo(this, "BaseDeTestes1ExecutandoOWindows", "container[@controlid='40965']//toolbar[@accessiblename='Aplicativos em execução']/button[14]", 30000, null, "106cc7ed-87a8-4c48-9382-67e01c34b250");
-                _aplicativosemexecucaoInfo = new RepoItemInfo(this, "AplicativosEmExecucao", "container[@controlid='40965']//toolbar[@accessiblename='Aplicativos em execução']", 30000, null, "2b9a0c45-f225-4230-84de-43a70e469d15");
             }
 
             /// <summary>
@@ -354,54 +339,6 @@ namespace SomaGestao
                 get
                 {
                     return _basedetestesInfo;
-                }
-            }
-
-            /// <summary>
-            /// The BaseDeTestes1ExecutandoOWindows item.
-            /// </summary>
-            [RepositoryItem("106cc7ed-87a8-4c48-9382-67e01c34b250")]
-            public virtual Ranorex.Button BaseDeTestes1ExecutandoOWindows
-            {
-                get
-                {
-                    return _basedetestes1executandoowindowsInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The BaseDeTestes1ExecutandoOWindows item info.
-            /// </summary>
-            [RepositoryItemInfo("106cc7ed-87a8-4c48-9382-67e01c34b250")]
-            public virtual RepoItemInfo BaseDeTestes1ExecutandoOWindowsInfo
-            {
-                get
-                {
-                    return _basedetestes1executandoowindowsInfo;
-                }
-            }
-
-            /// <summary>
-            /// The AplicativosEmExecucao item.
-            /// </summary>
-            [RepositoryItem("2b9a0c45-f225-4230-84de-43a70e469d15")]
-            public virtual Ranorex.ToolBar AplicativosEmExecucao
-            {
-                get
-                {
-                    return _aplicativosemexecucaoInfo.CreateAdapter<Ranorex.ToolBar>(true);
-                }
-            }
-
-            /// <summary>
-            /// The AplicativosEmExecucao item info.
-            /// </summary>
-            [RepositoryItemInfo("2b9a0c45-f225-4230-84de-43a70e469d15")]
-            public virtual RepoItemInfo AplicativosEmExecucaoInfo
-            {
-                get
-                {
-                    return _aplicativosemexecucaoInfo;
                 }
             }
         }
@@ -473,52 +410,12 @@ namespace SomaGestao
         }
 
         /// <summary>
-        /// The SkypeAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("0196ee2b-d83d-4df1-8564-67c0ad10404a")]
-        public partial class SkypeAppFolder : RepoGenBaseFolder
-        {
-
-            /// <summary>
-            /// Creates a new Skype  folder.
-            /// </summary>
-            public SkypeAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Skype", "/form[@title='Skype']", parentFolder, 30000, null, true, "0196ee2b-d83d-4df1-8564-67c0ad10404a", "")
-            {
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("0196ee2b-d83d-4df1-8564-67c0ad10404a")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("0196ee2b-d83d-4df1-8564-67c0ad10404a")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-        }
-
-        /// <summary>
         /// The BASEDETESTESBIANCHINIAppFolder folder.
         /// </summary>
         [RepositoryFolder("610add2f-c7f4-4b30-ac4e-b02c628bbd27")]
         public partial class BASEDETESTESBIANCHINIAppFolder : RepoGenBaseFolder
         {
-            Image1InfoClass _image1Info;
+            RepoItemInfo _image1Info;
             RepoItemInfo _basedetestesbianchiniInfo;
             RepoItemInfo _cadastroInfo;
             RepoItemInfo _form65280Info;
@@ -532,6 +429,8 @@ namespace SomaGestao
             RepoItemInfo _form652805Info;
             RepoItemInfo _form652813Info;
             RepoItemInfo _form652806Info;
+            RepoItemInfo _form652814Info;
+            RepoItemInfo _menuitemfinanceiroInfo;
 
             /// <summary>
             /// Creates a new BASEDETESTESBIANCHINI  folder.
@@ -539,7 +438,7 @@ namespace SomaGestao
             public BASEDETESTESBIANCHINIAppFolder(RepoGenBaseFolder parentFolder) :
                     base("BASEDETESTESBIANCHINI", "/form[@name='FrmPrincipal']", parentFolder, 30000, null, true, "610add2f-c7f4-4b30-ac4e-b02c628bbd27", "")
             {
-                _image1Info = new Image1InfoClass(this);
+                _image1Info = new RepoItemInfo(this, "Image1", "picture[@name='Image1']", 30000, null, "2cc20ef5-ee99-4e90-806c-6a6d3bede6ab");
                 _basedetestesbianchiniInfo = new RepoItemInfo(this, "BASEDETESTESBIANCHINI", "titlebar[@accessiblerole='TitleBar']", 30000, null, "33aaad13-8bb9-4185-b488-c0f57c420eef");
                 _cadastroInfo = new RepoItemInfo(this, "Cadastro", "?/?/menuitem[@name='Cadastro1']", 30000, null, "5bd67882-0687-4fbc-aacc-0eead95fd63a");
                 _form65280Info = new RepoItemInfo(this, "Form65280", "form[@name='BrowCliente']", 30000, null, "67658049-8593-4d0b-9bbc-ca71a3775ac2");
@@ -553,62 +452,8 @@ namespace SomaGestao
                 _form652805Info = new RepoItemInfo(this, "Form652805", "form[@name='BrowCorretoras']", 30000, null, "d181a3a9-de40-4533-bbee-a0c6046ddd3c");
                 _form652813Info = new RepoItemInfo(this, "Form652813", "form[@name='FrmCorretoras']", 30000, null, "23555834-798e-4570-b2c0-d4fc34ce99ee");
                 _form652806Info = new RepoItemInfo(this, "Form652806", "form[@name='BrowCampoDinamico']", 30000, null, "770b2e58-abbb-47ac-b3db-cfe9ac75f755");
-            }
-
-            /// <summary>
-            /// The Image1InfoClass folder.
-            /// </summary>
-            [RepositoryItemInfo("2cc20ef5-ee99-4e90-806c-6a6d3bede6ab")]
-            public class Image1InfoClass : RepoItemInfo
-            {
-                /// <summary>
-                /// Image1InfoClass class constructor.
-                /// </summary>
-                public Image1InfoClass(RepoGenBaseFolder parentFolder)
-                    : base(parentFolder, "Image1", "picture[@name='Image1']", 30000, null, "2cc20ef5-ee99-4e90-806c-6a6d3bede6ab")
-                { }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <returns>The Screenshot1 image.</returns>
-                [RepositoryImage("b08464eb-fff9-49dc-8e8e-914ae7c0d302")]
-                public CompressedImage GetScreenshot1()
-                {
-                    return GetImage("b08464eb-fff9-49dc-8e8e-914ae7c0d302");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot1 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("b08464eb-fff9-49dc-8e8e-914ae7c0d302")]
-                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("b08464eb-fff9-49dc-8e8e-914ae7c0d302", cropRect);
-                }
-
-                /// <summary>
-                /// Gets the Screenshot2 item image.
-                /// </summary>
-                /// <returns>The Screenshot2 image.</returns>
-                [RepositoryImage("57a4d3f6-b7a2-4cd5-a479-0907fac9c85a")]
-                public CompressedImage GetScreenshot2()
-                {
-                    return GetImage("57a4d3f6-b7a2-4cd5-a479-0907fac9c85a");
-                }
-
-                /// <summary>
-                /// Gets the Screenshot2 item image.
-                /// </summary>
-                /// <param name="cropRect">The bounds of the sub-image to return.</param>
-                /// <returns>The cropped image.</returns>
-                [RepositoryImage("57a4d3f6-b7a2-4cd5-a479-0907fac9c85a")]
-                public CompressedImage GetScreenshot2(System.Drawing.Rectangle cropRect)
-                {
-                    return GetImage("57a4d3f6-b7a2-4cd5-a479-0907fac9c85a", cropRect);
-                }
+                _form652814Info = new RepoItemInfo(this, "Form652814", "form[@name>'FrmLibera_Ocorrencia_Vend']", 30000, null, "74aafedc-ea6f-4c56-a566-44a4723aa774");
+                _menuitemfinanceiroInfo = new RepoItemInfo(this, "MenuItemFinanceiro", "?/?/menuitem[@name='Financeiro1']", 30000, null, "72bff46a-5c32-4f60-b32f-980b92e1f998");
             }
 
             /// <summary>
@@ -651,7 +496,7 @@ namespace SomaGestao
             /// The Image1 item info.
             /// </summary>
             [RepositoryItemInfo("2cc20ef5-ee99-4e90-806c-6a6d3bede6ab")]
-            public virtual Image1InfoClass Image1Info
+            public virtual RepoItemInfo Image1Info
             {
                 get
                 {
@@ -970,70 +815,52 @@ namespace SomaGestao
                     return _form652806Info;
                 }
             }
-        }
-
-        /// <summary>
-        /// The FrmMainRibbonAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("fc40e1d3-1ff0-45e9-875e-75df2beca514")]
-        public partial class FrmMainRibbonAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _datasourcesInfo;
 
             /// <summary>
-            /// Creates a new FrmMainRibbon  folder.
+            /// The Form652814 item.
             /// </summary>
-            public FrmMainRibbonAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("FrmMainRibbon", "/form[@controlname='FrmMainRibbon']", parentFolder, 30000, null, true, "fc40e1d3-1ff0-45e9-875e-75df2beca514", "")
-            {
-                _datasourcesInfo = new RepoItemInfo(this, "DataSources", "?/?/button[@accessiblename='Data sources']", 30000, null, "4aef3b9f-d59c-4dd9-b908-17466fb163e9");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("fc40e1d3-1ff0-45e9-875e-75df2beca514")]
-            public virtual Ranorex.Form Self
+            [RepositoryItem("74aafedc-ea6f-4c56-a566-44a4723aa774")]
+            public virtual Ranorex.Form Form652814
             {
                 get
                 {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                    return _form652814Info.CreateAdapter<Ranorex.Form>(true);
                 }
             }
 
             /// <summary>
-            /// The Self item info.
+            /// The Form652814 item info.
             /// </summary>
-            [RepositoryItemInfo("fc40e1d3-1ff0-45e9-875e-75df2beca514")]
-            public virtual RepoItemInfo SelfInfo
+            [RepositoryItemInfo("74aafedc-ea6f-4c56-a566-44a4723aa774")]
+            public virtual RepoItemInfo Form652814Info
             {
                 get
                 {
-                    return _selfInfo;
+                    return _form652814Info;
                 }
             }
 
             /// <summary>
-            /// The DataSources item.
+            /// The MenuItemFinanceiro item.
             /// </summary>
-            [RepositoryItem("4aef3b9f-d59c-4dd9-b908-17466fb163e9")]
-            public virtual Ranorex.Button DataSources
+            [RepositoryItem("72bff46a-5c32-4f60-b32f-980b92e1f998")]
+            public virtual Ranorex.MenuItem MenuItemFinanceiro
             {
                 get
                 {
-                    return _datasourcesInfo.CreateAdapter<Ranorex.Button>(true);
+                    return _menuitemfinanceiroInfo.CreateAdapter<Ranorex.MenuItem>(true);
                 }
             }
 
             /// <summary>
-            /// The DataSources item info.
+            /// The MenuItemFinanceiro item info.
             /// </summary>
-            [RepositoryItemInfo("4aef3b9f-d59c-4dd9-b908-17466fb163e9")]
-            public virtual RepoItemInfo DataSourcesInfo
+            [RepositoryItemInfo("72bff46a-5c32-4f60-b32f-980b92e1f998")]
+            public virtual RepoItemInfo MenuItemFinanceiroInfo
             {
                 get
                 {
-                    return _datasourcesInfo;
+                    return _menuitemfinanceiroInfo;
                 }
             }
         }
@@ -1046,7 +873,6 @@ namespace SomaGestao
         {
             RepoItemInfo _buttonsimInfo;
             RepoItemInfo _buttonokInfo;
-            RepoItemInfo _detalhesInfo;
 
             /// <summary>
             /// Creates a new Assistente  folder.
@@ -1056,7 +882,6 @@ namespace SomaGestao
             {
                 _buttonsimInfo = new RepoItemInfo(this, "ButtonSim", "button[@text='&Sim']", 30000, null, "c1bcc758-1a49-4ac4-ba83-e6c8bf3c3333");
                 _buttonokInfo = new RepoItemInfo(this, "ButtonOK", "button[@text='OK']", 30000, null, "64f43aa3-9f5e-4829-a77c-3f057c4e6c49");
-                _detalhesInfo = new RepoItemInfo(this, "Detalhes", "button[@name='No']", 30000, null, "a6c68c96-c7b2-40bc-a395-9126d094e3f3");
             }
 
             /// <summary>
@@ -1128,30 +953,6 @@ namespace SomaGestao
                 get
                 {
                     return _buttonokInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Detalhes item.
-            /// </summary>
-            [RepositoryItem("a6c68c96-c7b2-40bc-a395-9126d094e3f3")]
-            public virtual Ranorex.Button Detalhes
-            {
-                get
-                {
-                    return _detalhesInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Detalhes item info.
-            /// </summary>
-            [RepositoryItemInfo("a6c68c96-c7b2-40bc-a395-9126d094e3f3")]
-            public virtual RepoItemInfo DetalhesInfo
-            {
-                get
-                {
-                    return _detalhesInfo;
                 }
             }
         }
@@ -1668,7 +1469,6 @@ namespace SomaGestao
             RepoItemInfo _form6528019Info;
             RepoItemInfo _form652812Info;
             RepoItemInfo _form6528020Info;
-            RepoItemInfo _form652813Info;
             RepoItemInfo _form6528021Info;
             RepoItemInfo _form6528022Info;
             RepoItemInfo _form6528023Info;
@@ -1676,6 +1476,11 @@ namespace SomaGestao
             RepoItemInfo _form6528025Info;
             RepoItemInfo _form6528026Info;
             RepoItemInfo _form6528027Info;
+            RepoItemInfo _menuitemmovimentosInfo;
+            RepoItemInfo _form6528028Info;
+            RepoItemInfo _buttonorcamentosInfo;
+            RepoItemInfo _form6528029Info;
+            RepoItemInfo _form6528030Info;
 
             /// <summary>
             /// Creates a new FrmPrincipal  folder.
@@ -1707,7 +1512,6 @@ namespace SomaGestao
                 _form6528019Info = new RepoItemInfo(this, "Form6528019", "form[@name='BrowParametro']", 30000, null, "e13daa2d-b069-4160-9775-d08fcf2a27c4");
                 _form652812Info = new RepoItemInfo(this, "Form652812", "form[@name='FrmParametro']", 30000, null, "d6a0aa44-7cd4-4153-87f3-cca3d6be9d26");
                 _form6528020Info = new RepoItemInfo(this, "Form6528020", "form[@name='BrowEmpresa']", 30000, null, "2b608e8d-7992-4f6a-9ea4-071b40bd5837");
-                _form652813Info = new RepoItemInfo(this, "Form652813", "form[@name='FrmEmpresa']", 30000, null, "261462e1-91d2-485d-a5ef-5496f468856e");
                 _form6528021Info = new RepoItemInfo(this, "Form6528021", "form[@name='FrmConfiguracao_Semaforo']", 30000, null, "780d2bff-a4d0-4eec-a60f-4c0d13738cb7");
                 _form6528022Info = new RepoItemInfo(this, "Form6528022", "form[@name='BrowCampoObrigatorio']", 30000, null, "455f6c31-80c4-4754-bf2e-54e6bd7dcd60");
                 _form6528023Info = new RepoItemInfo(this, "Form6528023", "form[@name>'FrmBonificacao_Configurac']", 30000, null, "6f8ee3ee-e7ac-49ec-af0d-9821edb7a7b8");
@@ -1715,6 +1519,11 @@ namespace SomaGestao
                 _form6528025Info = new RepoItemInfo(this, "Form6528025", "form[@name='BrowContato_CRM_Cliente']", 30000, null, "9dfdb757-8ad2-4a0b-8869-965cba4cd61d");
                 _form6528026Info = new RepoItemInfo(this, "Form6528026", "form[@name='BrowCliente_CRM']", 30000, null, "747eb0b3-a61b-429f-8c65-e94fa33d2b8a");
                 _form6528027Info = new RepoItemInfo(this, "Form6528027", "form[@name='BrowTipo_Contato']", 30000, null, "0b381201-f113-469c-9527-3cb458173a52");
+                _menuitemmovimentosInfo = new RepoItemInfo(this, "MenuItemMovimentos", "?/?/menuitem[@name='Movimentos1']", 30000, null, "bc13df65-c262-4fb6-8b1b-96aa176c695a");
+                _form6528028Info = new RepoItemInfo(this, "Form6528028", "form[@name='FrmCotacao']", 30000, null, "67a684e3-2fda-4ef2-94cb-2475d53625a2");
+                _buttonorcamentosInfo = new RepoItemInfo(this, "ButtonOrcamentos", "?/?/button[@name='BtOrcamento']", 30000, null, "8f7e9bd6-a656-4f56-aa61-62f8deae5307");
+                _form6528029Info = new RepoItemInfo(this, "Form6528029", "form[@name='FrmOrcamento']", 30000, null, "aaea7ba1-e02f-488d-8e01-3f0792bb55c8");
+                _form6528030Info = new RepoItemInfo(this, "Form6528030", "form[@name='FrmVenda_Balcao']", 30000, null, "97c8cb55-fb02-4816-9f24-fb04d33fec80");
             }
 
             /// <summary>
@@ -2318,30 +2127,6 @@ namespace SomaGestao
             }
 
             /// <summary>
-            /// The Form652813 item.
-            /// </summary>
-            [RepositoryItem("261462e1-91d2-485d-a5ef-5496f468856e")]
-            public virtual Ranorex.Form Form652813
-            {
-                get
-                {
-                    return _form652813Info.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Form652813 item info.
-            /// </summary>
-            [RepositoryItemInfo("261462e1-91d2-485d-a5ef-5496f468856e")]
-            public virtual RepoItemInfo Form652813Info
-            {
-                get
-                {
-                    return _form652813Info;
-                }
-            }
-
-            /// <summary>
             /// The Form6528021 item.
             /// </summary>
             [RepositoryItem("780d2bff-a4d0-4eec-a60f-4c0d13738cb7")]
@@ -2508,6 +2293,126 @@ namespace SomaGestao
                     return _form6528027Info;
                 }
             }
+
+            /// <summary>
+            /// The MenuItemMovimentos item.
+            /// </summary>
+            [RepositoryItem("bc13df65-c262-4fb6-8b1b-96aa176c695a")]
+            public virtual Ranorex.MenuItem MenuItemMovimentos
+            {
+                get
+                {
+                    return _menuitemmovimentosInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MenuItemMovimentos item info.
+            /// </summary>
+            [RepositoryItemInfo("bc13df65-c262-4fb6-8b1b-96aa176c695a")]
+            public virtual RepoItemInfo MenuItemMovimentosInfo
+            {
+                get
+                {
+                    return _menuitemmovimentosInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Form6528028 item.
+            /// </summary>
+            [RepositoryItem("67a684e3-2fda-4ef2-94cb-2475d53625a2")]
+            public virtual Ranorex.Form Form6528028
+            {
+                get
+                {
+                    return _form6528028Info.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Form6528028 item info.
+            /// </summary>
+            [RepositoryItemInfo("67a684e3-2fda-4ef2-94cb-2475d53625a2")]
+            public virtual RepoItemInfo Form6528028Info
+            {
+                get
+                {
+                    return _form6528028Info;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOrcamentos item.
+            /// </summary>
+            [RepositoryItem("8f7e9bd6-a656-4f56-aa61-62f8deae5307")]
+            public virtual Ranorex.Button ButtonOrcamentos
+            {
+                get
+                {
+                    return _buttonorcamentosInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonOrcamentos item info.
+            /// </summary>
+            [RepositoryItemInfo("8f7e9bd6-a656-4f56-aa61-62f8deae5307")]
+            public virtual RepoItemInfo ButtonOrcamentosInfo
+            {
+                get
+                {
+                    return _buttonorcamentosInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Form6528029 item.
+            /// </summary>
+            [RepositoryItem("aaea7ba1-e02f-488d-8e01-3f0792bb55c8")]
+            public virtual Ranorex.Form Form6528029
+            {
+                get
+                {
+                    return _form6528029Info.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Form6528029 item info.
+            /// </summary>
+            [RepositoryItemInfo("aaea7ba1-e02f-488d-8e01-3f0792bb55c8")]
+            public virtual RepoItemInfo Form6528029Info
+            {
+                get
+                {
+                    return _form6528029Info;
+                }
+            }
+
+            /// <summary>
+            /// The Form6528030 item.
+            /// </summary>
+            [RepositoryItem("97c8cb55-fb02-4816-9f24-fb04d33fec80")]
+            public virtual Ranorex.Form Form6528030
+            {
+                get
+                {
+                    return _form6528030Info.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Form6528030 item info.
+            /// </summary>
+            [RepositoryItemInfo("97c8cb55-fb02-4816-9f24-fb04d33fec80")]
+            public virtual RepoItemInfo Form6528030Info
+            {
+                get
+                {
+                    return _form6528030Info;
+                }
+            }
         }
 
         /// <summary>
@@ -2634,8 +2539,6 @@ namespace SomaGestao
         [RepositoryFolder("904fb021-ee2d-4c6a-acd3-db9f2859d62c")]
         public partial class NoneAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _somebuttonInfo;
-            RepoItemInfo _tjvloccalendarInfo;
 
             /// <summary>
             /// Creates a new None  folder.
@@ -2643,8 +2546,6 @@ namespace SomaGestao
             public NoneAppFolder(RepoGenBaseFolder parentFolder) :
                     base("None", "/element[@name='none']", parentFolder, 30000, null, true, "904fb021-ee2d-4c6a-acd3-db9f2859d62c", "")
             {
-                _somebuttonInfo = new RepoItemInfo(this, "SomeButton", "?/?/container[@class='TPanel']/button[2]", 30000, null, "6886e634-3d4a-4589-87ee-afcf1554ac78");
-                _tjvloccalendarInfo = new RepoItemInfo(this, "TJvLocCalendar", "?/?/element[@class='TJvLocCalendar']", 30000, null, "2942517e-1ba1-44fc-8773-149adf71ef33");
             }
 
             /// <summary>
@@ -2668,54 +2569,6 @@ namespace SomaGestao
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The SomeButton item.
-            /// </summary>
-            [RepositoryItem("6886e634-3d4a-4589-87ee-afcf1554ac78")]
-            public virtual Ranorex.Button SomeButton
-            {
-                get
-                {
-                    return _somebuttonInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The SomeButton item info.
-            /// </summary>
-            [RepositoryItemInfo("6886e634-3d4a-4589-87ee-afcf1554ac78")]
-            public virtual RepoItemInfo SomeButtonInfo
-            {
-                get
-                {
-                    return _somebuttonInfo;
-                }
-            }
-
-            /// <summary>
-            /// The TJvLocCalendar item.
-            /// </summary>
-            [RepositoryItem("2942517e-1ba1-44fc-8773-149adf71ef33")]
-            public virtual Ranorex.Unknown TJvLocCalendar
-            {
-                get
-                {
-                    return _tjvloccalendarInfo.CreateAdapter<Ranorex.Unknown>(true);
-                }
-            }
-
-            /// <summary>
-            /// The TJvLocCalendar item info.
-            /// </summary>
-            [RepositoryItemInfo("2942517e-1ba1-44fc-8773-149adf71ef33")]
-            public virtual RepoItemInfo TJvLocCalendarInfo
-            {
-                get
-                {
-                    return _tjvloccalendarInfo;
                 }
             }
         }
@@ -2797,9 +2650,6 @@ namespace SomaGestao
             RepoItemInfo _listitem0controledeservicoInfo;
             RepoItemInfo _listitem1textoInfo;
             RepoItemInfo _todosInfo;
-            RepoItemInfo _vendaInfo;
-            RepoItemInfo _amareloInfo;
-            RepoItemInfo _numericoInfo;
 
             /// <summary>
             /// Creates a new List1000  folder.
@@ -2812,9 +2662,6 @@ namespace SomaGestao
                 _listitem0controledeservicoInfo = new RepoItemInfo(this, "ListItem0ControleDeServico", "listitem[@text='0 - Controle de Serviço']", 30000, null, "5eb35bd1-d524-4eec-b00a-d4ddff386df9");
                 _listitem1textoInfo = new RepoItemInfo(this, "ListItem1Texto", "listitem[@text='1 - Texto']", 30000, null, "6707406b-a0b5-4153-991b-59c907450bd4");
                 _todosInfo = new RepoItemInfo(this, "TODOS", "listitem[@text='TODOS']", 30000, null, "c533f7cc-eee0-4534-b6f1-109e31d877db");
-                _vendaInfo = new RepoItemInfo(this, "Venda", "listitem[@text='Venda']", 30000, null, "93e0d72a-8321-4531-9748-2e4f2b9fd5c5");
-                _amareloInfo = new RepoItemInfo(this, "Amarelo", "listitem[@text='Amarelo']", 30000, null, "6f096716-6ae5-4148-93fd-199baae78d9f");
-                _numericoInfo = new RepoItemInfo(this, "Numerico", "listitem[@text='Numérico']", 30000, null, "5afb1cf8-4306-4c96-a04e-3a5ffbaa512d");
             }
 
             /// <summary>
@@ -2960,78 +2807,6 @@ namespace SomaGestao
                     return _todosInfo;
                 }
             }
-
-            /// <summary>
-            /// The Venda item.
-            /// </summary>
-            [RepositoryItem("93e0d72a-8321-4531-9748-2e4f2b9fd5c5")]
-            public virtual Ranorex.ListItem Venda
-            {
-                get
-                {
-                    return _vendaInfo.CreateAdapter<Ranorex.ListItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Venda item info.
-            /// </summary>
-            [RepositoryItemInfo("93e0d72a-8321-4531-9748-2e4f2b9fd5c5")]
-            public virtual RepoItemInfo VendaInfo
-            {
-                get
-                {
-                    return _vendaInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Amarelo item.
-            /// </summary>
-            [RepositoryItem("6f096716-6ae5-4148-93fd-199baae78d9f")]
-            public virtual Ranorex.ListItem Amarelo
-            {
-                get
-                {
-                    return _amareloInfo.CreateAdapter<Ranorex.ListItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Amarelo item info.
-            /// </summary>
-            [RepositoryItemInfo("6f096716-6ae5-4148-93fd-199baae78d9f")]
-            public virtual RepoItemInfo AmareloInfo
-            {
-                get
-                {
-                    return _amareloInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Numerico item.
-            /// </summary>
-            [RepositoryItem("5afb1cf8-4306-4c96-a04e-3a5ffbaa512d")]
-            public virtual Ranorex.ListItem Numerico
-            {
-                get
-                {
-                    return _numericoInfo.CreateAdapter<Ranorex.ListItem>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Numerico item info.
-            /// </summary>
-            [RepositoryItemInfo("5afb1cf8-4306-4c96-a04e-3a5ffbaa512d")]
-            public virtual RepoItemInfo NumericoInfo
-            {
-                get
-                {
-                    return _numericoInfo;
-                }
-            }
         }
 
         /// <summary>
@@ -3172,7 +2947,7 @@ namespace SomaGestao
         [RepositoryFolder("6d1cc34e-51c5-4452-a752-31848e4d8988")]
         public partial class NovaNotificacaoAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _titletextInfo;
+            RepoItemInfo _toastcenterscrollviewerInfo;
 
             /// <summary>
             /// Creates a new NovaNotificacao  folder.
@@ -3180,7 +2955,7 @@ namespace SomaGestao
             public NovaNotificacaoAppFolder(RepoGenBaseFolder parentFolder) :
                     base("NovaNotificacao", "/winapp[@packagename='Microsoft.Windows.ShellExperienceHost']", parentFolder, 30000, null, true, "6d1cc34e-51c5-4452-a752-31848e4d8988", "")
             {
-                _titletextInfo = new RepoItemInfo(this, "TitleText", "?/?/text[@automationid='TitleText']", 30000, null, "13f71580-6175-4396-ae16-84d363c078f3");
+                _toastcenterscrollviewerInfo = new RepoItemInfo(this, "ToastCenterScrollViewer", "container[@automationid='ToastCenterScrollViewer']", 30000, null, "7079fe43-795a-41e6-96c5-4928acc190d1");
             }
 
             /// <summary>
@@ -3208,92 +2983,26 @@ namespace SomaGestao
             }
 
             /// <summary>
-            /// The TitleText item.
+            /// The ToastCenterScrollViewer item.
             /// </summary>
-            [RepositoryItem("13f71580-6175-4396-ae16-84d363c078f3")]
-            public virtual Ranorex.Text TitleText
+            [RepositoryItem("7079fe43-795a-41e6-96c5-4928acc190d1")]
+            public virtual Ranorex.Container ToastCenterScrollViewer
             {
                 get
                 {
-                    return _titletextInfo.CreateAdapter<Ranorex.Text>(true);
+                    return _toastcenterscrollviewerInfo.CreateAdapter<Ranorex.Container>(true);
                 }
             }
 
             /// <summary>
-            /// The TitleText item info.
+            /// The ToastCenterScrollViewer item info.
             /// </summary>
-            [RepositoryItemInfo("13f71580-6175-4396-ae16-84d363c078f3")]
-            public virtual RepoItemInfo TitleTextInfo
+            [RepositoryItemInfo("7079fe43-795a-41e6-96c5-4928acc190d1")]
+            public virtual RepoItemInfo ToastCenterScrollViewerInfo
             {
                 get
                 {
-                    return _titletextInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The Financeirotix01AtadAnyDeskAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("2cf8bb0e-ac60-49bb-82ee-b9d428d2feac")]
-        public partial class Financeirotix01AtadAnyDeskAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _fecharInfo;
-
-            /// <summary>
-            /// Creates a new Financeirotix01AtadAnyDesk  folder.
-            /// </summary>
-            public Financeirotix01AtadAnyDeskAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Financeirotix01AtadAnyDesk", "/form[@title>'financeirotix01@ad - AnyD']", parentFolder, 30000, null, true, "2cf8bb0e-ac60-49bb-82ee-b9d428d2feac", "")
-            {
-                _fecharInfo = new RepoItemInfo(this, "Fechar", "?/?/button[@accessiblename='Fechar']", 30000, null, "541f902c-dafb-44f7-8815-6e172e0c1980");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("2cf8bb0e-ac60-49bb-82ee-b9d428d2feac")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("2cf8bb0e-ac60-49bb-82ee-b9d428d2feac")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Fechar item.
-            /// </summary>
-            [RepositoryItem("541f902c-dafb-44f7-8815-6e172e0c1980")]
-            public virtual Ranorex.Button Fechar
-            {
-                get
-                {
-                    return _fecharInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Fechar item info.
-            /// </summary>
-            [RepositoryItemInfo("541f902c-dafb-44f7-8815-6e172e0c1980")]
-            public virtual RepoItemInfo FecharInfo
-            {
-                get
-                {
-                    return _fecharInfo;
+                    return _toastcenterscrollviewerInfo;
                 }
             }
         }
@@ -3306,7 +3015,6 @@ namespace SomaGestao
         {
             RepoItemInfo _fecharInfo;
             RepoItemInfo _uultimavendaInfo;
-            RepoItemInfo _buttonokInfo;
 
             /// <summary>
             /// Creates a new OperacaoBloqueada  folder.
@@ -3316,7 +3024,6 @@ namespace SomaGestao
             {
                 _fecharInfo = new RepoItemInfo(this, "Fechar", "?/?/button[@accessiblename='Fechar']", 30000, null, "9a26674d-e9e5-4ed1-999b-3fe70e2db0e5");
                 _uultimavendaInfo = new RepoItemInfo(this, "UUltimaVenda", "?/?/list[@class='TcxComboBoxListBox']/listitem[@name='U - Última venda']", 30000, null, "80c57c34-7542-47af-b05c-4884f4aaa4c9");
-                _buttonokInfo = new RepoItemInfo(this, "ButtonOk", "button[@name='Yes']", 30000, null, "8290c5f1-3924-4de5-a557-755808a07bd0");
             }
 
             /// <summary>
@@ -3388,30 +3095,6 @@ namespace SomaGestao
                 get
                 {
                     return _uultimavendaInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ButtonOk item.
-            /// </summary>
-            [RepositoryItem("8290c5f1-3924-4de5-a557-755808a07bd0")]
-            public virtual Ranorex.Button ButtonOk
-            {
-                get
-                {
-                    return _buttonokInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ButtonOk item info.
-            /// </summary>
-            [RepositoryItemInfo("8290c5f1-3924-4de5-a557-755808a07bd0")]
-            public virtual RepoItemInfo ButtonOkInfo
-            {
-                get
-                {
-                    return _buttonokInfo;
                 }
             }
         }
@@ -3579,6 +3262,112 @@ namespace SomaGestao
             /// The Self item info.
             /// </summary>
             [RepositoryItemInfo("cf463015-a289-4d8d-a895-2bc80699b774")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The AssitenteFrmAuxPedidoAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("fbb88236-d2fe-4a5e-9156-dd5fc5c5a18f")]
+        public partial class AssitenteFrmAuxPedidoAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _buttonnovoorcamentoInfo;
+
+            /// <summary>
+            /// Creates a new AssitenteFrmAuxPedido  folder.
+            /// </summary>
+            public AssitenteFrmAuxPedidoAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("AssitenteFrmAuxPedido", "/form[@name='FrmAuxPedido']", parentFolder, 30000, null, true, "fbb88236-d2fe-4a5e-9156-dd5fc5c5a18f", "")
+            {
+                _buttonnovoorcamentoInfo = new RepoItemInfo(this, "ButtonNovoOrcamento", "?/?/container[@name='TabOrcamento']/?/?/button[@name='BtEncerramento']", 30000, null, "0f799d35-2511-46e4-898c-ae723eb377fd");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("fbb88236-d2fe-4a5e-9156-dd5fc5c5a18f")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("fbb88236-d2fe-4a5e-9156-dd5fc5c5a18f")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonNovoOrcamento item.
+            /// </summary>
+            [RepositoryItem("0f799d35-2511-46e4-898c-ae723eb377fd")]
+            public virtual Ranorex.Button ButtonNovoOrcamento
+            {
+                get
+                {
+                    return _buttonnovoorcamentoInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonNovoOrcamento item info.
+            /// </summary>
+            [RepositoryItemInfo("0f799d35-2511-46e4-898c-ae723eb377fd")]
+            public virtual RepoItemInfo ButtonNovoOrcamentoInfo
+            {
+                get
+                {
+                    return _buttonnovoorcamentoInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The DocumentosEmAbertoFrmDocReceAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("228cb184-2313-4397-9c2f-a905c5ed76b1")]
+        public partial class DocumentosEmAbertoFrmDocReceAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new DocumentosEmAbertoFrmDocRece  folder.
+            /// </summary>
+            public DocumentosEmAbertoFrmDocReceAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("DocumentosEmAbertoFrmDocRece", "/form[@name='FrmDoc_Receber']", parentFolder, 30000, null, true, "228cb184-2313-4397-9c2f-a905c5ed76b1", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("228cb184-2313-4397-9c2f-a905c5ed76b1")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("228cb184-2313-4397-9c2f-a905c5ed76b1")]
             public virtual RepoItemInfo SelfInfo
             {
                 get

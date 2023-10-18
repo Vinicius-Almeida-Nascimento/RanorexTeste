@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.rxtst merge=rx-tree-merge
+*.rxrep merge=rx-tree-merge
+*.csproj merge=rx-tree-merge
+*.cs merge=rx-tree-merge
+*.vb merge=rx-tree-merge
+*.rximg merge=rx-img-merge

@@ -1,0 +1,1109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="SomaGestao.BrowCargo" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="2.008405" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowContato_CRM_Cliente" Collapsed="False">
+    <Position X="0.5" Y="3.2" Width="3.36192" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowEndereco" Collapsed="False">
+    <Position X="0.5" Y="5.9" Width="2.631022" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowOrigemCadastro" Collapsed="False">
+    <Position X="0.5" Y="10" Width="3.324538" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowFrm_Feriado" Collapsed="False">
+    <Position X="0.5" Y="13" Width="2.391686" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowDepartamento" Collapsed="False">
+    <Position X="0.5" Y="15.8" Width="3.186393" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchFrm_Feriado" Collapsed="False">
+    <Position X="0.5" Y="18.5" Width="2.593424" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowForma_Cobranca" Collapsed="False">
+    <Position X="0.5" Y="21.9" Width="3.423151" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowCorretoras" Collapsed="False">
+    <Position X="0.5" Y="25.3" Width="2.164596" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.AlterFrmCRM" Collapsed="False">
+    <Position X="0.5" Y="28" Width="2.008405" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowCliente" Collapsed="False">
+    <Position X="0.5" Y="31" Width="2.36902" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowTipo_Cobertura" Collapsed="False">
+    <Position X="0.5" Y="35.1" Width="3.38695" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertFrmCRM" Collapsed="False">
+    <Position X="0.5" Y="38.1" Width="2.063512" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchFrmMidia" Collapsed="False">
+    <Position X="0.5" Y="41.5" Width="2.242907" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowCategorias_Orcamento" Collapsed="False">
+    <Position X="0.5" Y="44.2" Width="4.003874" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowTipo_Cobertura" Collapsed="False">
+    <Position X="0.5" Y="47.3" Width="3.32529" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.FrmReajusteItemContrato" Collapsed="False">
+    <Position X="0.5" Y="50" Width="3.186071" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowReajusteContrato" Collapsed="False">
+    <Position X="0.5" Y="52.7" Width="3.576872" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowPais_Cliente" Collapsed="False">
+    <Position X="0.5" Y="55.5" Width="2.369557" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowTipo_Contato" Collapsed="False">
+    <Position X="0.5" Y="58.2" Width="2.455173" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteFrmMidia" Collapsed="False">
+    <Position X="0.5" Y="60.9" Width="2.181247" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteFrmConfiguracao_Semaforo" Collapsed="False">
+    <Position X="0.5" Y="63.6" Width="4.093463" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowEndereco" Collapsed="False">
+    <Position X="0.5" Y="66.4" Width="2.782272" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.AlterBrowParametro" Collapsed="False">
+    <Position X="0.5" Y="69.4" Width="2.619313" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowContratoPadrao" Collapsed="False">
+    <Position X="0.5" Y="72.5" Width="3.350211" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertFrmBonificacao_Configuracao" Collapsed="False">
+    <Position X="0.5" Y="75.2" Width="4.195729" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowTipo_Cobertura" Collapsed="False">
+    <Position X="0.5" Y="78.9" Width="3.2357" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowFrmParametros" Collapsed="False">
+    <Position X="0.5" Y="82.3" Width="2.668082" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteFrmBonificacao_Configuracao" Collapsed="False">
+    <Position X="0.5" Y="85" Width="4.285319" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowCampoObrigatorio" Collapsed="False">
+    <Position X="0.5" Y="87.7" Width="3.514889" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowTipo_de_Endereco" Collapsed="False">
+    <Position X="0.5" Y="92.1" Width="3.72651" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowDepartamento" Collapsed="False">
+    <Position X="0.5" Y="95.5" Width="3.096803" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowCargo" Collapsed="False">
+    <Position X="0.5" Y="98.6" Width="2.278141" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowRegiao_Cliente" Collapsed="False">
+    <Position X="0.5" Y="101.6" Width="2.646706" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowTipo_de_Cliente" Collapsed="False">
+    <Position X="0.5" Y="104.3" Width="2.746608" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowPais_Cliente" Collapsed="False">
+    <Position X="0.5" Y="107.1" Width="3.025797" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowPais_Cliente" Collapsed="False">
+    <Position X="0.5" Y="109.8" Width="3.087458" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrow_Consulta_Cliente" Collapsed="False">
+    <Position X="0.5" Y="113.2" Width="3.514674" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowCategoria_Status" Collapsed="False">
+    <Position X="0.5" Y="115.9" Width="3.501784" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowInformacao_de_Credito" Collapsed="False">
+    <Position X="0.5" Y="118.6" Width="4.179508" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.FrmBonificacao_Configuracao" Collapsed="False">
+    <Position X="0.5" Y="122" Width="3.629079" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowCategorias_Orcamento" Collapsed="False">
+    <Position X="0.5" Y="124.7" Width="4.093463" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowContratoPadrao" Collapsed="False">
+    <Position X="0.5" Y="127.4" Width="2.693971" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowForma_Cobranca" Collapsed="False">
+    <Position X="0.5" Y="130.2" Width="3.574401" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowInformacao_de_Credito" Collapsed="False">
+    <Position X="0.5" Y="132.9" Width="4.028258" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowCampoDinamico" Collapsed="False">
+    <Position X="0.5" Y="136.6" Width="3.428092" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowCliente_CRM" Collapsed="False">
+    <Position X="0.5" Y="139.3" Width="2.443356" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowSeguradoras" Collapsed="False">
+    <Position X="0.5" Y="142.1" Width="3.109694" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowCliente" Collapsed="False">
+    <Position X="0.5" Y="145.4" Width="2.008405" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowDepartamento" Collapsed="False">
+    <Position X="0.5" Y="148.2" Width="2.530153" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowCargo" Collapsed="False">
+    <Position X="0.5" Y="150.9" Width="2.367731" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.FrmConfiguracao_Semaforo" Collapsed="False">
+    <Position X="0.5" Y="153.6" Width="3.437223" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowCargo" Collapsed="False">
+    <Position X="0.5" Y="156.3" Width="2.429391" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowSituacao_Cliente" Collapsed="False">
+    <Position X="0.5" Y="159.7" Width="3.528424" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowSeguradoras" Collapsed="False">
+    <Position X="0.5" Y="163.1" Width="2.958444" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowTipo_de_Endereco" Collapsed="False">
+    <Position X="0.5" Y="169.1" Width="3.00861" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowParametro" Collapsed="False">
+    <Position X="0.5" Y="171.9" Width="2.870036" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowContratoPadrao" Collapsed="False">
+    <Position X="0.5" Y="174.9" Width="3.411872" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowCliente_CRM" Collapsed="False">
+    <Position X="0.5" Y="177.6" Width="3.010006" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowCorretoras" Collapsed="False">
+    <Position X="0.5" Y="182.3" Width="2.731247" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertFrmMidia" Collapsed="False">
+    <Position X="0.5" Y="186.7" Width="2.091657" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowTipo_de_Cliente" Collapsed="False">
+    <Position X="0.5" Y="189.4" Width="3.464508" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowCorretoras" Collapsed="False">
+    <Position X="0.5" Y="192.8" Width="2.882497" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowSituacao_Cliente" Collapsed="False">
+    <Position X="0.5" Y="196.2" Width="2.810524" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowContato_CRM_Cliente" Collapsed="False">
+    <Position X="0.5" Y="198.9" Width="3.928571" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowContato_CRM_Cliente" Collapsed="False">
+    <Position X="0.5" Y="201.7" Width="4.018161" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowRegiao_Cliente" Collapsed="False">
+    <Position X="0.5" Y="204.4" Width="3.302946" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowSeguradoras" Collapsed="False">
+    <Position X="0.5" Y="207.1" Width="2.391793" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowCampoDinamico" Collapsed="False">
+    <Position X="0.5" Y="209.8" Width="2.771852" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowCampoObrigatorio" Collapsed="False">
+    <Position X="0.5" Y="212.5" Width="2.948239" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowRegiao_Cliente" Collapsed="False">
+    <Position X="0.5" Y="215.3" Width="3.213356" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.FrmCrm" Collapsed="False">
+    <Position X="0.5" Y="218.3" Width="2.008405" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowFrmMidia" Collapsed="False">
+    <Position X="0.5" Y="221" Width="2.041168" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowCorretoras" Collapsed="False">
+    <Position X="0.5" Y="223.8" Width="2.820837" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowCampoDinamico" Collapsed="False">
+    <Position X="0.5" Y="226.5" Width="3.338502" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertFrmConfiguracao_Semaforo" Collapsed="False">
+    <Position X="0.5" Y="229.9" Width="4.003874" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowRegiao_Cliente" Collapsed="False">
+    <Position X="0.5" Y="234.9" Width="3.364606" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowCategorias_Orcamento" Collapsed="False">
+    <Position X="0.5" Y="238.3" Width="3.437223" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowTipo_Contato" Collapsed="False">
+    <Position X="0.5" Y="241" Width="3.173073" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowForma_Cobranca" Collapsed="False">
+    <Position X="0.5" Y="244.4" Width="3.512741" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowInformacao_de_Credito" Collapsed="False">
+    <Position X="0.5" Y="247.1" Width="4.117848" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowEndereco" Collapsed="False">
+    <Position X="0.5" Y="249.9" Width="2.720612" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowClassificacao_Cliente" Collapsed="False">
+    <Position X="0.5" Y="253.6" Width="3.832965" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrow_Consulta_Cliente" Collapsed="False">
+    <Position X="0.5" Y="257" Width="3.665924" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.UserCodeModule1" Collapsed="False">
+    <Position X="0.5" Y="260.3" Width="2.468708" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowContratoPadrao" Collapsed="False">
+    <Position X="0.5" Y="261.9" Width="3.260622" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrow_Dados_Cadastais" Collapsed="False">
+    <Position X="0.5" Y="265.6" Width="3.664635" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowTipo_de_Cliente" Collapsed="False">
+    <Position X="0.5" Y="268.3" Width="3.402848" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowSituacao_Cliente" Collapsed="False">
+    <Position X="0.5" Y="271" Width="3.377174" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowCliente" Collapsed="False">
+    <Position X="0.5" Y="274.4" Width="2.52027" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowTipo_Cobertura" Collapsed="False">
+    <Position X="0.5" Y="277.8" Width="2.669049" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowEndereco" Collapsed="False">
+    <Position X="0.5" Y="280.5" Width="2.064372" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowParametro" Collapsed="False">
+    <Position X="0.5" Y="283.2" Width="2.152135" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowCategoria_Status" Collapsed="False">
+    <Position X="0.5" Y="286" Width="3.412194" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowPais_Cliente" Collapsed="False">
+    <Position X="0.5" Y="289" Width="2.936208" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertFrmReajusteItemContrato" Collapsed="False">
+    <Position X="0.5" Y="292.4" Width="3.752721" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowSeguradoras" Collapsed="False">
+    <Position X="0.5" Y="295.1" Width="3.048034" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrow_Dados_Cadastais" Collapsed="False">
+    <Position X="0.5" Y="297.8" Width="3.726295" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertFrm_Feriado" Collapsed="False">
+    <Position X="0.5" Y="301.2" Width="2.442174" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowCategoria_Status" Collapsed="False">
+    <Position X="0.5" Y="304.9" Width="2.845544" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowCategoria_Status" Collapsed="False">
+    <Position X="0.5" Y="307.7" Width="3.563444" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowOrigemCadastro" Collapsed="False">
+    <Position X="0.5" Y="311.1" Width="3.475788" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowEmpresa" Collapsed="False">
+    <Position X="0.5" Y="314.4" Width="2.56775" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SomaGestaoRepositoryFolders" Collapsed="False">
+    <Position X="0.5" Y="317.2" Width="5.827975" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowDepartamento" Collapsed="False">
+    <Position X="0.5" Y="405.1" Width="3.248053" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.Brow_Consulta_Cliente" Collapsed="False">
+    <Position X="0.5" Y="408.5" Width="2.948024" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowCampoObrigatorio" Collapsed="False">
+    <Position X="0.5" Y="411.2" Width="3.604479" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowCliente_CRM" Collapsed="False">
+    <Position X="0.5" Y="413.9" Width="3.161256" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowContato_CRM_Cliente" Collapsed="False">
+    <Position X="0.5" Y="417.3" Width="4.079821" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowEmpresa" Collapsed="False">
+    <Position X="0.5" Y="420.7" Width="2.008405" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowOrigemCadastro" Collapsed="False">
+    <Position X="0.5" Y="423.4" Width="2.757887" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowTipo_de_Cliente" Collapsed="False">
+    <Position X="0.5" Y="426.1" Width="3.313258" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowSituacao_Cliente" Collapsed="False">
+    <Position X="0.5" Y="429.5" Width="3.466764" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowOrigemCadastro" Collapsed="False">
+    <Position X="0.5" Y="432.2" Width="3.414128" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowCategorias_Orcamento" Collapsed="False">
+    <Position X="0.5" Y="435" Width="4.155124" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SomaGestaoRepository" Collapsed="False">
+    <Position X="0.5" Y="438.3" Width="5.034616" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowClassificacao_Cliente" Collapsed="False">
+    <Position X="0.5" Y="447.2" Width="3.984215" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteClassificacao_Cliente" Collapsed="False">
+    <Position X="0.5" Y="450" Width="3.406393" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowCampoObrigatorio" Collapsed="False">
+    <Position X="0.5" Y="452.7" Width="3.666139" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowReajusteContrato" Collapsed="False">
+    <Position X="0.5" Y="455.4" Width="2.858971" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowCampoDinamico" Collapsed="False">
+    <Position X="0.5" Y="458.1" Width="3.489753" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrow_Dados_Cadastrais" Collapsed="False">
+    <Position X="0.5" Y="461.5" Width="3.650456" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.Program" Collapsed="False">
+    <Position X="0.5" Y="464.6" Width="1.029215" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowTipo_Contato" Collapsed="False">
+    <Position X="0.5" Y="465.9" Width="3.111413" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteFrm_Feriado" Collapsed="False">
+    <Position X="0.5" Y="468.7" Width="2.531764" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.OpenAUT" Collapsed="False">
+    <Position X="0.5" Y="471.4" Width="2.008405" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowInformacao_de_Credito" Collapsed="False">
+    <Position X="0.5" Y="474.8" Width="3.461608" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowForma_Cobranca" Collapsed="False">
+    <Position X="0.5" Y="477.5" Width="2.856501" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowCliente_CRM" Collapsed="False">
+    <Position X="0.5" Y="480.2" Width="3.099596" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.BrowClassificacao_Cliente" Collapsed="False">
+    <Position X="0.5" Y="482.9" Width="3.266315" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchBrowEmpresa" Collapsed="False">
+    <Position X="0.5" Y="485.7" Width="2.719001" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.SearchFrmReajusteItemContrato" Collapsed="False">
+    <Position X="0.5" Y="488.7" Width="3.903971" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.Brow_Dados_Cadastrais" Collapsed="False">
+    <Position X="0.5" Y="491.5" Width="3.083805" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteBrowCliente" Collapsed="False">
+    <Position X="0.5" Y="494.2" Width="2.45861" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.CloseAUT" Collapsed="False">
+    <Position X="0.5" Y="497.2" Width="2.008405" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowTipo_Contato" Collapsed="False">
+    <Position X="0.5" Y="500" Width="3.021823" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.InsertBrowTipo_de_Endereco" Collapsed="False">
+    <Position X="0.5" Y="503.3" Width="3.57526" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.AlterBrowEmpresa" Collapsed="False">
+    <Position X="0.5" Y="506.4" Width="2.468278" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SomaGestao.DeleteTipo_de_Endereco" Collapsed="False">
+    <Position X="0.5" Y="509.1" Width="3.148688" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+</ClassDiagram>
